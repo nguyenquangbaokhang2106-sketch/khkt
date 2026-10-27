@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="vi" data-app="vietnam-atlas">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f6f7f2"><meta name="description" content="Khám phá bản đồ Việt Nam với 34 tỉnh thành được phân chia thành 5 vùng địa lý đặc trưng. Nhấn vào từng vùng để thắp sáng các tỉnh thành với màu sắc nổi bật.">
+<title>Việt Nam Atlas — 34 tỉnh thành · 5 vùng miền đất nước</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;450;500;550;600;650;700;750;800&display=swap');
+:root{
+  --paper:#f6f7f2;--ink:#21372d;--muted:#738175;--line:#e0e5da;--green:#2a573d;--lime:#def19a;
+  --panel-bg:#fcfcf8;--sidebar-bg:#fbfcf7;
+  font-family:'Be Vietnam Pro',-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color:var(--ink);background:var(--paper);
+}
+*{box-sizing:border-box}body{margin:0}button,input{font:inherit}button{cursor:pointer}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #6b9545;outline-offset:3px}
+button{color:inherit}a{color:inherit;text-decoration:none}
+.icon{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+
+/* Header */
+.site-header{height:84px;padding:0 4.2%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:#fafbf6}
+.brand{display:flex;align-items:center;gap:12px}
+.brand-mark{width:36px;height:40px;color:var(--green)}
+.brand-name{font-size:20px;font-weight:750;letter-spacing:-.8px}
+.brand-name span{font-weight:400;color:#859082}
+.header-note{font-size:11px;color:var(--muted);letter-spacing:1.4px;text-transform:uppercase}
+.nav-pill{display:flex;align-items:center;gap:9px;font-size:12px;background:#e9eedf;padding:9px 16px;border-radius:30px;font-weight:500}
+.dot{display:inline-block;width:7px;height:7px;background:#5e8d41;border-radius:50%}
+
+/* Main layout */
+main{max-width:1600px;margin:auto;padding:30px 4.2% 24px}
+.intro{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:22px;gap:20px}
+.eyebrow{font-size:10px;font-weight:650;letter-spacing:2.2px;text-transform:uppercase;color:#6b8562;display:flex;gap:9px;align-items:center;margin:0 0 10px}
+.eyebrow:before{content:'';width:22px;height:1.5px;background:#849d79}
+h1{margin:0;font-size:clamp(26px,2.8vw,40px);line-height:1.25;font-weight:600;letter-spacing:-1.4px}
+h1 span{color:#768d6d;font-weight:450}
+.intro-copy{font-size:12.5px;line-height:1.8;color:var(--muted);margin:0;max-width:360px}
+
+/* Workspace */
+.workspace{display:grid;grid-template-columns:300px minmax(0,1fr);border:1px solid var(--line);border-radius:22px;overflow:hidden;background:var(--panel-bg);min-height:740px;box-shadow:0 12px 40px rgba(45,65,40,0.04)}
+
+/* Sidebar */
+.sidebar{padding:24px 20px 18px;border-right:1px solid var(--line);display:flex;flex-direction:column;background:var(--sidebar-bg)}
+.sidebar-heading{display:flex;align-items:center;justify-content:space-between;margin:0 0 16px;font-size:13px;font-weight:650;letter-spacing:-.2px}
+.count{font-size:11px;font-weight:600;background:#e8ece0;color:#456041;padding:4px 9px;border-radius:8px}
+
+.search-box{position:relative}
+.search-box .icon{position:absolute;left:13px;top:13px;width:17px;color:#85927e}
+.search-box input{width:100%;border:1px solid #dce2d3;border-radius:10px;background:#f5f7ef;padding:12px 34px 12px 38px;font-size:12px;color:var(--ink);transition:border-color .2s,background .2s}
+.search-box input:focus{background:#ffffff;border-color:#71954f}
+input::placeholder{color:#8b9683}
+.search-clear{position:absolute;right:8px;top:8px;border:0;background:transparent;width:28px;height:28px;color:#788670;font-size:18px;border-radius:50%;display:grid;place-items:center}
+.search-clear:hover{background:#e7ece0}
+
+.list-top{display:flex;justify-content:space-between;align-items:center;margin:18px 4px 10px;font-size:9.5px;letter-spacing:1.3px;color:#88947e;font-weight:600}
+.active-region-tag{display:inline-flex;align-items:center;gap:5px;font-size:9.5px;padding:3px 7px;border-radius:5px;background:#e2ebda;color:#355632;letter-spacing:0}
+
+.province-list{flex:1;max-height:460px;overflow-y:auto;padding:0 4px 0 0;scrollbar-width:thin;scrollbar-color:#cdd7c1 transparent}
+.province-row{width:100%;display:flex;align-items:center;text-align:left;gap:9px;border:0;border-radius:9px;background:transparent;padding:9px 10px;font-size:11.5px;margin:2px 0;transition:background .18s,transform .15s}
+.row-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;box-shadow:0 0 0 1.5px rgba(255,255,255,0.9)}
+.row-number{font-size:9.5px;color:#959f8a;width:18px;font-variant-numeric:tabular-nums;font-weight:500}
+.row-name{flex:1;font-weight:550;letter-spacing:-.2px}
+.row-region{font-size:9px;color:#7f8d75;background:#ebefe3;padding:2px 6px;border-radius:4px;white-space:nowrap;max-width:92px;overflow:hidden;text-overflow:ellipsis}
+.row-arrow{color:#90a083;opacity:0;transition:opacity .18s;font-size:12px}
+.province-row:hover,.province-row.preview{background:#edf3e4;transform:translateX(2px)}
+.province-row.selected{background:#e0eccb;color:#284a29}
+.province-row.in-active-region{border-left:3px solid var(--row-accent,#356b46);padding-left:7px}
+.province-row.dimmed{opacity:0.38}
+.province-row:hover .row-arrow,.province-row.selected .row-arrow{opacity:1}
+.empty{font-size:12px;line-height:1.8;color:var(--muted);padding:25px 12px;text-align:center}
+
+.sidebar-foot{border-top:1px solid var(--line);margin-top:auto;padding:15px 4px 0;display:flex;gap:10px;font-size:10px;color:#85927b;line-height:1.7}
+.sidebar-foot .icon{width:16px;height:16px;margin-top:2px}
+
+/* Map Panel */
+.map-panel{position:relative;min-height:740px;background:#f0f4e9;overflow:hidden;isolation:isolate;background-image:radial-gradient(#c7d2bc 0.8px,transparent .8px);background-size:24px 24px;display:flex;flex-direction:column}
+
+/* Top control & Region Selector Bar */
+.map-header-bar{position:absolute;top:20px;left:24px;right:24px;z-index:10;display:flex;flex-direction:column;gap:12px;pointer-events:none}
+.map-topline{display:flex;align-items:center;gap:9px;font-size:10px;letter-spacing:1.8px;color:#6b7d60;font-weight:650;text-transform:uppercase}
+.map-topline .dot{width:6px;height:6px}
+
+/* Region Navigation Pills Bar */
+.region-bar{
+  pointer-events:all;
+  display:flex;
+  align-items:center;
+  gap:6px;
+  flex-wrap:wrap;
+  background:rgba(252,254,249,0.88);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  padding:7px 9px;
+  border-radius:16px;
+  border:1px solid rgba(215,224,208,0.85);
+  box-shadow:0 6px 20px rgba(45,65,40,0.06);
+  max-width:calc(100% - 70px);
+}
+.region-bar-title{font-size:9.5px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:#78886e;padding:0 6px 0 3px;display:flex;align-items:center;gap:4px}
+.region-pill{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  border:1px solid #dbe2d2;
+  background:#ffffff;
+  padding:6px 11px;
+  border-radius:24px;
+  font-size:11px;
+  font-weight:600;
+  color:#3b4d3a;
+  transition:all .18s cubic-bezier(.4,0,.2,1);
+  white-space:nowrap;
+}
+.pill-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;transition:transform .2s}
+.pill-title{letter-spacing:-.1px}
+.pill-badge{font-size:9.5px;font-weight:600;background:#edf2e4;color:#5a6e50;padding:2px 6px;border-radius:10px;line-height:1.2}
+.region-pill:hover{background:#f3f7ea;border-color:#b8c8ad;transform:translateY(-1px);color:#1e3522}
+.region-pill:hover .pill-dot{transform:scale(1.25)}
+.region-pill.is-active{background:#233d2c;color:#ffffff;border-color:#233d2c;box-shadow:0 4px 14px rgba(35,61,44,0.28);transform:translateY(-1px)}
+.region-pill.is-active .pill-dot{box-shadow:0 0 0 2px rgba(255,255,255,0.9),0 0 8px currentColor}
+.region-pill.is-active .pill-badge{background:rgba(255,255,255,0.25);color:#ffffff}
+
+/* North compass */
+.north{position:absolute;top:20px;right:25px;text-align:center;font-size:10px;font-weight:700;color:#6b7e5f;z-index:2;pointer-events:none}
+.north svg{display:block;width:20px;height:36px;margin-top:4px}
+
+/* SVG Map Stage */
+.map-stage{position:absolute;inset:85px 230px 30px 24px;display:flex;align-items:center;justify-content:center}
+.map-svg{height:100%;max-width:100%;width:100%;display:block;overflow:visible;touch-action:pan-y;--map-shadow:drop-shadow(0 14px 10px rgba(45,65,40,0.12))}
+.map-shapes{filter:var(--map-shadow);transition:filter .3s}
+
+/* Provinces styling */
+.province{outline:none;cursor:pointer}
+.hit-area{fill:transparent;stroke:transparent;stroke-width:14;pointer-events:all}
+.province-face{
+  pointer-events:none;
+  transform-box:fill-box;
+  transform-origin:center;
+  transition:transform .24s cubic-bezier(.22,.61,.36,1),filter .24s,opacity .28s;
+  will-change:transform,filter;
+}
+.land{
+  fill:var(--base-shade,var(--shade));
+  stroke:#fcfdfa;
+  stroke-width:5;
+  stroke-linejoin:round;
+  transition:fill .28s ease,stroke .28s ease,stroke-width .24s ease,filter .28s ease;
+}
+.province-label{
+  font-size:44px;
+  font-weight:600;
+  fill:#1b3223;
+  text-anchor:middle;
+  stroke:none;
+  paint-order:stroke;
+  pointer-events:none;
+  transition:fill .24s,font-weight .24s;
+}
+.labels-off .province-label{display:none}
+
+/* ACTIVE REGION MODE: Lighting up each province in distinct prominent colors */
+[data-active-region] .province[data-in-active-region="true"] .land{
+  fill:var(--lit-shade) !important;
+  stroke:#ffffff !important;
+  stroke-width:8 !important;
+  filter:drop-shadow(0 10px 14px rgba(0,0,0,0.22));
+}
+[data-active-region] .province[data-in-active-region="true"] .province-face{
+  transform:translate(3px,-12px) scale(1.012);
+  filter:drop-shadow(0 18px 12px rgba(0,0,0,0.22));
+}
+[data-active-region] .province[data-in-active-region="true"] .province-label{
+  fill:#ffffff !important;
+  font-weight:750 !important;
+  paint-order:stroke fill;
+  stroke:#000000cc;
+  stroke-width:7px;
+  stroke-linejoin:round;
+}
+[data-active-region] .province:not([data-in-active-region="true"]){
+  opacity:0.32;
+  filter:grayscale(45%) contrast(85%);
+  transition:opacity .3s ease,filter .3s ease;
+}
+[data-active-region] .province:not([data-in-active-region="true"]):hover{
+  opacity:0.75;
+  filter:none;
+}
+
+/* Hover and selection popups */
+.province:hover .province-face,
+.province.is-hovered .province-face,
+.province.is-selected .province-face,
+.province:focus-visible .province-face{
+  transform:translate(8px,-45px) scale(1.032) !important;
+  filter:drop-shadow(0 28px 16px rgba(25,45,25,0.42)) !important;
+  z-index:20;
+}
+.province:hover .land,
+.province.is-hovered .land,
+.province:focus-visible .land{
+  stroke:#ffffff !important;
+  stroke-width:10 !important;
+}
+.province.is-selected .land{
+  stroke:#ffffff !important;
+  stroke-width:14 !important;
+  filter:drop-shadow(0 0 10px rgba(255,255,255,0.8)) !important;
+}
+.province:hover .province-label,
+.province.is-hovered .province-label,
+.province.is-selected .province-label{
+  fill:#ffffff !important;
+  stroke:#000000dd !important;
+  stroke-width:8px !important;
+  font-weight:800 !important;
+}
+.province:focus-visible .land{
+  stroke:#ffffff !important;
+  stroke-width:14 !important;
+}
+
+/* Sea label */
+.sea-label{position:absolute;left:64%;top:48%;font-size:11px;letter-spacing:6px;writing-mode:vertical-rl;color:#9cb093;font-weight:500;pointer-events:none}
+
+/* Detail Card */
+.detail-card{
+  position:absolute;
+  right:24px;
+  top:125px;
+  width:226px;
+  background:rgba(253,254,250,0.92);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  border:1px solid #dfe5d8;
+  border-radius:18px;
+  padding:20px;
+  box-shadow:0 12px 36px rgba(45,65,40,0.08);
+  z-index:15;
+  transition:all .25s ease;
+}
+.detail-top{display:flex;align-items:center;justify-content:space-between;color:#7e8e72;font-size:9.5px;letter-spacing:1.3px;font-weight:600}
+.detail-tag{background:#e7ede0;color:#45603b;padding:3px 7px;border-radius:6px;font-size:9px}
+.detail-symbol{width:42px;height:42px;background:#eef3e6;border-radius:12px;display:grid;place-items:center;margin:18px 0 14px;color:#5a8146;transition:background .2s,color .2s}
+.detail-symbol svg{width:22px;height:22px}
+#detail-name{font-size:22px;line-height:1.35;letter-spacing:-.8px;font-weight:650;margin:0 0 8px;overflow-wrap:anywhere}
+.detail-region-pill{display:inline-flex;align-items:center;gap:6px;font-size:10px;font-weight:600;padding:4px 8px;border-radius:6px;margin-bottom:12px;background:#e6ede0;color:#2f4e31}
+.detail-region-dot{width:7px;height:7px;border-radius:50%}
+.detail-desc{font-size:11px;color:#7a8771;line-height:1.8;margin:0}
+
+/* Region mini list in detail card when a region is selected */
+.region-province-mini-list{display:flex;flex-wrap:wrap;gap:5px;margin-top:14px;max-height:140px;overflow-y:auto;padding-right:2px}
+.mini-province-chip{
+  display:inline-flex;
+  align-items:center;
+  gap:5px;
+  font-size:10px;
+  font-weight:600;
+  padding:4px 8px;
+  border-radius:12px;
+  border:1px solid #dbe2d4;
+  background:#ffffff;
+  color:#314633;
+  transition:all .15s;
+}
+.mini-province-chip:hover{background:#eef4e6;transform:scale(1.05)}
+.mini-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+
+.detail-actions{margin-top:16px;display:flex;flex-direction:column;gap:7px}
+.action-btn{
+  width:100%;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  font-size:11px;
+  font-weight:600;
+  padding:8px 12px;
+  border-radius:8px;
+  border:1px solid #d4ddd0;
+  background:#ffffff;
+  color:#355333;
+  transition:all .18s;
+}
+.action-btn:hover{background:#e7f0dc;border-color:#b9ccaf}
+.action-btn.primary{background:#2b5439;color:#ffffff;border-color:#2b5439}
+.action-btn.primary:hover{background:#1f3e2a}
+
+.detail-bottom{border-top:1px solid var(--line);margin-top:18px;padding-top:12px;display:flex;align-items:center;justify-content:space-between;font-size:9.5px;color:#7f9071}
+.selection-clear{border:0;background:transparent;padding:0;font-size:10.5px;font-weight:600;color:#c04a3e;text-decoration:underline;text-underline-offset:3px;display:none}
+.detail-card.has-selection .selection-clear{display:block}
+.detail-card.has-selection .detail-id{display:none}
+
+/* Controls */
+.map-tools{position:absolute;bottom:25px;right:24px;z-index:10;display:flex;gap:7px}
+.tool{width:36px;height:36px;border:1px solid #dbe2d1;border-radius:10px;background:#fbfcf6;display:grid;place-items:center;font-size:20px;transition:background .2s,transform .15s;box-shadow:0 3px 10px rgba(0,0,0,0.03)}
+.tool:hover{background:#e3eccf;transform:translateY(-1px)}
+.tool .icon{width:16px;height:16px}
+.tool[aria-pressed=true]{background:#dce8c6}
+.zoom-percent{font-size:10px;font-weight:600;align-self:center;min-width:34px;text-align:center;color:#758567}
+
+.map-hint{position:absolute;bottom:27px;left:27px;display:flex;align-items:center;gap:8px;font-size:10px;color:#7b8d6f;font-weight:500}
+.map-hint .icon{width:15px;height:15px}
+
+.tooltip{position:fixed;pointer-events:none;z-index:30;background:#1e3526;color:#f8faee;font-size:11.5px;font-weight:500;padding:9px 14px;border-radius:9px;box-shadow:0 6px 20px rgba(20,40,25,0.28);display:none;align-items:center;gap:7px}
+.tooltip.visible{display:flex}
+.tooltip-dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+
+.panel-number{position:absolute;bottom:75px;right:33px;font-size:68px;font-weight:500;line-height:1;letter-spacing:-5px;color:#d7e2cb;pointer-events:none}
+
+/* Footer */
+footer{display:flex;justify-content:space-between;gap:20px;padding:20px 2px 0;font-size:9.5px;color:#8d9884;line-height:1.8}
+footer strong{font-weight:600;color:#5a6e50}
+.footer-source{max-width:580px}
+.footer-tag{white-space:nowrap;letter-spacing:1px}
+
+#map-viewport{transition:transform .25s ease-out;transform-origin:1200px 2800px}
+
+/* Responsive */
+@media(min-width:1550px){
+  .workspace,.map-panel{min-height:820px}
+  .province-list{max-height:550px}
+}
+@media(max-width:1150px){
+  .workspace{grid-template-columns:260px 1fr}
+  .region-bar{max-width:100%}
+  .detail-card{width:190px;right:16px;padding:16px;top:140px}
+  #detail-name{font-size:19px}
+  .map-stage{inset:95px 170px 30px 15px}
+}
+@media(max-width:850px){
+  .site-header{height:70px;padding:0 5%}
+  .brand-name{font-size:17px}
+  .header-note{display:none}
+  main{padding:20px 4% 18px}
+  .intro{display:block;margin-bottom:18px}
+  h1{font-size:26px;letter-spacing:-1px}
+  .intro-copy{margin-top:10px;max-width:none}
+  .workspace{display:flex;flex-direction:column;min-height:0;border-radius:18px}
+  .sidebar{order:2;border-right:0;border-top:1px solid var(--line);padding:20px}
+  .province-list{max-height:260px;display:grid;grid-template-columns:1fr 1fr;align-content:start;gap:2px 8px}
+  .province-row{font-size:10.5px;padding:8px 6px;gap:6px}
+  .map-panel{min-height:680px;order:1}
+  .map-header-bar{top:15px;left:14px;right:14px}
+  .region-bar{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;padding:6px;gap:5px;border-radius:12px;scrollbar-width:none}
+  .region-bar::-webkit-scrollbar{display:none}
+  .region-pill{padding:5px 9px;font-size:10px}
+  .region-bar-title{display:none}
+  .map-stage{inset:90px 70px 65px 5px}
+  .detail-card{top:125px;right:12px;width:150px;padding:14px;border-radius:12px}
+  .detail-symbol{width:32px;height:32px;margin:12px 0 10px}
+  #detail-name{font-size:16px}
+  .detail-desc{font-size:9.5px;line-height:1.6}
+  .sea-label{left:62%;top:56%;font-size:9px}
+  .panel-number{font-size:52px;bottom:70px;right:16px}
+  .map-tools{bottom:18px;right:14px;gap:4px}
+  .tool{width:32px;height:32px}
+  .map-hint{left:14px;bottom:18px;font-size:8.5px}
+  footer{flex-direction:column;gap:6px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition:none!important;scroll-behavior:auto!important}
+}
+</style>
+</head>
+<body>
+<svg style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true"><defs>
+<symbol id="search-icon" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></symbol>
+<symbol id="pointer-icon" viewBox="0 0 24 24"><path d="m5 3 14 10-7 1-3 7z"/></symbol>
+<symbol id="layers-icon" viewBox="0 0 24 24"><path d="m3 8 9-5 9 5-9 5zM3 12l9 5 9-5M3 16l9 5 9-5"/></symbol>
+<symbol id="reset-icon" viewBox="0 0 24 24"><path d="M4 9a8 8 0 1 1 0 6M4 3v6h6"/></symbol>
+<symbol id="pin-icon" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+<symbol id="sparkle-icon" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5z"/></symbol>
+<symbol id="map-icon" viewBox="0 0 24 24"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/><line x1="9" y1="3" x2="9" y2="18"/><line x1="15" y1="6" x2="15" y2="21"/></symbol>
+</defs></svg>
+
+<header class="site-header">
+  <a class="brand" href="./index.html" aria-label="Việt Nam Atlas - Trang chủ">
+    <svg class="brand-mark" viewBox="0 0 40 45" fill="none" aria-hidden="true">
+      <path d="M18 4 10 7l2 5 7 2-3 5 8 6 3 6-4 7-7 3-2-5 6-5-2-5-8-7 1-7-5-3 5-5z" fill="currentColor"/>
+      <circle cx="31" cy="28" r="1.4" fill="currentColor"/>
+      <circle cx="33" cy="35" r="1" fill="currentColor"/>
+    </svg>
+    <span class="brand-name">việt nam<span> / atlas</span></span>
+  </a>
+  <span class="header-note">Hành trình qua 5 vùng địa lý, 34 tỉnh thành & 2 quần đảo Hoàng Sa, Trường Sa</span>
+  <span class="nav-pill"><span class="dot"></span>Bản đồ tương tác 5 vùng</span>
+</header>
+
+<main>
+<section class="intro" aria-labelledby="page-title">
+  <div>
+    <p class="eyebrow">Khám phá Việt Nam</p>
+    <h1 id="page-title">34 tỉnh thành & 2 quần đảo. <span>5 vùng đất thiêng.</span></h1>
+  </div>
+  <p class="intro-copy">Bản đồ được chia thành 5 vùng miền rõ rệt. Nhấn vào từng vùng để thắp sáng các tỉnh thành với gam màu nổi bật.</p>
+</section>
+
+<section class="workspace" id="workspace" aria-label="Bản đồ và danh sách tỉnh thành">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-heading">
+      <span>Tỉnh, thành & quần đảo</span>
+      <span class="count" id="result-count">36</span>
+    </div>
+    
+    <div class="search-box">
+      <svg class="icon" aria-hidden="true"><use href="#search-icon"/></svg>
+      <input id="search" type="search" placeholder="Tìm tỉnh thành theo tên..." aria-label="Tìm tỉnh thành" autocomplete="off">
+      <button class="search-clear" id="search-clear" aria-label="Xóa tìm kiếm" hidden>×</button>
+    </div>
+
+    <div class="list-top">
+      <span>ĐỊA PHƯƠNG</span>
+      <span id="region-filter-indicator" class="active-region-tag" style="display:none">
+        <span class="dot" style="width:5px;height:5px"></span>
+        <span id="region-filter-text">Tất cả</span>
+      </span>
+      <span>A → Z</span>
+    </div>
+
+    <div class="province-list" id="province-list" aria-label="Danh sách tỉnh thành">
+      <!-- PROVINCE_LIST -->
+    </div>
+
+    <div class="sidebar-foot">
+      <svg class="icon" aria-hidden="true"><use href="#pointer-icon"/></svg>
+      <span>Chọn vùng trên thanh điều hướng để làm sáng các tỉnh trong vùng.<br>Rê chuột hoặc nhấn để xem chi tiết.</span>
+    </div>
+  </aside>
+
+  <!-- Map Panel -->
+  <div class="map-panel">
+    <!-- Header Bar with Topline and Region Navigation Bar -->
+    <div class="map-header-bar">
+      <div class="map-topline">
+        <span class="dot"></span>PHÂN VÙNG ĐỊA LÝ VIỆT NAM
+      </div>
+
+      <!-- 5 Regions Navigation Bar -->
+      <nav class="region-bar" id="region-bar" role="tablist" aria-label="Chọn vùng miền Việt Nam">
+        <span class="region-bar-title"><svg class="icon" style="width:13px;height:13px" aria-hidden="true"><use href="#map-icon"/></svg> VÙNG:</span>
+        <!-- REGION_PILLS -->
+      </nav>
+    </div>
+
+    <div class="north" aria-hidden="true">
+      B
+      <svg viewBox="0 0 24 42"><path d="m12 3 7 25-7-5-7 5z" fill="#6a825e"/><path d="M12 3v34" stroke="#6a825e" stroke-width="1"/></svg>
+    </div>
+
+    <!-- Map Stage -->
+    <div class="map-stage">
+      <svg id="map" class="map-svg" viewBox="-160 250 2800 5250" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="Bản đồ tương tác 34 tỉnh thành và 5 vùng Việt Nam">
+        <g id="map-viewport">
+          <g class="map-shapes" id="map-shapes">
+            <!-- PROVINCE_PATHS -->
+          </g>
+        </g>
+      </svg>
+    </div>
+
+    <span class="sea-label" aria-hidden="true">BIỂN ĐÔNG</span>
+
+    <!-- Detail Card -->
+    <aside class="detail-card" id="detail-card" aria-live="polite">
+      <div class="detail-top">
+        <span id="detail-badge-top">VÙNG ĐẤT VIỆT NAM</span>
+        <span class="detail-id" id="detail-id">↗</span>
+        <button class="selection-clear" id="clear-selection">Bỏ chọn</button>
+      </div>
+
+      <div class="detail-symbol" id="detail-symbol">
+        <svg class="icon" aria-hidden="true"><use href="#pin-icon"/></svg>
+      </div>
+
+      <h2 id="detail-name">Bạn muốn<br>đến đâu?</h2>
+      
+      <div id="detail-region-pill" class="detail-region-pill" style="display:none">
+        <span class="detail-region-dot" id="detail-region-dot"></span>
+        <span id="detail-region-name">Miền Bắc</span>
+      </div>
+
+      <p class="detail-desc" id="detail-desc">Chọn một trong 5 vùng ở thanh trên để thắp sáng các tỉnh, hoặc di chuột đến một tỉnh thành trên bản đồ.</p>
+
+      <!-- Mini chips container for provinces in active region -->
+      <div class="region-province-mini-list" id="region-province-mini-list" style="display:none"></div>
+
+      <!-- Action buttons -->
+      <div class="detail-actions" id="detail-actions" style="display:none">
+        <button type="button" class="action-btn primary" id="btn-focus-region">
+          <svg class="icon" style="width:14px;height:14px" aria-hidden="true"><use href="#sparkle-icon"/></svg>
+          <span id="btn-focus-region-text">Thắp sáng vùng này</span>
+        </button>
+      </div>
+
+      <div class="detail-bottom">
+        <span class="dot"></span>
+        <span id="detail-status">34 tỉnh thành & 2 quần đảo trong 5 vùng</span>
+      </div>
+    </aside>
+
+    <span class="panel-number" id="panel-number" aria-hidden="true">36</span>
+
+    <div class="map-hint">
+      <svg class="icon" aria-hidden="true"><use href="#pointer-icon"/></svg>
+      <span id="map-hint-text">Nhấp vào một vùng để bật sáng các tỉnh thành</span>
+    </div>
+
+    <!-- Map Tools -->
+    <div class="map-tools" aria-label="Điều khiển bản đồ">
+      <button class="tool" id="toggle-labels" aria-pressed="true" aria-label="Ẩn tên tỉnh thành" title="Ẩn / hiện tên"><svg class="icon" aria-hidden="true"><use href="#layers-icon"/></svg></button>
+      <button class="tool" id="zoom-out" aria-label="Thu nhỏ">−</button>
+      <span class="zoom-percent" id="zoom-value">100%</span>
+      <button class="tool" id="zoom-in" aria-label="Phóng to">+</button>
+      <button class="tool" id="reset-map" aria-label="Đặt lại bản đồ" title="Đặt lại"><svg class="icon" aria-hidden="true"><use href="#reset-icon"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-source">
+    <strong>Dữ liệu: 34 tỉnh/thành cùng 2 quần đảo Hoàng Sa & Trường Sa được phân bổ vào 5 vùng địa lý đặc trưng.</strong>
+    Bản đồ tương tác trực quan hóa ranh giới và đặc trưng vùng miền, tích hợp đầy đủ không gian biển đảo chủ quyền thiêng liêng của Tổ quốc.
+  </div>
+  <span class="footer-tag">5 VÙNG ĐỊA LÝ · 34 TỈNH THÀNH & 2 QUẦN ĐẢO · VIỆT NAM ATLAS</span>
+</footer>
+</main>
+
+<div class="tooltip" id="tooltip" role="status" aria-hidden="true">
+  <span class="tooltip-dot" id="tooltip-dot"></span>
+  <span id="tooltip-text"></span>
+</div>
+
+<script>
+'use strict';
+const provinces = /* PROVINCE_DATA */;
+const regions = /* REGION_DATA */;
+
+const $ = id => document.getElementById(id);
+const collator = new Intl.Collator('vi');
+const sorted = [...provinces].sort((a,b)=>collator.compare(a.short,b.short));
+const byId = new Map(provinces.map(p=>[p.id,p]));
+const regionById = new Map(regions.map(r=>[r.id,r]));
+const groups = new Map(provinces.map(p=>[p.id,$('province-'+p.id)]));
+const normalize = s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/g,'d').replace(/Đ/g,'D').toLowerCase();
+
+let selected = null;       // Selected province id (number or null)
+let hovered = null;        // Hovered province id (number or null)
+let activeRegion = null;   // Active region id ('vung-1' .. 'vung-5' or null for all)
+let zoom = 1;
+
+// Set up province groups attributes
+provinces.forEach(p => {
+  const g = groups.get(p.id);
+  if (g) {
+    g.dataset.region = p.regionId;
+    g.style.setProperty('--base-shade', p.baseColor);
+    g.style.setProperty('--lit-shade', p.litColor);
+    g.style.setProperty('--region-theme', p.themeColor);
+  }
+});
+
+function setActiveRegion(regionId) {
+  if (activeRegion === regionId) {
+    // Toggling the same region again returns to All
+    activeRegion = null;
+  } else {
+    activeRegion = regionId === 'all' ? null : regionId;
+  }
+
+  // Update pills UI
+  document.querySelectorAll('.region-pill').forEach(btn => {
+    const isThis = (!activeRegion && btn.dataset.region === 'all') || (activeRegion === btn.dataset.region);
+    btn.classList.toggle('is-active', isThis);
+    btn.setAttribute('aria-selected', String(isThis));
+  });
+
+  // Update workspace data attribute for CSS scoping
+  if (activeRegion) {
+    $('workspace').setAttribute('data-active-region', activeRegion);
+  } else {
+    $('workspace').removeAttribute('data-active-region');
+  }
+
+  // Mark SVG groups as in-active-region
+  groups.forEach((g, id) => {
+    const p = byId.get(id);
+    const inActive = activeRegion ? (p.regionId === activeRegion) : false;
+    g.dataset.inActiveRegion = inActive ? 'true' : 'false';
+  });
+
+  // Update sidebar region indicator
+  if (activeRegion) {
+    const r = regionById.get(activeRegion);
+    $('region-filter-indicator').style.display = 'inline-flex';
+    $('region-filter-text').textContent = r.short;
+    $('panel-number').textContent = String(r.count).padStart(2,'0');
+    $('map-hint-text').textContent = r.name + ' · ' + r.count + ' tỉnh đang bừng sáng!';
+  } else {
+    $('region-filter-indicator').style.display = 'none';
+    $('panel-number').textContent = '36';
+    $('map-hint-text').textContent = 'Nhấp vào một vùng để bật sáng các tỉnh thành';
+  }
+
+  renderList($('search').value);
+  update();
+}
+
+function renderList(query = '') {
+  const q = normalize(query.trim());
+  let matches = sorted;
+
+  if (activeRegion) {
+    matches = matches.filter(p => p.regionId === activeRegion);
+  }
+
+  if (q) {
+    matches = matches.filter(p => normalize(p.name).includes(q) || normalize(p.regionName).includes(q));
+  }
+
+  $('result-count').textContent = matches.length;
+  $('search-clear').hidden = !query;
+  $('province-list').replaceChildren();
+
+  if (!matches.length) {
+    const empty = document.createElement('p');
+    empty.className = 'empty';
+    empty.textContent = activeRegion 
+      ? 'Không có tỉnh nào khớp trong vùng này. Hãy thử xóa bộ lọc tìm kiếm.'
+      : 'Chưa tìm thấy địa phương. Thử một tên khác nhé.';
+    $('province-list').append(empty);
+    return;
+  }
+
+  matches.forEach(p => {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'province-row';
+    b.dataset.id = p.id;
+    b.dataset.region = p.regionId;
+    b.style.setProperty('--row-accent', p.litColor);
+    b.setAttribute('aria-pressed', String(selected === p.id));
+    if (activeRegion && p.regionId === activeRegion) {
+      b.classList.add('in-active-region');
+    }
+
+    const dot = document.createElement('span');
+    dot.className = 'row-dot';
+    dot.style.background = p.litColor;
+    dot.title = 'Màu phát sáng: ' + p.litColor;
+
+    const number = document.createElement('span');
+    number.className = 'row-number';
+    number.textContent = String(p.id).padStart(2, '0');
+
+    const name = document.createElement('span');
+    name.className = 'row-name';
+    name.textContent = p.short;
+
+    const reg = document.createElement('span');
+    reg.className = 'row-region';
+    reg.textContent = p.regionShort;
+
+    const arrow = document.createElement('span');
+    arrow.className = 'row-arrow';
+    arrow.textContent = '↗';
+    arrow.setAttribute('aria-hidden', 'true');
+
+    b.append(dot, number, name, reg, arrow);
+
+    b.addEventListener('pointerenter', () => setHover(p.id));
+    b.addEventListener('pointerleave', () => setHover(null));
+    b.addEventListener('focus', () => setHover(p.id));
+    b.addEventListener('blur', () => setHover(null));
+    b.addEventListener('click', () => select(p.id));
+
+    $('province-list').append(b);
+  });
+
+  update();
+}
+
+function update() {
+  const active = hovered ?? selected;
+
+  groups.forEach((g, id) => {
+    g.classList.toggle('is-hovered', hovered === id);
+    g.classList.toggle('is-selected', selected === id);
+    g.setAttribute('aria-pressed', String(selected === id));
+  });
+
+  if (active !== null) {
+    const activeG = groups.get(active);
+    if (activeG) $('map-shapes').append(activeG);
+  }
+
+  document.querySelectorAll('.province-row').forEach(b => {
+    const bid = +b.dataset.id;
+    b.classList.toggle('selected', bid === selected);
+    b.classList.toggle('preview', bid === hovered);
+    b.setAttribute('aria-pressed', String(bid === selected));
+  });
+
+  $('detail-card').classList.toggle('has-selection', selected !== null || activeRegion !== null);
+
+  // If a specific province is active (hovered or selected)
+  if (active !== null) {
+    const p = byId.get(active);
+    const r = regionById.get(p.regionId);
+
+    $('detail-name').textContent = p.short;
+    $('detail-id').textContent = String(p.id).padStart(2, '0');
+    $('detail-badge-top').textContent = (p.id >= 35) ? ('QUẦN ĐẢO THIÊNG LIÊNG #' + String(p.id).padStart(2, '0')) : ('ĐỊA PHƯƠNG #' + String(p.id).padStart(2, '0'));
+    
+    $('detail-region-pill').style.display = 'inline-flex';
+    $('detail-region-dot').style.background = p.litColor;
+    $('detail-region-name').textContent = r.name;
+
+    $('detail-desc').textContent = (p.id >= 35) 
+      ? `${p.name} thuộc vùng ${r.name}. Chủ quyền thiêng liêng và bất khả xâm phạm của Tổ quốc Việt Nam trên Biển Đông.`
+      : `${p.name} thuộc vùng ${r.name}. Khi vùng được thắp sáng, tỉnh hiển thị màu rực rỡ đặc trưng.`;
+    $('detail-status').textContent = (active === selected) ? 'Đang giữ vùng đất đã chọn' : 'Nhấn để ghim tỉnh thành';
+
+    $('region-province-mini-list').style.display = 'none';
+
+    // Show button to activate whole region & view province detail
+    $('detail-actions').style.display = 'flex';
+    let viewBtn = $('btn-view-province');
+    if (!viewBtn) {
+      viewBtn = document.createElement('a');
+      viewBtn.id = 'btn-view-province';
+      viewBtn.className = 'action-btn primary';
+      viewBtn.style.marginTop = '4px';
+      $('detail-actions').append(viewBtn);
+    }
+    viewBtn.style.display = 'inline-flex';
+    viewBtn.href = 'province.html?id=' + p.id;
+    viewBtn.innerHTML = `<span>Xem trang chi tiết ${p.short}</span> ➔`;
+
+    if (activeRegion === p.regionId) {
+      $('btn-focus-region-text').textContent = 'Đang thắp sáng cả vùng';
+      $('btn-focus-region').className = 'action-btn';
+    } else {
+      $('btn-focus-region-text').textContent = 'Thắp sáng toàn bộ ' + r.short;
+      $('btn-focus-region').className = 'action-btn';
+    }
+    $('btn-focus-region').onclick = () => setActiveRegion(p.regionId);
+
+    $('detail-symbol').style.background = p.litColor + '22';
+    $('detail-symbol').style.color = p.litColor;
+  }
+  // Else if a region is active (no province specifically active)
+  else if (activeRegion) {
+    const r = regionById.get(activeRegion);
+    $('detail-name').textContent = r.name;
+    $('detail-id').textContent = String(r.count).padStart(2, '0');
+    $('detail-badge-top').textContent = 'VÙNG ĐANG BỪNG SÁNG';
+
+    $('detail-region-pill').style.display = 'inline-flex';
+    $('detail-region-dot').style.background = r.accent;
+    $('detail-region-name').textContent = r.count + ' tỉnh thành trong vùng';
+
+    $('detail-desc').textContent = r.desc + ' Mỗi tỉnh đang phát sáng một sắc màu nổi bật riêng biệt!';
+    $('detail-status').textContent = 'Vùng ' + r.short + ' đang được kích hoạt';
+
+    // Populate mini province list
+    const miniList = $('region-province-mini-list');
+    miniList.replaceChildren();
+    miniList.style.display = 'flex';
+
+    r.provinces.forEach(pid => {
+      const p = byId.get(pid);
+      const chip = document.createElement('button');
+      chip.type = 'button';
+      chip.className = 'mini-province-chip';
+      chip.innerHTML = `<span class="mini-dot" style="background:${p.litColor}"></span><span>${p.short}</span>`;
+      chip.addEventListener('mouseenter', () => setHover(pid));
+      chip.addEventListener('mouseleave', () => setHover(null));
+      chip.addEventListener('click', () => select(pid));
+      miniList.append(chip);
+    });
+
+    $('detail-actions').style.display = 'flex';
+    let viewBtn = $('btn-view-province');
+    if (!viewBtn) {
+      viewBtn = document.createElement('a');
+      viewBtn.id = 'btn-view-province';
+      viewBtn.className = 'action-btn primary';
+      viewBtn.style.marginTop = '4px';
+      $('detail-actions').append(viewBtn);
+    }
+    viewBtn.style.display = 'inline-flex';
+    viewBtn.href = 'province.html?id=' + r.provinces[0];
+    viewBtn.innerHTML = `<span>Xem trang chi tiết các tỉnh (${r.count})</span> ➔`;
+
+    $('btn-focus-region-text').textContent = 'Hiện tất cả 5 vùng';
+    $('btn-focus-region').className = 'action-btn';
+    $('btn-focus-region').onclick = () => setActiveRegion('all');
+
+    $('detail-symbol').style.background = r.accent + '25';
+    $('detail-symbol').style.color = r.accent;
+  }
+  // Default overview state
+  else {
+    $('detail-name').innerHTML = 'Bạn muốn<br>đến đâu?';
+    $('detail-id').textContent = '↗';
+    $('detail-badge-top').textContent = 'VÙNG ĐẤT VIỆT NAM';
+    $('detail-region-pill').style.display = 'none';
+    $('region-province-mini-list').style.display = 'none';
+    $('detail-actions').style.display = 'none';
+    $('detail-desc').textContent = 'Chọn một trong 5 vùng ở thanh trên để thắp sáng các tỉnh, hoặc di chuột đến một tỉnh thành trên bản đồ.';
+    $('detail-status').textContent = '34 tỉnh thành trong 5 vùng';
+    $('detail-symbol').style.background = '#eef3e6';
+    $('detail-symbol').style.color = '#5a8146';
+  }
+}
+
+function setHover(id) {
+  if (hovered === id) return;
+  hovered = id;
+  update();
+}
+
+function select(id) {
+  const p = byId.get(id);
+  if (p) {
+    window.location.href = 'province.html?id=' + id;
+    return;
+  }
+  selected = (selected === id) ? null : id;
+  update();
+}
+
+function showTooltip(e, p) {
+  if (e.pointerType === 'touch') return;
+  const t = $('tooltip');
+  const r = regionById.get(p.regionId);
+  $('tooltip-dot').style.background = p.litColor;
+  const hint = ' (Nhấn để xem chi tiết)';
+  $('tooltip-text').textContent = `${p.short} · ${r.short}${hint}`;
+  t.classList.add('visible');
+  t.style.left = Math.min(e.clientX + 16, window.innerWidth - t.offsetWidth - 12) + 'px';
+  t.style.top = Math.max(10, Math.min(e.clientY + 18, window.innerHeight - t.offsetHeight - 12)) + 'px';
+}
+
+// Map event listeners
+groups.forEach((g, id) => {
+  const p = byId.get(id);
+  g.addEventListener('pointerenter', e => {
+    if (e.pointerType !== 'touch') {
+      setHover(id);
+      showTooltip(e, p);
+    }
+  });
+  g.addEventListener('pointermove', e => showTooltip(e, p));
+  g.addEventListener('pointerleave', () => {
+    setHover(null);
+    $('tooltip').classList.remove('visible');
+  });
+  g.addEventListener('focus', () => setHover(id));
+  g.addEventListener('blur', () => setHover(null));
+  g.addEventListener('click', () => select(id));
+  g.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      select(id);
+    }
+  });
+});
+
+// Region navigation pills click listeners
+$('region-bar').addEventListener('click', e => {
+  const btn = e.target.closest('.region-pill');
+  if (!btn) return;
+  const rId = btn.dataset.region;
+  setActiveRegion(rId);
+});
+
+// Search inputs
+$('search').addEventListener('input', e => renderList(e.target.value));
+$('search-clear').addEventListener('click', () => {
+  $('search').value = '';
+  renderList();
+  $('search').focus();
+});
+
+// Clear selection
+$('clear-selection').addEventListener('click', () => {
+  selected = null;
+  hovered = null;
+  activeRegion = null;
+  setActiveRegion('all');
+});
+
+// Zoom controls
+function setZoom(value) {
+  zoom = Math.max(.8, Math.min(1.8, Math.round(value * 10) / 10));
+  $('map-viewport').style.transform = 'scale(' + zoom + ')';
+  $('zoom-value').textContent = Math.round(zoom * 100) + '%';
+  $('zoom-out').disabled = zoom <= .8;
+  $('zoom-in').disabled = zoom >= 1.8;
+}
+$('zoom-in').addEventListener('click', () => setZoom(zoom + .2));
+$('zoom-out').addEventListener('click', () => setZoom(zoom - .2));
+
+// Toggle labels
+$('toggle-labels').addEventListener('click', () => {
+  const off = $('map').classList.toggle('labels-off');
+  $('toggle-labels').setAttribute('aria-pressed', String(!off));
+  $('toggle-labels').setAttribute('aria-label', off ? 'Hiện tên tỉnh thành' : 'Ẩn tên tỉnh thành');
+});
+
+// Reset map
+$('reset-map').addEventListener('click', () => {
+  selected = null;
+  hovered = null;
+  activeRegion = null;
+  setActiveRegion('all');
+  setZoom(1);
+  $('search').value = '';
+  renderList();
+  $('map').classList.remove('labels-off');
+  $('toggle-labels').setAttribute('aria-pressed', 'true');
+  $('toggle-labels').setAttribute('aria-label', 'Ẩn tên tỉnh thành');
+  $('tooltip').classList.remove('visible');
+});
+
+// Keyboard shortcuts
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    selected = null;
+    hovered = null;
+    setActiveRegion('all');
+    $('tooltip').classList.remove('visible');
+  }
+});
+
+window.addEventListener('scroll', () => $('tooltip').classList.remove('visible'), { passive: true });
+
+// Initial render
+renderList();
+</script>
+</body>
+</html>

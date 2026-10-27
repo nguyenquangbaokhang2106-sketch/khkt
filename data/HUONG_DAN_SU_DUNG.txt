@@ -1,0 +1,8 @@
+BỘ 34 TỈNH THÀNH - CÁC ĐỐI TƯỢNG TÁCH TỪ PDF GỐC
+
+* SVG là đường vector có thể chỉnh sửa/đổi màu/phóng to không vỡ nét. PNG có nền trong suốt.
+* Mỗi tỉnh/thành có 1 cặp .svg và .png, tổng cộng 34 tỉnh/thành.
+* Tệp Ban_do_34_tinh_34_doi_tuong.svg bên ngoài ZIP có đúng 34 lớp tỉnh/thành trong Inkscape.
+* Các vị trí địa danh trong từng tệp được giữ theo bố cục của bản đồ gốc.
+* Hoàng Sa và Trường Sa được giữ ở lớp chú thích/quần đảo của bản đồ tổng, tránh khiến kích thước đối tượng tỉnh quá rộng.
+* Đây là bản đồ phục vụ thiết kế theo PDF nguồn, không phải bộ dữ liệu GIS chuẩn phục vụ đo đạc.

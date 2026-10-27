@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quần Đảo Hoàng Sa - Việt Nam</title>
+    <style>
+        :root {
+            --bg-ocean: #0b1329;
+            --text-light: #f8fafc;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: var(--bg-ocean);
+            color: var(--text-light);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+            letter-spacing: 2px;
+            color: #38bdf8;
+            text-transform: uppercase;
+        }
+
+        p.subtitle {
+            margin: 5px 0 0;
+            color: #94a3b8;
+            font-size: 0.95rem;
+        }
+
+        .controls {
+            margin-bottom: 15px;
+            display: flex;
+            gap: 10px;
+        }
+
+        button {
+            background: #0284c7;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        }
+
+        button:hover {
+            background: #0369a1;
+            transform: translateY(-2px);
+        }
+
+        .map-wrapper {
+            position: relative;
+            background: radial-gradient(circle at center, #172554 0%, #0b1329 100%);
+            border: 2px solid #1e3a8a;
+            border-radius: 12px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+        }
+
+        svg {
+            display: block;
+            width: 800px;
+            height: 600px;
+        }
+
+        /* SVG Styles */
+        .grid-line {
+            stroke: #1e293b;
+            stroke-dasharray: 4 4;
+            stroke-width: 0.5;
+        }
+
+        .grid-text {
+            fill: #64748b;
+            font-size: 10px;
+            font-family: monospace;
+        }
+
+        .island-major {
+            fill: #ef4444;
+            stroke: #fca5a5;
+            stroke-width: 1.5;
+            filter: drop-shadow(0 0 6px rgba(239, 68, 68, 0.8));
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .island-major:hover {
+            fill: #f59e0b;
+            stroke: #fde047;
+            transform: scale(1.15);
+        }
+
+        .island-reef {
+            fill: #38bdf8;
+            opacity: 0.6;
+            stroke: #7dd3fc;
+            stroke-width: 0.8;
+            cursor: pointer;
+        }
+
+        .island-reef:hover {
+            opacity: 1;
+            fill: #f59e0b;
+        }
+
+        .tiny-atoll {
+            fill: #f59e0b;
+            opacity: 0.5;
+            animation: pulse 2.5s infinite alternate;
+        }
+
+        .group-boundary {
+            fill: none;
+            stroke: #38bdf8;
+            stroke-dasharray: 3 3;
+            stroke-width: 0.8;
+            opacity: 0.4;
+        }
+
+        .island-label {
+            fill: #f8fafc;
+            font-size: 11px;
+            font-weight: bold;
+            pointer-events: none;
+            text-anchor: start;
+            text-shadow: 1px 1px 2px #000, -1px -1px 2px #000;
+        }
+
+        .group-title {
+            fill: #38bdf8;
+            font-size: 13px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            opacity: 0.8;
+        }
+
+        @keyframes pulse {
+            from { opacity: 0.2; transform: scale(0.8); }
+            to { opacity: 0.8; transform: scale(1.2); }
+        }
+
+        .tooltip {
+            position: absolute;
+            padding: 8px 12px;
+            background: rgba(15, 23, 42, 0.95);
+            border: 1px solid #38bdf8;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 12px;
+            pointer-events: none;
+            display: none;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Quần Đảo Hoàng Sa</h1>
+        <p class="subtitle">Chủ quyền Việt Nam - Tọa độ Địa lý & Các Đảo / Đá / Bãi ngầm</p>
+    </header>
+
+    <div class="controls">
+        <button onclick="downloadPNG()">Tải file ảnh PNG</button>
+        <button onclick="toggleLabels()">Ẩn/Hiện Tên Đảo</button>
+    </div>
+
+    <div class="map-wrapper" id="mapWrapper">
+        <div class="tooltip" id="tooltip"></div>
+        <svg id="hoangSaSVG" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5"/>
+                    <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+                </radialGradient>
+            </defs>
+
+            <!-- Grid Lines (Kinh tuyến / Vĩ tuyến) -->
+            <g id="grid">
+                <line x1="150" y1="0" x2="150" y2="600" class="grid-line"/>
+                <text x="155" y="20" class="grid-text">111°E</text>
+
+                <line x1="400" y1="0" x2="400" y2="600" class="grid-line"/>
+                <text x="405" y="20" class="grid-text">112°E</text>
+
+                <line x1="650" y1="0" x2="650" y2="600" class="grid-line"/>
+                <text x="655" y="20" class="grid-text">113°E</text>
+
+                <line x1="0" y1="120" x2="800" y2="120" class="grid-line"/>
+                <text x="10" y="115" class="grid-text">17°N</text>
+
+                <line x1="0" y1="320" x2="800" y2="320" class="grid-line"/>
+                <text x="10" y="315" class="grid-text">16°N</text>
+
+                <line x1="0" y1="520" x2="800" y2="520" class="grid-line"/>
+                <text x="10" y="515" class="grid-text">15°N</text>
+            </g>
+
+            <text x="780" y="580" fill="#64748b" font-size="12" text-anchor="end" font-weight="bold">QUẦN ĐẢO HOÀNG SA (VIỆT NAM)</text>
+
+            <!-- Tự động sinh hàng trăm đảo nhỏ li ti -->
+            <g id="tinyIslands"></g>
+
+            <!-- Vùng Nhóm An Vĩnh (An Vinh Group) -->
+            <g id="anVinhGroup">
+                <rect x="420" y="80" width="260" height="200" rx="15" class="group-boundary"/>
+                <text x="430" y="105" class="group-title">NHÓM AN VĨNH</text>
+
+                <!-- Đảo Phú Lâm -->
+                <g class="island-group" data-name="Đảo Phú Lâm">
+                    <circle cx="530" cy="150" r="20" fill="url(#glow)"/>
+                    <path d="M523,145 Q533,140 538,152 T525,156 Z" class="island-major"/>
+                    <text x="545" y="152" class="island-label" fill="#fde047">Đ. Phú Lâm</text>
+                </g>
+
+                <!-- Đảo Cây -->
+                <g class="island-group" data-name="Đảo Cây">
+                    <path d="M500,125 Q504,122 507,126 T502,128 Z" class="island-reef"/>
+                    <text x="512" y="125" class="island-label">Đ. Cây</text>
+                </g>
+
+                <!-- Đảo Linh Côn -->
+                <g class="island-group" data-name="Đảo Linh Côn">
+                    <path d="M620,165 Q626,160 628,167 T621,170 Z" class="island-major"/>
+                    <text x="632" y="167" class="island-label">Đ. Linh Côn</text>
+                </g>
+
+                <!-- Đảo Bắc / Đảo Trung / Đảo Nam -->
+                <g class="island-group" data-name="Đảo Bắc">
+                    <circle cx="510" cy="138" r="2.5" class="island-reef"/>
+                    <text x="475" y="138" class="island-label">Đ. Bắc</text>
+                </g>
+                <g class="island-group" data-name="Đảo Nam">
+                    <circle cx="518" cy="144" r="2.5" class="island-reef"/>
+                    <text x="480" y="150" class="island-label">Đ. Nam</text>
+                </g>
+
+                <!-- Đá Bông Bay -->
+                <g class="island-group" data-name="Đá Bông Bay">
+                    <polygon points="580,240 595,235 600,245 585,250" class="island-reef"/>
+                    <text x="605" y="248" class="island-label">Đá Bông Bay</text>
+                </g>
+            </g>
+
+            <!-- Vùng Nhóm Trăng Khuyết / Lưỡi Liềm (Crescent Group) -->
+            <g id="luoiLiemGroup">
+                <rect x="180" y="180" width="220" height="230" rx="15" class="group-boundary"/>
+                <text x="190" y="205" class="group-title">NHÓM LƯỠI LIỀM</text>
+
+                <!-- Đảo Hoàng Sa -->
+                <g class="island-group" data-name="Đảo Hoàng Sa">
+                    <circle cx="250" cy="260" r="18" fill="url(#glow)"/>
+                    <path d="M245,256 Q254,252 256,263 T247,265 Z" class="island-major"/>
+                    <text x="262" y="262" class="island-label" fill="#fde047">Đ. HOÀNG SA</text>
+                </g>
+
+                <!-- Đảo Hữu Nhật -->
+                <g class="island-group" data-name="Đảo Hữu Nhật">
+                    <path d="M240,300 Q245,296 248,302 T242,305 Z" class="island-major"/>
+                    <text x="252" y="302" class="island-label">Đ. Hữu Nhật</text>
+                </g>
+
+                <!-- Đảo Quang Ảnh -->
+                <g class="island-group" data-name="Đảo Quang Ảnh">
+                    <path d="M210,310 Q215,307 217,312 T211,315 Z" class="island-reef"/>
+                    <text x="155" y="322" class="island-label">Đ. Quang Ảnh</text>
+                </g>
+
+                <!-- Đảo Quang Hòa -->
+                <g class="island-group" data-name="Đảo Quang Hòa">
+                    <path d="M290,290 Q296,286 298,293 T291,295 Z" class="island-major"/>
+                    <text x="302" y="293" class="island-label">Đ. Quang Hòa</text>
+                </g>
+
+                <!-- Đảo Duy Mộng -->
+                <g class="island-group" data-name="Đảo Duy Mộng">
+                    <path d="M300,270 Q304,267 306,271 T301,273 Z" class="island-reef"/>
+                    <text x="310" y="271" class="island-label">Đ. Duy Mộng</text>
+                </g>
+
+                <!-- Đảo Tri Tôn -->
+                <g class="island-group" data-name="Đảo Tri Tôn">
+                    <circle cx="210" cy="450" r="15" fill="url(#glow)"/>
+                    <path d="M205,446 Q213,442 216,451 T207,454 Z" class="island-major"/>
+                    <text x="222" y="452" class="island-label" fill="#fde047">Đ. Tri Tôn</text>
+                </g>
+            </g>
+
+            <!-- Dấu chỉ hướng Bắc -->
+            <g transform="translate(720, 80)">
+                <circle cx="0" cy="0" r="30" stroke="#475569" stroke-width="1" fill="none"/>
+                <line x1="0" y1="-25" x2="0" y2="25" stroke="#475569" stroke-width="1"/>
+                <line x1="-25" y1="0" x2="25" y2="0" stroke="#475569" stroke-width="1"/>
+                <polygon points="0,-28 -6,-10 0,-15 6,-10" fill="#ef4444"/>
+                <polygon points="0,28 -6,10 0,15 6,10" fill="#94a3b8"/>
+                <text x="0" y="-32" fill="#38bdf8" font-size="12" font-weight="bold" text-anchor="middle">N</text>
+            </g>
+        </svg>
+    </div>
+
+    <canvas id="hiddenCanvas" width="1600" height="1200" style="display: none;"></canvas>
+
+    <script>
+        function generateTinyIslands() {
+            const container = document.getElementById('tinyIslands');
+            const count = 160;
+
+            const clusters = [
+                { x: 530, y: 160, r: 70 }, // Cụm An Vĩnh
+                { x: 260, y: 280, r: 60 }, // Cụm Lưỡi Liềm
+                { x: 210, y: 450, r: 35 }, // Cụm Tri Tôn
+                { x: 590, y: 240, r: 40 }  // Cụm Bông Bay
+            ];
+
+            for (let i = 0; i < count; i++) {
+                const cluster = clusters[Math.floor(Math.random() * clusters.length)];
+                const angle = Math.random() * Math.PI * 2;
+                const dist = Math.random() * cluster.r * 1.4;
+                const cx = cluster.x + Math.cos(angle) * dist;
+                const cy = cluster.y + Math.sin(angle) * dist;
+
+                const r = Math.random() * 1.6 + 0.5;
+
+                const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                circle.setAttribute('cx', cx);
+                circle.setAttribute('cy', cy);
+                circle.setAttribute('r', r);
+                circle.setAttribute('class', 'tiny-atoll');
+                circle.style.animationDelay = `${Math.random() * 2.5}s`;
+
+                container.appendChild(circle);
+            }
+        }
+
+        const tooltip = document.getElementById('tooltip');
+        document.querySelectorAll('.island-group').forEach(item => {
+            item.addEventListener('mousemove', (e) => {
+                const rect = document.getElementById('mapWrapper').getBoundingClientRect();
+                const name = item.getAttribute('data-name');
+                tooltip.style.display = 'block';
+                tooltip.style.left = (e.clientX - rect.left + 10) + 'px';
+                tooltip.style.top = (e.clientY - rect.top + 10) + 'px';
+                tooltip.innerHTML = `<strong>${name}</strong><br/><span style="color:#94a3b8;font-size:10px;">Quần đảo Hoàng Sa (Việt Nam)</span>`;
+            });
+
+            item.addEventListener('mouseleave', () => {
+                tooltip.style.display = 'none';
+            });
+        });
+
+        let labelsVisible = true;
+        function toggleLabels() {
+            labelsVisible = !labelsVisible;
+            document.querySelectorAll('.island-label, .group-title').forEach(el => {
+                el.style.display = labelsVisible ? 'block' : 'none';
+            });
+        }
+
+        function downloadPNG() {
+            const svgElement = document.getElementById('hoangSaSVG');
+            const svgString = new XMLSerializer().serializeToString(svgElement);
+            
+            const canvas = document.getElementById('hiddenCanvas');
+            const ctx = canvas.getContext('2d');
+            const img = new Image();
+
+            ctx.fillStyle = "#0b1329";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            const svgBlob = new Blob([svgString], { type: 'image/svg+xml;charset=utf-8' });
+            const URL = window.URL || window.webkitURL || window;
+            const blobURL = URL.createObjectURL(svgBlob);
+
+            img.onload = function() {
+                ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+                
+                const pngURL = canvas.toDataURL('image/png');
+                const downloadLink = document.createElement('a');
+                downloadLink.href = pngURL;
+                downloadLink.download = 'Hoang_Sa_Viet_Nam_Map.png';
+                document.body.appendChild(downloadLink);
+                downloadLink.click();
+                document.body.removeChild(downloadLink);
+            };
+
+            img.src = blobURL;
+        }
+
+        generateTinyIslands();
+    </script>
+</body>
+</html>

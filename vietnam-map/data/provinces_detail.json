@@ -1,0 +1,3340 @@
+{
+  "1": {
+    "id": 1,
+    "name": "Lạng Sơn",
+    "short": "Lạng Sơn",
+    "slug": "lang-son",
+    "regionId": "vung-1",
+    "regionName": "Trung Du miền núi Bắc Bộ",
+    "silhouette": "assets/silhouettes/01_lang_son.png",
+    "litColor": "#3b82f6",
+    "quote": "Cửa ngõ biên cương · Xứ hoa hồi ngát hương · Đỉnh Mẫu Sơn tuyết trắng",
+    "overview": "Lạng Sơn là tỉnh miền núi biên giới chiến lược phía Đông Bắc, được xem là cửa ngõ giao thương đường bộ hàng đầu nối Việt Nam và các nước ASEAN với Trung Quốc, đồng thời nổi danh với cảnh sắc thiên nhiên và di tích lịch sử thiêng liêng.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "8.310,1 km²",
+        "sub": "Cách Hà Nội 154 km"
+      },
+      {
+        "label": "Dân số",
+        "value": "881.384",
+        "sub": "Nùng 43% · Tày 35% · Kinh 15%"
+      },
+      {
+        "label": "Biên giới",
+        "value": "> 231 km",
+        "sub": "Nhiều cửa khẩu quốc tế lớn"
+      },
+      {
+        "label": "Thế mạnh",
+        "value": "Kinh tế cửa khẩu",
+        "sub": "Dịch vụ logistic & Hoa hồi"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Dân tộc",
+        "icon": "geo",
+        "content": [
+          "Nằm ở phía Đông Bắc Việt Nam, giáp Cao Bằng, Quảng Ninh, Bắc Giang, Thái Nguyên, Bắc Kạn và đường biên giới dài hơn 231 km giáp Trung Quốc.",
+          "Dân tộc phong phú với người Nùng (chiếm ~43%), người Tày (~35%), người Kinh (~15%), người Dao và các dân tộc anh em khác."
+        ]
+      },
+      {
+        "title": "Tiên phong Cửa khẩu thông minh",
+        "icon": "trend",
+        "content": [
+          "Với vị trí địa chiến lược là cửa ngõ quốc tế quan trọng bậc nhất, Lạng Sơn là tỉnh tiên phong triển khai Đề án thí điểm Cửa khẩu thông minh tại Cửa khẩu Quốc tế Hữu Nghị - Hữu Nghị Quan.",
+          "Áp dụng công nghệ tự động hóa, định vị vệ tinh và thủ tục hải quan số, giúp thông quan 24/7 không gián đoạn."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Khu du lịch đỉnh Mẫu Sơn",
+        "image": "assets/images/image8.jpeg",
+        "caption": "Mẫu Sơn mùa đông tuyết phủ trắng xóa đỉnh núi",
+        "desc": "Nằm trên độ cao 1.200m - 1.541m so với mặt biển, khí hậu á nhiệt đới mát mẻ mùa hè, mùa đông buốt giá thường xuất hiện băng tuyết. Nơi đây có rừng hoa Đỗ Quyên cổ thụ bạt ngàn và kiến trúc biệt thự Pháp cổ."
+      },
+      {
+        "title": "Cửa khẩu Quốc tế Hữu Nghị & Cửa khẩu thông minh",
+        "image": "assets/images/image9.jpeg",
+        "caption": "Trung tâm giao thương sầm uất tại Cửa khẩu Quốc tế Hữu Nghị",
+        "desc": "Đầu mối xuất nhập khẩu hàng triệu tấn nông sản, công nghệ giữa Việt Nam và Trung Quốc với quy mô hiện đại hàng đầu khu vực."
+      },
+      {
+        "title": "Đặc sản Hoa Hồi Lạng Sơn",
+        "image": "assets/images/image10.jpeg",
+        "caption": "Hoa hồi xứ Lạng - Tinh hoa nông sản xuất khẩu quốc tế",
+        "desc": "Được mệnh danh là kho báu xứ Lạng, hoa hồi Lạng Sơn có hàm lượng tinh dầu cao bậc nhất, được bảo hộ chỉ dẫn địa lý và xuất khẩu tới hàng chục quốc gia."
+      }
+    ],
+    "heritage": [
+      "Quần thể danh thắng Động Nhị Thanh - Tam Thanh",
+      "Núi Tô Thị - Biểu tượng Nàng Vọng Phu thủy chung",
+      "Ải Chi Lăng hào hùng & Thành Nhà Mạc"
+    ],
+    "links": [
+      {
+        "title": "Cổng thông tin điện tử tỉnh Lạng Sơn",
+        "url": "https://langson.gov.vn/"
+      },
+      {
+        "title": "Phóng sự Cửa khẩu thông minh Hữu Nghị",
+        "url": "https://youtu.be/Kzmb31tonlM?si=O_sJstq94VQITQ-c"
+      }
+    ]
+  },
+  "2": {
+    "id": 2,
+    "name": "Cao Bằng",
+    "short": "Cao Bằng",
+    "slug": "cao-bang",
+    "regionId": "vung-1",
+    "regionName": "Trung Du miền núi Bắc Bộ",
+    "silhouette": "assets/silhouettes/02_cao_bang.png",
+    "litColor": "#06b6d4",
+    "quote": "Công viên địa chất toàn cầu · Đất Pác Bó lịch sử · Thác Bản Giốc hùng vĩ",
+    "overview": "Cao Bằng là một tỉnh miền núi biên giới phía Đông Bắc, nổi bật với cảnh sắc thiên nhiên kỳ vĩ được UNESCO công nhận là Công viên Địa chất Toàn cầu Non Nước Cao Bằng, cùng cội nguồn cách mạng hào hùng tại Pác Bó.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "6.703 km²",
+        "sub": "90% diện tích là đồi núi rừng"
+      },
+      {
+        "label": "Dân số",
+        "value": "~573.000",
+        "sub": "Đa số là Tày, Nùng, Mông, Dao"
+      },
+      {
+        "label": "Đường biên giới",
+        "value": "> 333 km",
+        "sub": "Giáp Quảng Tây (Trung Quốc)"
+      },
+      {
+        "label": "Hành chính",
+        "value": "TP. Cao Bằng",
+        "sub": "Trung tâm hành chính tỉnh"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Điều kiện tự nhiên",
+        "icon": "geo",
+        "content": [
+          "Vị trí: Nằm ở vùng Đông Bắc Việt Nam, có đường biên giới dài hơn 333 km giáp với khu tự trị dân tộc Choang Quảng Tây (Trung Quốc). Giáp với các tỉnh Hà Giang, Tuyên Quang, Bắc Kạn và Lạng Sơn.",
+          "Địa hình: Chủ yếu là đồi núi và rừng chiếm trên 90% diện tích tự nhiên, xen kẽ các thung lũng, hệ thống sông suối uốn lượn và dãy núi đá vôi kỳ vĩ.",
+          "Khí hậu: Nhiệt đới gió mùa vùng cao mát mẻ vào mùa hè, mùa đông lạnh sâu có nơi xuất hiện sương muối và băng tuyết."
+        ]
+      },
+      {
+        "title": "Kinh tế cửa khẩu & Thương mại biên mậu",
+        "icon": "trend",
+        "content": [
+          "Kinh tế chủ yếu dựa vào nông - lâm nghiệp, du lịch sinh thái và kinh tế cửa khẩu biên giới.",
+          "Cửa khẩu quốc tế Trà Lĩnh có lợi thế chiến lược kết nối Cao Bằng với thành phố Bách Sắc (Quảng Tây) và thị trường Tây Nam Trung Quốc.",
+          "Tỉnh đang định hướng tổ chức lại không gian kinh tế, thu hút đầu tư hạ tầng logistics và kho bãi hiện đại."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Thác Bản Giốc & Non nước Cao Bằng",
+        "image": "assets/images/image5.jpeg",
+        "caption": "Thác Bản Giốc - Thác nước tự nhiên lớn nhất Đông Nam Á",
+        "desc": "Thác Bản Giốc nằm tại huyện Trùng Khánh, là một trong những thác nước xuyên biên giới đẹp nhất hành tinh, dòng nước tung bọt trắng xóa giữa núi rừng xanh thẳm."
+      },
+      {
+        "title": "Cửa khẩu Quốc tế Trà Lĩnh",
+        "image": "assets/images/image6.jpeg",
+        "caption": "Hoạt động giao thương hàng hóa qua Cửa khẩu Trà Lĩnh",
+        "desc": "Cửa ngõ kết nối thương mại quan trọng đưa nông sản và hàng hóa Việt Nam vươn sâu vào thị trường Trung Quốc và quốc tế."
+      },
+      {
+        "title": "Làng đá cổ Khuổi Ky hơn 400 năm",
+        "image": "assets/images/image7.jpeg",
+        "caption": "Những ngôi nhà sàn bằng đá tự nhiên độc đáo ở Khuổi Ky",
+        "desc": "Làng đá Khuổi Ky (xã Đàm Thủy) nổi bật với những ngôi nhà sàn xếp bằng đá phiến tự nhiên, mái ngói âm dương cổ kính, lưu giữ nguyên vẹn bản sắc văn hóa Tày, được công nhận Làng văn hóa truyền thống tiêu biểu."
+      }
+    ],
+    "heritage": [
+      "Công viên Địa chất Toàn cầu UNESCO Non Nước Cao Bằng",
+      "Khu di tích lịch sử quốc gia đặc biệt Pác Bó",
+      "Động Ngườm Ngao & Quần thể hồ Thang Hen"
+    ],
+    "links": [
+      {
+        "title": "Cổng thông tin điện tử tỉnh Cao Bằng",
+        "url": "https://caobang.gov.vn/"
+      },
+      {
+        "title": "Phim tài liệu Làng đá Khuổi Ky 400 năm tuổi",
+        "url": "https://nongnghiepmoitruong.vn/video/lang-da-co-hon-400-nam-tuoi-tua-lung-vao-nui-da-o-cao-bang-tv375451.html"
+      }
+    ]
+  },
+  "3": {
+    "id": 3,
+    "name": "Hà Nội",
+    "short": "Hà Nội",
+    "slug": "03-ha-noi",
+    "regionId": "vung-2",
+    "regionName": "Đồng bằng sông Hồng",
+    "silhouette": "assets/silhouettes/03_ha_noi.png",
+    "litColor": "#ef4444",
+    "quote": "Vùng đất Đồng bằng sông Hồng · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Hà Nội là một trong những trung tâm trọng điểm thuộc Đồng bằng sông Hồng. Hà Nội là trung tâm lịch sử, chính trị và văn hóa lớn, có khu phố cổ, hồ, đền chùa, kiến trúc thuộc địa, bảo tàng và làng nghề. Du lịch phù hợp gồm di sản, ẩm thực, trải nghiệm đô thị, nghệ thuật và các làng văn hóa ven đô. Hà Nội là Thủ đô Việt Nam; khu vực phố cổ phát triển từ các phường nghề, trong khi ngoại thành còn nhiều làng nghề, di tích và cảnh quan nông nghiệp.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "3.359,84 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "8.807.523",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "75 xã, 51 phường",
+        "sub": "Thành phố trực thuộc Trung ương"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "21.028°B, 105.854°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Giữ nguyên địa giới cấp tỉnh.",
+          "Đơn vị hành chính cấp xã: 75 xã, 51 phường; tổng 126 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 21.028°B, 105.854°Đ (khu vực hồ Hoàn Kiếm)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Dịch vụ, thương mại, tài chính, giáo dục, y tế và hành chính; công nghệ thông tin; công nghiệp chế biến; nông nghiệp ngoại thành và các ngành sáng tạo."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Hà Nội là trung tâm lịch sử, chính trị và văn hóa lớn, có khu phố cổ, hồ, đền chùa, kiến trúc thuộc địa, bảo tàng và làng nghề. Du lịch phù hợp gồm di sản, ẩm thực, trải nghiệm đô thị, nghệ thuật và các làng văn hóa ven đô.",
+          "Hà Nội là Thủ đô Việt Nam; khu vực phố cổ phát triển từ các phường nghề, trong khi ngoại thành còn nhiều làng nghề, di tích và cảnh quan nông nghiệp."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Hoàng thành Thăng Long",
+        "image": "assets/images/ds_image1.jpeg",
+        "caption": "Địa danh tiêu biểu: Hoàng thành Thăng Long",
+        "desc": "Di sản văn hóa thế giới UNESCO, trung tâm quyền lực chính trị qua 13 thế kỷ liên tục từ thời Lý, Trần, Lê đến thời đại Hồ Chí Minh."
+      },
+      {
+        "title": "Văn Miếu – Quốc Tử Giám",
+        "image": "assets/images/ds_image2.jpeg",
+        "caption": "Địa danh tiêu biểu: Văn Miếu – Quốc Tử Giám",
+        "desc": "Trường đại học đầu tiên của Việt Nam, biểu tượng truyền thống hiếu học và trọng dụng nhân tài của dân tộc."
+      },
+      {
+        "title": "Khu phố cổ Hà Nội & Hồ Hoàn Kiếm",
+        "image": "assets/images/ds_image3.png",
+        "caption": "Địa danh tiêu biểu: Khu phố cổ Hà Nội & Hồ Hoàn Kiếm",
+        "desc": "Trái tim ngàn năm văn hiến với Tháp Rùa cổ kính, cầu Thê Húc, đền Ngọc Sơn và 36 phố phường rêu phong nhộn nhịp."
+      }
+    ],
+    "heritage": [
+      "Hoàng thành Thăng Long",
+      "Văn Miếu – Quốc Tử Giám"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Hà Nội trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=Ho%C3%A0ng%20th%C3%A0nh%20Th%C4%83ng%20Long%3B%20V%C4%83n%20Mi%E1%BA%BFu%20Qu%E1%BB%91c%20T%E1%BB%AD%20Gi%C3%A1m%3B%20ph%E1%BB%91%20c%E1%BB%95%20H%C3%A0%20N%E1%BB%99i"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Hà Nội)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=Ho%C3%A0ng%20th%C3%A0nh%20Th%C4%83ng%20Long%3B%20V%C4%83n%20Mi%E1%BA%BFu%20Qu%E1%BB%91c%20T%E1%BB%AD%20Gi%C3%A1m%3B%20ph%E1%BB%91%20c%E1%BB%95%20H%C3%A0%20N%E1%BB%99i&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "4": {
+    "id": 4,
+    "name": "Thái Nguyên",
+    "short": "Thái Nguyên",
+    "slug": "thai-nguyen",
+    "regionId": "vung-1",
+    "regionName": "Trung Du miền núi Bắc Bộ",
+    "silhouette": "assets/silhouettes/04_thai_nguyen.png",
+    "litColor": "#10b981",
+    "quote": "Đệ nhất danh trà · Trung tâm công nghiệp hiện đại · Đất thép miền Gang",
+    "overview": "Thái Nguyên là trung tâm kinh tế, giáo dục và công nghiệp công nghệ cao của vùng Trung du miền núi phía Bắc. Nơi đây vừa là \"thủ phủ chè\" nổi tiếng với đệ nhất danh trà Tân Cương, vừa là trung tâm sản xuất điện tử hàng đầu quốc gia.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "8.375,2 km²",
+        "sub": "Sau hợp nhất mở rộng"
+      },
+      {
+        "label": "Dân số",
+        "value": "1.799.489",
+        "sub": "Số liệu cuối năm 2024"
+      },
+      {
+        "label": "GRDP bình quân",
+        "value": "114 triệu đ/năm",
+        "sub": "Công nghiệp - XD chiếm 54%"
+      },
+      {
+        "label": "Đặc sản",
+        "value": "Chè Tân Cương",
+        "sub": "Di sản văn hóa phi vật thể QG"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Thủ phủ chè Việt Nam - Trà Tân Cương",
+        "icon": "leaf",
+        "content": [
+          "Thái Nguyên nức tiếng gần xa là \"thủ phủ chè\" với vùng chè đặc sản Tân Cương. Thổ nhưỡng và nguồn nước sông Công, hồ Núi Cốc tạo nên hương vị tiền chát hậu ngọt, nước chè xanh trong sánh vàng độc nhất vô nhị.",
+          "Văn hóa thưởng trà của Thái Nguyên đã được ghi danh là Di sản văn hóa phi vật thể quốc gia."
+        ]
+      },
+      {
+        "title": "Cực tăng trưởng công nghiệp công nghệ cao",
+        "icon": "chip",
+        "content": [
+          "Là trung tâm luyện kim truyền thống và trung tâm sản xuất điện tử lớn hàng đầu cả nước, nơi đặt các tổ hợp sản xuất quy mô tỷ USD của Samsung Electronics.",
+          "Có trữ lượng khoáng sản lớn, đặc biệt là vonfram và than đá trữ lượng cao."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Đồi chè Tân Cương bát ngát",
+        "image": "assets/images/image16.jpeg",
+        "caption": "Vùng chè hữu cơ Tân Cương xanh mướt uốn lượn",
+        "desc": "Những nương chè xanh mơn mởn trải dài tít tắp theo sườn đồi, tạo nên phong cảnh tuyệt đẹp thu hút hàng trăm nghìn lượt khách du lịch trải nghiệm hái chè và sao chè thủ công."
+      },
+      {
+        "title": "Tổ hợp Công nghiệp công nghệ cao",
+        "image": "assets/images/image17.jpeg",
+        "caption": "Khu công nghiệp Yên Bình - Tổ hợp sản xuất điện tử hàng đầu",
+        "desc": "Thái Nguyên thu hút các tập đoàn công nghệ toàn cầu, đóng góp tỷ trọng xuất khẩu thiết bị viễn thông và linh kiện điện tử lớn nhất cả nước."
+      },
+      {
+        "title": "Dây chuyền sản xuất tự động hóa tiên tiến",
+        "image": "assets/images/image18.jpeg",
+        "caption": "Sản xuất công nghiệp chế biến chế tạo hiện đại",
+        "desc": "Hệ thống nhà xưởng hiện đại, robot và công nghệ thông minh đưa Thái Nguyên vươn lên top đầu tăng trưởng kinh tế miền Bắc."
+      },
+      {
+        "title": "Trục du lịch Hồ Núi Cốc – Hồ Ba Bể",
+        "image": "assets/images/image19.jpeg",
+        "caption": "Cảnh sắc thơ mộng trên mặt nước hồ trên núi",
+        "desc": "Hồ Núi Cốc gắn liền với chuyện tình huyền thoại chàng Cốc nàng Công, tạo thành chuỗi du lịch sinh thái hồ trên núi nối liền với danh thắng Hồ Ba Bể hùng vĩ."
+      }
+    ],
+    "heritage": [
+      "Khu di tích lịch sử quốc gia đặc biệt An toàn khu (ATK) Định Hóa",
+      "Bảo tàng Văn hóa các Dân tộc Việt Nam tại trung tâm TP Thái Nguyên",
+      "Không gian văn hóa Trà Tân Cương"
+    ],
+    "links": [
+      {
+        "title": "Cổng thông tin điện tử tỉnh Thái Nguyên",
+        "url": "https://thainguyen.gov.vn/"
+      },
+      {
+        "title": "VTV V-Việt Nam Chè Tân Cương Thái Nguyên",
+        "url": "https://vtv.vn/video/v-viet-nam-che-tan-cuong-thai-nguyen-678829.htm"
+      }
+    ]
+  },
+  "5": {
+    "id": 5,
+    "name": "Tuyên Quang",
+    "short": "Tuyên Quang",
+    "slug": "tuyen-quang",
+    "regionId": "vung-1",
+    "regionName": "Trung Du miền núi Bắc Bộ",
+    "silhouette": "assets/silhouettes/05_tuyen_quang.png",
+    "litColor": "#22c55e",
+    "quote": "Thủ đô Khu giải phóng · Cội nguồn cách mạng · Đất đồi nương trù phú",
+    "overview": "Tuyên Quang là một tỉnh miền núi thuộc vùng Đông Bắc Bộ Việt Nam, nổi tiếng với truyền thống lịch sử vẻ vang cùng danh xưng \"Thủ đô kháng chiến\". Tỉnh sở hữu cảnh quan thiên nhiên tráng lệ từ Cao nguyên đá Đồng Văn, Cột cờ Lũng Cú đến hồ sinh thái Na Hang.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "13.795,5 km²",
+        "sub": "Sau điều chỉnh sáp nhập"
+      },
+      {
+        "label": "Dân số",
+        "value": "1.865.270",
+        "sub": "Giữa năm 2025"
+      },
+      {
+        "label": "Hành chính",
+        "value": "7 phường, 117 xã",
+        "sub": "Trung tâm: P. Minh Xuân"
+      },
+      {
+        "label": "Kinh tế",
+        "value": "Dịch vụ 41,8%",
+        "sub": "CN-XD 28% · Nông nghiệp 25,8%"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Điều kiện tự nhiên",
+        "icon": "geo",
+        "content": [
+          "Vị trí: Nằm ở trung tâm vùng Đông Bắc Bộ, tiếp giáp với các tỉnh Cao Bằng, Thái Nguyên, Phú Thọ, Lào Cai và có đường biên giới quốc gia.",
+          "Địa hình: Chủ yếu là đồi núi hiểm trở, bị chia cắt mạnh bởi các dãy núi cao cùng hệ thống sông suối lớn như sông Lô và sông Gâm.",
+          "Khí hậu: Nhiệt đới gió mùa vùng núi, mùa đông lạnh mát, mùa hè ôn hòa, tạo điều kiện thuận lợi phát triển lâm nghiệp và cây ăn quả đặc sản."
+        ]
+      },
+      {
+        "title": "Dân số, Hành chính & Con người",
+        "icon": "users",
+        "content": [
+          "Quy mô dân số đạt trên 1,86 triệu người, là nơi hội tụ sinh sống gắn bó của nhiều đồng bào dân tộc anh em như Tày, Dao, Mông, Nùng, Kinh, Sán Dìu...",
+          "Đơn vị hành chính gồm 7 phường và 117 xã. Thủ phủ đặt tại Phường Minh Xuân, trung tâm kinh tế - chính trị - văn hóa của toàn tỉnh."
+        ]
+      },
+      {
+        "title": "Kinh tế & Định hướng phát triển",
+        "icon": "trend",
+        "content": [
+          "Cơ cấu kinh tế: Ngành dịch vụ chiếm tỷ trọng lớn nhất (khoảng 41,79%), tiếp theo là công nghiệp - xây dựng (27,99%) và nông - lâm - thủy sản (25,77%).",
+          "Định hướng: Tỉnh tập trung phát triển du lịch sinh thái - lịch sử, nông nghiệp công nghệ cao và thu hút các ngành công nghiệp chế biến sâu."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Cột cờ Quốc gia Lũng Cú & Cao nguyên đá",
+        "image": "assets/images/image1.jpeg",
+        "caption": "Cột cờ Quốc gia Lũng Cú kiêu hãnh trên đỉnh núi Rồng",
+        "desc": "Cột cờ Quốc gia Lũng Cú là biểu tượng thiêng liêng nơi địa đầu Tổ quốc, nằm giữa cảnh quan hùng vĩ của Cao nguyên đá Đồng Văn. Nổi bật trên đỉnh núi Rồng, lá cờ đỏ sao vàng 54m² tung bay giữa núi đá trùng điệp, bản làng vùng cao và những thửa ruộng uốn lượn, khẳng định chủ quyền quốc gia vững chắc."
+      },
+      {
+        "title": "Kỳ quan Cao nguyên đá Đồng Văn",
+        "image": "assets/images/image2.jpeg",
+        "caption": "Cảnh sắc kỳ vĩ của Công viên Địa chất Cao nguyên đá",
+        "desc": "Những vạt núi đá vôi xám tai mèo trải dài bất tận hòa cùng cuộc sống kiên cường của đồng bào vùng cao tạo nên một bức tranh thiên nhiên và nhân văn vô cùng độc đáo."
+      },
+      {
+        "title": "Mật ong bạc hà Mèo Vạc",
+        "image": "assets/images/image3.jpeg",
+        "caption": "Mật ong hoa bạc hà tự nhiên sánh vàng quyến rũ trên cao nguyên đá",
+        "desc": "Được tạo nên từ nguồn hoa bạc hà tự nhiên mọc trên các vách đá vôi cao nguyên, mật ong có màu vàng chanh óng ánh, vị ngọt thanh mát và hương thơm thảo mộc đặc trưng hiếm có."
+      },
+      {
+        "title": "Cam sành Hàm Yên",
+        "image": "assets/images/image4.jpeg",
+        "caption": "Thu hoạch cam sành Hàm Yên quả vỏ sần tép vàng mọng nước",
+        "desc": "Cam sành Hàm Yên có quả vỏ sần, tép cam vàng óng mọng nước, vị ngọt thanh pha chút chua dịu, là một trong những loại trái cây đặc sản nức tiếng cả nước."
+      }
+    ],
+    "heritage": [
+      "Khu di tích quốc gia đặc biệt Tân Trào - Thủ đô kháng chiến",
+      "Khu du lịch sinh thái Na Hang - Lâm Bình",
+      "Suối khoáng nóng Mỹ Lâm"
+    ],
+    "links": [
+      {
+        "title": "Cổng thông tin điện tử tỉnh Tuyên Quang",
+        "url": "https://www.tuyenquang.gov.vn/"
+      },
+      {
+        "title": "Video tư liệu Tuyên Quang",
+        "url": "https://www.tuyenquang.gov.vn/vi/media/video?id=8598&type=TYPE_VIDEO"
+      },
+      {
+        "title": "Bài viết: Cột cờ Lũng Cú biểu tượng thiêng liêng",
+        "url": "https://www.tuyenquang.gov.vn/vi/post/cot-co-quoc-gia-lung-cu-bieu-tuong-thieng-lieng-tren-manh-dat-tuyen-quang-moi?id=153402&type=NEWS"
+      }
+    ]
+  },
+  "6": {
+    "id": 6,
+    "name": "Lào Cai",
+    "short": "Lào Cai",
+    "slug": "lao-cai",
+    "regionId": "vung-1",
+    "regionName": "Trung Du miền núi Bắc Bộ",
+    "silhouette": "assets/silhouettes/06_lao_cai.png",
+    "litColor": "#eab308",
+    "quote": "Nóc nhà Đông Dương Fansipan · Sa Pa trong sương · Kỳ quan ruộng bậc thang",
+    "overview": "Lào Cai là tỉnh vùng cao biên giới Tây Bắc, sở hữu đỉnh Fansipan 3.143m kiêu hãnh - \"Nóc nhà Đông Dương\", khu du lịch quốc tế Sa Pa, kỳ quan ruộng bậc thang Mù Cang Chải cùng nguồn tài nguyên Apatit độc nhất vô nhị của quốc gia.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "13.256,9 km²",
+        "sub": "Dãy Hoàng Liên Sơn kỳ vĩ"
+      },
+      {
+        "label": "Dân số",
+        "value": "1.778.785",
+        "sub": "27 dân tộc anh em"
+      },
+      {
+        "label": "Đỉnh Fansipan",
+        "value": "3.143 m",
+        "sub": "Nóc nhà Đông Dương"
+      },
+      {
+        "label": "Du lịch",
+        "value": "> 10,5 triệu",
+        "sub": "Lượt du khách mỗi năm"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Đỉnh Fansipan - Nóc nhà Đông Dương",
+        "icon": "mountain",
+        "content": [
+          "Sừng sững giữa đại ngàn dãy Hoàng Liên Sơn, đỉnh Fansipan (3.143 m) là biểu tượng tự hào của du lịch Việt Nam.",
+          "Nằm cách Sa Pa 9 km, Fansipan mở ra cảnh sắc thiên nhiên kỳ vĩ với biển mây bồng bềnh cuộn sóng, thảm rừng nguyên sinh đỗ quyên cổ thụ và tuyết trắng phủ ngọn núi vào mùa đông."
+        ]
+      },
+      {
+        "title": "Tài nguyên Apatit & Kinh tế cửa khẩu",
+        "icon": "gem",
+        "content": [
+          "Mỏ Apatit Lào Cai nằm dọc hữu ngạn sông Hồng dài gần 100 km, là mỏ apatit duy nhất của cả nước, nền tảng cho ngành phân bón hóa chất quốc gia.",
+          "Tỉnh có hơn 147.000 ha quế hữu cơ và mạng lưới cửa khẩu quốc tế đường bộ, đường sắt sang tỉnh Vân Nam (Trung Quốc)."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Tuyệt tác Ruộng bậc thang Mù Cang Chải & Sa Pa",
+        "image": "assets/images/image20.jpeg",
+        "caption": "Mùa vàng trên những triền ruộng bậc thang uốn lượn",
+        "desc": "Di tích quốc gia đặc biệt danh lam thắng cảnh ruộng bậc thang, kiệt tác kiến trúc nông nghiệp do bàn tay tài hoa của đồng bào Mông kiến tạo qua hàng trăm năm, rực rỡ như những nấc thang lên thiên đường khi lúa chín vàng."
+      }
+    ],
+    "heritage": [
+      "Đỉnh Fansipan 3.143m & Vườn quốc gia Hoàng Liên",
+      "Thị xã du lịch quốc tế Sa Pa & Đèo Ô Quy Hồ",
+      "Chợ phiên Bắc Hà rực rỡ sắc màu thổ cẩm"
+    ],
+    "links": [
+      {
+        "title": "Cổng thông tin điện tử tỉnh Lào Cai",
+        "url": "https://laocai.gov.vn/"
+      },
+      {
+        "title": "Video Chinh phục đỉnh Fansipan 3.143m",
+        "url": "https://www.youtube.com/watch?v=9QjsgRa2R7w"
+      },
+      {
+        "title": "VTV Mê mẩn vẻ đẹp ruộng bậc thang Mù Cang Chải",
+        "url": "https://vtv.vn/video/me-man-ve-dep-ruong-bac-thang-mu-cang-chai-395183.htm"
+      }
+    ]
+  },
+  "7": {
+    "id": 7,
+    "name": "Bắc Ninh",
+    "short": "Bắc Ninh",
+    "slug": "07-bac-ninh",
+    "regionId": "vung-2",
+    "regionName": "Đồng bằng sông Hồng",
+    "silhouette": "assets/silhouettes/07_bac_ninh.png",
+    "litColor": "#f59e0b",
+    "quote": "Vùng đất Đồng bằng sông Hồng · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Bắc Ninh là một trong những trung tâm trọng điểm thuộc Đồng bằng sông Hồng. Bắc Ninh có mật độ di sản văn hóa dày đặc, nổi bật với dân ca Quan họ, chùa cổ, đình làng và di tích khởi nghĩa – lịch sử. Du lịch di sản có thể kết hợp biểu diễn Quan họ, tham quan làng nghề và các điểm Phật giáo. Vùng Kinh Bắc là cái nôi Quan họ; Bắc Ninh mới kết hợp các làng nghề, di tích văn hóa của Bắc Ninh cũ với vùng đồi và di tích lịch sử Bắc Giang.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "4.718,60 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "3.619.433",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "66 xã, 33 phường",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "21.186°B, 106.076°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Bắc Ninh + Bắc Giang.",
+          "Đơn vị hành chính cấp xã: 66 xã, 33 phường; tổng 99 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 21.186°B, 106.076°Đ (khu vực trung tâm Bắc Ninh)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Công nghiệp điện tử và sản xuất công nghệ cao; công nghiệp hỗ trợ; logistics; dịch vụ; nông nghiệp và làng nghề thủ công."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Bắc Ninh có mật độ di sản văn hóa dày đặc, nổi bật với dân ca Quan họ, chùa cổ, đình làng và di tích khởi nghĩa – lịch sử. Du lịch di sản có thể kết hợp biểu diễn Quan họ, tham quan làng nghề và các điểm Phật giáo.",
+          "Vùng Kinh Bắc là cái nôi Quan họ; Bắc Ninh mới kết hợp các làng nghề, di tích văn hóa của Bắc Ninh cũ với vùng đồi và di tích lịch sử Bắc Giang."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Dân ca Quan họ Bắc Ninh",
+        "image": "assets/images/ds_image4.jpeg",
+        "caption": "Địa danh tiêu biểu: Dân ca Quan họ Bắc Ninh",
+        "desc": "Di sản văn hóa phi vật thể đại diện của nhân loại được UNESCO vinh danh năm 2009, nét tinh hoa văn hóa Kinh Bắc."
+      },
+      {
+        "title": "Chùa Bút Tháp & Chùa Dâu",
+        "image": "assets/images/ds_image5.jpeg",
+        "caption": "Địa danh tiêu biểu: Chùa Bút Tháp & Chùa Dâu",
+        "desc": "Các ngôi chùa cổ linh thiêng bậc nhất, nơi lưu giữ bảo vật quốc gia tượng Phật Bà Quan Âm nghìn mắt nghìn tay."
+      }
+    ],
+    "heritage": [
+      "Không gian văn hóa Quan họ",
+      "Chùa Bút Tháp"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Bắc Ninh trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=d%C3%A2n%20ca%20Quan%20h%E1%BB%8D%20B%E1%BA%AFc%20Ninh%3B%20ch%C3%B9a%20B%C3%BAt%20Th%C3%A1p%3B%20ch%C3%B9a%20V%C4%A9nh%20Nghi%C3%AAm%20B%E1%BA%AFc%20Giang"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Bắc Ninh)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=d%C3%A2n%20ca%20Quan%20h%E1%BB%8D%20B%E1%BA%AFc%20Ninh%3B%20ch%C3%B9a%20B%C3%BAt%20Th%C3%A1p%3B%20ch%C3%B9a%20V%C4%A9nh%20Nghi%C3%AAm%20B%E1%BA%AFc%20Giang&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "8": {
+    "id": 8,
+    "name": "Phú Thọ",
+    "short": "Phú Thọ",
+    "slug": "phu-tho",
+    "regionId": "vung-1",
+    "regionName": "Trung Du miền núi Bắc Bộ",
+    "silhouette": "assets/silhouettes/08_phu_tho.png",
+    "litColor": "#f59e0b",
+    "quote": "Đất Tổ Hùng Vương · Cội nguồn dân tộc Việt · Ngã ba sông huyền thoại",
+    "overview": "Phú Thọ là vùng Đất Tổ thiêng liêng, cội nguồn của muôn triệu người con đất Việt. Tỉnh giữ vị trí cửa ngõ phía Tây Bắc Thủ đô Hà Nội, là nơi hội tụ ba dòng sông lớn Hồng, Lô, Đà và hai di sản văn hóa phi vật thể đại diện nhân loại.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "9.361,4 km²",
+        "sub": "Sau sáp nhập mở rộng"
+      },
+      {
+        "label": "Dân số",
+        "value": "> 4.000.000",
+        "sub": "Kinh, Mường, Dao, Sán Chay..."
+      },
+      {
+        "label": "Hành chính",
+        "value": "15 phường, 133 xã",
+        "sub": "Trung tâm: TP. Việt Trì"
+      },
+      {
+        "label": "Di sản UNESCO",
+        "value": "2 Di sản nhân loại",
+        "sub": "Thờ cúng Hùng Vương & Hát Xoan"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Cội nguồn văn hóa & Di sản Thế giới",
+        "icon": "star",
+        "content": [
+          "Tín ngưỡng thờ cúng Hùng Vương được UNESCO công nhận là Di sản văn hóa phi vật thể đại diện của nhân loại năm 2012. Ngày Giỗ Tổ 10/3 âm lịch là ngày hội đại đoàn kết toàn dân tộc.",
+          "Hát Xoan Phú Thọ - làn điệu dân ca nghi lễ cổ truyền độc đáo được UNESCO vinh danh di sản nhân loại năm 2017."
+        ]
+      },
+      {
+        "title": "Kinh tế & Năng lượng trọng điểm",
+        "icon": "trend",
+        "content": [
+          "Cơ cấu kinh tế chuyển dịch năng động: Công nghiệp - Xây dựng (>55%), Dịch vụ (>32%), Nông - lâm - thủy sản (~12,5%).",
+          "Sở hữu các công trình năng lượng quốc gia lớn, mạng lưới khu công nghiệp kết nối cao tốc Hà Nội - Lào Cai thông suốt."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Khu di tích lịch sử Quốc gia đặc biệt Đền Hùng",
+        "image": "assets/images/image11.jpeg",
+        "caption": "Điện Kính Thiên linh thiêng trên đỉnh núi Nghĩa Lĩnh",
+        "desc": "Nơi thờ tự các Vua Hùng đã có công dựng nước Văn Lang, trung tâm văn hóa tâm linh cội nguồn của toàn thể cộng đồng người Việt Nam trong và ngoài nước."
+      },
+      {
+        "title": "Nhà máy Thủy điện Hòa Bình trên dòng sông Đà",
+        "image": "assets/images/image12.jpeg",
+        "caption": "Toàn cảnh Nhà máy Thủy điện Hòa Bình mở rộng 2.400 MW",
+        "desc": "Công trình năng lượng thế kỷ của đất nước, khánh thành mở rộng cuối năm 2025 đạt tổng công suất 2.400 MW, đóng vai trò sống còn trong phát điện, trị thủy sông Đà và tưới tiêu nông nghiệp."
+      },
+      {
+        "title": "Thị trấn mờ sương Tam Đảo",
+        "image": "assets/images/image13.jpeg",
+        "caption": "Toàn cảnh khu du lịch Tam Đảo bồng bềnh trong mây",
+        "desc": "Được ví như Đà Lạt của miền Bắc với khí hậu bốn mùa trong một ngày, sương mù bao phủ quanh năm cùng thiên nhiên nguyên sơ tươi đẹp."
+      },
+      {
+        "title": "Nhà thờ đá cổ Tam Đảo",
+        "image": "assets/images/image14.jpeg",
+        "caption": "Kiến trúc Gothic cổ kính bằng đá của Nhà thờ Tam Đảo",
+        "desc": "Xây dựng từ thời Pháp thuộc bằng đá xanh, tọa lạc uy nghiêm trên triền núi nhìn xuống toàn cảnh thị trấn thơ mộng."
+      },
+      {
+        "title": "Quảng trường Tam Đảo & Vườn quốc gia",
+        "image": "assets/images/image15.jpeg",
+        "caption": "Quảng trường lễ hội rực rỡ sắc màu giữa núi rừng Tam Đảo",
+        "desc": "Không gian sinh hoạt văn hóa, nghệ thuật ngoài trời sôi động cùng thảm thực vật phong phú của Vườn quốc gia Tam Đảo."
+      }
+    ],
+    "heritage": [
+      "Đền Quốc Mẫu Âu Cơ (huyện Hạ Hòa)",
+      "Hát Xoan các làng cổ An Thái, Thét, Kim Đới, Phù Đức",
+      "Đầm Ao Châu & Vườn quốc gia Xuân Sơn"
+    ],
+    "links": [
+      {
+        "title": "Cổng thông tin điện tử tỉnh Phú Thọ",
+        "url": "https://phutho.gov.vn/"
+      },
+      {
+        "title": "Phim tài liệu Lễ hội Đền Hùng cội nguồn dân tộc",
+        "url": "https://youtu.be/Qw3XCMRxMr8?si=b2FoKGitDAD-ugnp"
+      }
+    ]
+  },
+  "9": {
+    "id": 9,
+    "name": "Lai Châu",
+    "short": "Lai Châu",
+    "slug": "lai-chau",
+    "regionId": "vung-1",
+    "regionName": "Trung Du miền núi Bắc Bộ",
+    "silhouette": "assets/silhouettes/09_lai_chau.png",
+    "litColor": "#ec4899",
+    "quote": "Đỉnh mây Pu Ta Leng · Thủy điện Lai Châu rực sáng · Vựa lúa Mường Than Séng Cù",
+    "overview": "Lai Châu là tỉnh vùng cao Tây Bắc sở hữu địa hình núi non điệp trùng hiểm trở, những đỉnh núi cao ngất trời như Pu Ta Leng, San Lùng, công trình Thủy điện Lai Châu hùng vĩ trên sông Đà và đặc sản gạo Séng Cù của vựa lúa Mường Than trứ danh.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "9.068,8 km²",
+        "sub": "Đứng thứ 10/63 tỉnh thành"
+      },
+      {
+        "label": "Dân số",
+        "value": "512.601",
+        "sub": "20 dân tộc thiểu số"
+      },
+      {
+        "label": "Thủy điện Lai Châu",
+        "value": "1.200 MW",
+        "sub": "Lớn thứ 3 trên sông Đà"
+      },
+      {
+        "label": "Đỉnh Pu Ta Leng",
+        "value": "3.049 m",
+        "sub": "Nóc nhà thứ 2 Đông Dương"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa hình hiểm trở",
+        "icon": "mountain",
+        "content": [
+          "Phía Bắc giáp Trung Quốc với đường biên giới 265,165 km và Cửa khẩu quốc tế Ma Lù Thàng; phía Tây và Nam giáp Điện Biên; phía Đông giáp Lào Cai và Yên Bái; phía Nam giáp Sơn La.",
+          "Địa hình chia cắt hiểm trở bậc nhất với những dãy núi cao ngất trời, thung lũng sâu thẳm và hệ thống sông suối dốc đứng."
+        ]
+      },
+      {
+        "title": "Công nghiệp Thủy điện sông Đà & Cửa khẩu",
+        "icon": "bolt",
+        "content": [
+          "Trụ cột kinh tế công nghiệp thủy điện hàng đầu với Nhà máy Thủy điện Lai Châu (1.200 MW) khánh thành năm 2016, sản lượng điện 4,7 tỷ kWh/năm.",
+          "Kinh tế cửa khẩu Ma Lù Thàng và xuất khẩu nông sản chất lượng cao."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Nhà máy Thủy điện Lai Châu trên sông Đà",
+        "image": "assets/images/image27.jpeg",
+        "caption": "Công trình Thủy điện Lai Châu nguy nga trên dòng chính sông Đà",
+        "desc": "Công trình thủy điện bậc thang cao nhất trên dòng chính sông Đà, công suất 1.200 MW, góp phần bảo đảm an ninh năng lượng quốc gia và phát triển kinh tế vùng Tây Bắc."
+      },
+      {
+        "title": "Gạo Séng Cù & Vựa lúa Mường Than",
+        "image": "assets/images/image28.jpeg",
+        "caption": "Cánh đồng Mường Than thẳng cánh cò bay",
+        "desc": "Vựa lúa lớn thứ ba miền Tây Bắc \"Nhất Thanh, nhì Lò, tam Than, tứ Tấc\". Đặc sản gạo Séng Cù hạt mẩy, dẻo thơm, giàu dinh dưỡng nức tiếng gần xa."
+      },
+      {
+        "title": "Rừng hoa Đỗ Quyên đỉnh Pu Ta Leng",
+        "image": "assets/images/image29.jpeg",
+        "caption": "Sắc màu hoa đỗ quyên rực rỡ trên đỉnh núi cao 3.049m",
+        "desc": "Pu Ta Leng cao 3.049m (xã Hồ Thầu) được xem là nóc nhà thứ 2 của Đông Dương. Cứ mỗi độ xuân về, rừng hoa đỗ quyên cổ thụ lại bung nở rực rỡ muôn sắc đỏ, hồng, tím huyền ảo giữa mây trời."
+      }
+    ],
+    "heritage": [
+      "Đèo Ô Quy Hồ (Cổng trời Lai Châu) - Đèo dài và hiểm trở nhất Việt Nam",
+      "Quần thể danh thắng Động Tiên Sơn (huyện Tam Đường)",
+      "Bản Sin Suối Hồ - Làng du lịch cộng đồng tiêu biểu ASEAN"
+    ],
+    "links": [
+      {
+        "title": "Cổng thông tin điện tử tỉnh Lai Châu",
+        "url": "https://laichau.gov.vn/"
+      },
+      {
+        "title": "Phim tài liệu Gạo Séng Cù đặc sản Mường Than",
+        "url": "https://nongnghiepmoitruong.vn/video/seng-cu--dac-san-cua-vua-lua-muong-than-tv376084.html"
+      },
+      {
+        "title": "Báo Lai Châu: Rực rỡ sắc màu hoa đỗ quyên Pu Ta Leng",
+        "url": "https://baolaichau.vn/videos/4874/ruc-ro-sac-mau-hoa-do-quyen-972190"
+      }
+    ]
+  },
+  "10": {
+    "id": 10,
+    "name": "Điện Biên",
+    "short": "Điện Biên",
+    "slug": "dien-bien",
+    "regionId": "vung-1",
+    "regionName": "Trung Du miền núi Bắc Bộ",
+    "silhouette": "assets/silhouettes/10_dien_bien.png",
+    "litColor": "#a855f7",
+    "quote": "Chiến thắng lừng lẫy năm châu · Điểm cực Tây A Pa Chải · Cánh đồng Mường Thanh",
+    "overview": "Điện Biên là tỉnh biên cương Tây Bắc gắn liền với mốc son chói lọi trong lịch sử dân tộc - Chiến thắng Điện Biên Phủ ngày 07/05/1954. Đây cũng là tỉnh duy nhất của nước ta tiếp giáp với cả hai quốc gia Lào và Trung Quốc.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "9.541 km²",
+        "sub": "Cách Hà Nội 504 km"
+      },
+      {
+        "label": "Dân số",
+        "value": "~670.000",
+        "sub": "19 dân tộc: Mông, Thái, Kinh..."
+      },
+      {
+        "label": "Đặc điểm vị trí",
+        "value": "Ngã ba biên giới",
+        "sub": "Giáp cả Lào và Trung Quốc"
+      },
+      {
+        "label": "Lịch sử",
+        "value": "Chiến thắng 1954",
+        "sub": "Di tích quốc gia đặc biệt"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa đầu & Điểm cực Tây Tổ quốc",
+        "icon": "compass",
+        "content": [
+          "Cách Thủ đô Hà Nội 504 km về phía Tây, phía Đông giáp Sơn La, phía Bắc giáp Lai Châu, Tây Bắc giáp Vân Nam (Trung Quốc), Tây và Nam giáp Lào.",
+          "A Pa Chải (xã Sín Thầu) là điểm cực Tây của dải đất chữ S, nơi cắm cột mốc số 0 tiếp giáp ngã ba biên giới Việt - Lào - Trung."
+        ]
+      },
+      {
+        "title": "Chiến thắng Điện Biên Phủ lịch sử",
+        "icon": "medal",
+        "content": [
+          "Quần thể di tích Chiến trường Điện Biên Phủ là biểu tượng của chủ nghĩa anh hùng cách mạng: Đồi A1, Hầm tướng Đờ Cát, Cầu Mường Thanh, Sở chỉ huy chiến dịch Mường Phăng.",
+          "Tượng đài chiến thắng Điện Biên Phủ sừng sững trên đỉnh đồi D1, là niềm tự hào của muôn thế hệ người Việt."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Cột cờ A Pa Chải - Cực Tây Tổ quốc",
+        "image": "assets/images/image24.jpeg",
+        "caption": "Cột cờ A Pa Chải kiêu hãnh nơi cực Tây Tổ quốc",
+        "desc": "Tọa lạc tại đỉnh núi Khoang La San, cao 1.864m so với mực nước biển, điểm cực Tây thiêng liêng nơi một tiếng gà gáy cả ba nước đều nghe."
+      },
+      {
+        "title": "Tượng đài Chiến thắng Điện Biên Phủ",
+        "image": "assets/images/image25.jpeg",
+        "caption": "Tượng đài Chiến thắng Điện Biên Phủ uy nghiêm trên đồi D1",
+        "desc": "Cụm tượng đài bằng đồng sừng sững tạc ghi chiến công chấn động địa cầu, thể hiện tinh thần đoàn kết bất diệt của bộ đội và nhân dân các dân tộc."
+      },
+      {
+        "title": "Cửa khẩu Quốc tế Tây Trang",
+        "image": "assets/images/image26.jpeg",
+        "caption": "Cửa khẩu quốc tế Tây Trang kết nối trực tiếp với Bắc Lào",
+        "desc": "Cửa ngõ giao thương đường bộ then chốt giữa Việt Nam và Lào, gắn kết tình hữu nghị đặc biệt thủy chung son sắt giữa hai quốc gia anh em."
+      }
+    ],
+    "heritage": [
+      "Cánh đồng lúa Mường Thanh - vựa lúa lớn nhất Tây Bắc",
+      "Hồ Pá Khoang & Rừng hoa anh đào Mường Phăng",
+      "Đèo Pha Đin hùng vĩ - một trong Tứ đại đỉnh đèo"
+    ],
+    "links": [
+      {
+        "title": "Cổng thông tin điện tử tỉnh Điện Biên",
+        "url": "https://dienbien.gov.vn/"
+      },
+      {
+        "title": "Cổng thông tin Di tích Quốc gia Chiến trường Điện Biên Phủ",
+        "url": "https://svhttdl.dienbien.gov.vn/ditich/pages/2025-08-08/Di-tich-Quoc-gia-dac-biet-Chien-truong-Dien-Bien-P1.aspx"
+      }
+    ]
+  },
+  "11": {
+    "id": 11,
+    "name": "Sơn La",
+    "short": "Sơn La",
+    "slug": "son-la",
+    "regionId": "vung-1",
+    "regionName": "Trung Du miền núi Bắc Bộ",
+    "silhouette": "assets/silhouettes/11_son_la.png",
+    "litColor": "#f97316",
+    "quote": "Hồ thủy điện lớn nhất Đông Nam Á · Thảo nguyên Mộc Châu · Điệu Xòe Thái di sản",
+    "overview": "Sơn La là tỉnh có diện tích lớn thứ ba cả nước, nằm ở trái tim miền Tây Bắc. Tỉnh nổi danh với công trình Thủy điện Sơn La kỳ vĩ trên sông Đà, cao nguyên xanh Mộc Châu bạt ngàn nương chè hoa mận, cùng di tích Nhà tù Sơn La kiên trung.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "14.109,8 km²",
+        "sub": "Lớn thứ 3 Việt Nam"
+      },
+      {
+        "label": "Dân số",
+        "value": "~1.400.000",
+        "sub": "12 dân tộc (Đông nhất: Thái)"
+      },
+      {
+        "label": "Thủy điện Sơn La",
+        "value": "2.400 MW",
+        "sub": "Hồ chứa nhân tạo lớn nhất ĐNA"
+      },
+      {
+        "label": "Di sản UNESCO",
+        "value": "Nghệ thuật Xòe Thái",
+        "sub": "Di sản văn hóa phi vật thể"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Dân tộc",
+        "icon": "geo",
+        "content": [
+          "Nằm ở trung tâm vùng Tây Bắc, cách Hà Nội khoảng 300 km. Có đường biên giới dài 250 km giáp Lào với các cửa khẩu Chiềng Khương và Lóng Sập.",
+          "Là mái nhà chung của 12 dân tộc anh em, tiêu biểu là người Thái, Mông, Kinh, Mường, Dao, Khơ Mú... với bản sắc văn hóa múa Xòe Thái được UNESCO công nhận là di sản nhân loại."
+        ]
+      },
+      {
+        "title": "Thủy điện Sơn La & Lòng hồ Sông Đà",
+        "icon": "bolt",
+        "content": [
+          "Nhà máy Thủy điện Sơn La trên sông Đà khánh thành năm 2012 với công suất 2.400 MW, từng là công trình thủy điện lớn nhất Đông Nam Á.",
+          "Lòng hồ thủy điện nhân tạo rộng 224 km², dung tích 9,26 tỷ m³ nước, tạo nên kỳ quan hồ sinh thái Mường La hữu tình."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Đập & Hồ Thủy điện Sơn La trên sông Đà",
+        "image": "assets/images/image21.jpeg",
+        "caption": "Công trình Thủy điện Sơn La đồ sộ ngăn dòng sông Đà",
+        "desc": "Kỳ tích xây dựng của bàn tay và khối óc Việt Nam, cung cấp nguồn năng lượng khổng lồ cho cả nước, điều hòa lũ cho hạ du đồng bằng Bắc Bộ."
+      },
+      {
+        "title": "Cao nguyên Mộc Châu xanh ngát",
+        "image": "assets/images/image22.jpeg",
+        "caption": "Đồi chè trái tim Mộc Châu ngút ngàn xanh biếc",
+        "desc": "Khu du lịch quốc gia Mộc Châu được vinh danh là Điểm đến thiên nhiên khu vực hàng đầu thế giới với khí hậu trong lành, đồi chè ô long, thung lũng mận Nà Ka và trang trại bò sữa."
+      },
+      {
+        "title": "Di tích quốc gia đặc biệt Nhà tù Sơn La",
+        "image": "assets/images/image23.jpeg",
+        "caption": "Cây đào Tô Hiệu biểu tượng bất khuất trong Nhà tù Sơn La",
+        "desc": "Được thực dân Pháp xây dựng năm 1908 nhằm đày ải các chiến sĩ cộng sản. Cây đào Tô Hiệu vẫn đơm hoa giữa ngục tù, biểu tượng cho khí tiết kiên trung bất khuất của dân tộc."
+      }
+    ],
+    "heritage": [
+      "Khu du lịch quốc gia Mộc Châu (Đồi chè, Thác Dải Yếm, Rừng thông Bản Áng)",
+      "Xã ngọc chiến (Mường La) suối khoáng nóng bản Lướt",
+      "Lễ hội Hết Chá và Nghệ thuật Xòe Thái di sản UNESCO"
+    ],
+    "links": [
+      {
+        "title": "Cổng thông tin điện tử tỉnh Sơn La",
+        "url": "https://sonla.gov.vn/"
+      },
+      {
+        "title": "VOV Khám phá Khu du lịch quốc gia Mộc Châu",
+        "url": "https://vov.vn/du-lich/khu-du-lich-quoc-gia-moc-chau-truoc-co-hoi-but-pha-post1095930.vov"
+      }
+    ]
+  },
+  "12": {
+    "id": 12,
+    "name": "Thanh Hóa",
+    "short": "Thanh Hóa",
+    "slug": "12-thanh-hoa",
+    "regionId": "vung-3",
+    "regionName": "Bắc Trung Bộ",
+    "silhouette": "assets/silhouettes/12_thanh_hoa.png",
+    "litColor": "#f97316",
+    "quote": "Vùng đất Bắc Trung Bộ · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Thanh Hóa là một trong những trung tâm trọng điểm thuộc Bắc Trung Bộ. Thanh Hóa có bờ biển, khu bảo tồn thiên nhiên, di tích thời tiền sử và di sản triều Hồ. Du lịch gồm nghỉ dưỡng biển Sầm Sơn, khám phá Pù Luông, nghiên cứu di sản lịch sử và trải nghiệm văn hóa Mường – Thái. Thanh Hóa có cả vùng đồng bằng, trung du, miền núi và ven biển; Khu kinh tế Nghi Sơn là cực công nghiệp quan trọng của Bắc Trung Bộ.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "11.114,71 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "4.324.783",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "147 xã, 19 phường",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "19.807°B, 105.785°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Giữ nguyên địa giới cấp tỉnh.",
+          "Đơn vị hành chính cấp xã: 147 xã, 19 phường; tổng 166 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 19.807°B, 105.785°Đ (khu vực trung tâm Thanh Hóa)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Công nghiệp lọc hóa dầu và năng lượng; chế biến – chế tạo; nông nghiệp, lâm nghiệp, thủy sản; cảng biển; du lịch biển, văn hóa và sinh thái."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Thanh Hóa có bờ biển, khu bảo tồn thiên nhiên, di tích thời tiền sử và di sản triều Hồ. Du lịch gồm nghỉ dưỡng biển Sầm Sơn, khám phá Pù Luông, nghiên cứu di sản lịch sử và trải nghiệm văn hóa Mường – Thái.",
+          "Thanh Hóa có cả vùng đồng bằng, trung du, miền núi và ven biển; Khu kinh tế Nghi Sơn là cực công nghiệp quan trọng của Bắc Trung Bộ."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Di sản Thế giới Thành nhà Hồ",
+        "image": "assets/images/btb_image6.png",
+        "caption": "Di sản Thế giới Thành nhà Hồ",
+        "desc": "Kinh đô Đại Ngu thời nhà Hồ (năm 1397) xây bằng các phiến đá xanh nguyên khối khổng lồ, Di sản Văn hóa Thế giới UNESCO."
+      },
+      {
+        "title": "Kiến trúc vòm đá cổ Thành nhà Hồ",
+        "image": "assets/images/btb_image7.jpeg",
+        "caption": "Kiến trúc vòm đá cổ Thành nhà Hồ",
+        "desc": "Kiến trúc vòm đá cuốn độc nhất vô nhị tồn tại bền vững hơn 600 năm lịch sử."
+      },
+      {
+        "title": "Bãi biển Sầm Sơn",
+        "image": "assets/images/btb_image8.jpeg",
+        "caption": "Bãi biển Sầm Sơn",
+        "desc": "Bãi cát thoai thoải trải dài 6 km với sóng mạnh trong xanh, trung tâm nghỉ mát nổi tiếng từ năm 1906."
+      },
+      {
+        "title": "Tổ hợp Lọc hóa dầu Nghi Sơn",
+        "image": "assets/images/btb_image9.jpeg",
+        "caption": "Tổ hợp Lọc hóa dầu Nghi Sơn",
+        "desc": "Công trình năng lượng trọng điểm quốc gia, công suất 10 triệu tấn dầu thô/năm tại Khu kinh tế Nghi Sơn."
+      }
+    ],
+    "heritage": [
+      "Thành nhà Hồ",
+      "Khu bảo tồn thiên nhiên Pù Luông"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Thanh Hóa trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=Th%C3%A0nh%20nh%C3%A0%20H%E1%BB%93%3B%20P%C3%B9%20Lu%C3%B4ng%3B%20bi%E1%BB%83n%20S%E1%BA%A7m%20S%C6%A1n"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Thanh Hóa)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=Th%C3%A0nh%20nh%C3%A0%20H%E1%BB%93%3B%20P%C3%B9%20Lu%C3%B4ng%3B%20bi%E1%BB%83n%20S%E1%BA%A7m%20S%C6%A1n&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "13": {
+    "id": 13,
+    "name": "Nghệ An",
+    "short": "Nghệ An",
+    "slug": "13-nghe-an",
+    "regionId": "vung-3",
+    "regionName": "Bắc Trung Bộ",
+    "silhouette": "assets/silhouettes/13_nghe_an.png",
+    "litColor": "#eab308",
+    "quote": "Vùng đất Bắc Trung Bộ · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Nghệ An là một trong những trung tâm trọng điểm thuộc Bắc Trung Bộ. Nghệ An có không gian du lịch từ biển Cửa Lò tới miền núi phía Tây, kết hợp quê hương Chủ tịch Hồ Chí Minh và các khu dự trữ sinh quyển, vườn quốc gia. Loại hình nổi bật là du lịch lịch sử, nghỉ biển, sinh thái và văn hóa dân gian. Nghệ An là quê hương của Chủ tịch Hồ Chí Minh; dân ca Ví, Giặm Nghệ Tĩnh được UNESCO ghi danh là Di sản văn hóa phi vật thể đại diện của nhân loại.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "16.486,49 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "3.831.694",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "119 xã, 11 phường",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "18.680°B, 105.681°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Giữ nguyên địa giới cấp tỉnh.",
+          "Đơn vị hành chính cấp xã: 119 xã, 11 phường; tổng 130 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 18.680°B, 105.681°Đ (khu vực Vinh)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Công nghiệp chế biến và sản xuất; nông – lâm nghiệp; thủy sản; dịch vụ và giáo dục; thương mại cửa khẩu; du lịch biển, lịch sử và sinh thái."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Nghệ An có không gian du lịch từ biển Cửa Lò tới miền núi phía Tây, kết hợp quê hương Chủ tịch Hồ Chí Minh và các khu dự trữ sinh quyển, vườn quốc gia. Loại hình nổi bật là du lịch lịch sử, nghỉ biển, sinh thái và văn hóa dân gian.",
+          "Nghệ An là quê hương của Chủ tịch Hồ Chí Minh; dân ca Ví, Giặm Nghệ Tĩnh được UNESCO ghi danh là Di sản văn hóa phi vật thể đại diện của nhân loại."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Khu di tích Quốc gia đặc biệt Kim Liên",
+        "image": "assets/images/btb_image12.jpeg",
+        "caption": "Khu di tích Quốc gia đặc biệt Kim Liên",
+        "desc": "Quê nội Làng Sen và quê ngoại Hoàng Trù của Chủ tịch Hồ Chí Minh, nơi lưu giữ kỷ niệm tuổi thơ Người."
+      },
+      {
+        "title": "Nhà tranh quê Bác tại Làng Sen",
+        "image": "assets/images/btb_image13.jpeg",
+        "caption": "Nhà tranh quê Bác tại Làng Sen",
+        "desc": "Ngôi nhà lá đơn sơ dưới rặng cau, điểm về nguồn thiêng liêng của hàng triệu trái tim người Việt."
+      },
+      {
+        "title": "Khu kinh tế Đông Nam Nghệ An",
+        "image": "assets/images/btb_image14.jpeg",
+        "caption": "Khu kinh tế Đông Nam Nghệ An",
+        "desc": "Động lực phát triển công nghiệp đa ngành, logistics, cảng biển nước sâu quy mô hơn 100.000 ha."
+      },
+      {
+        "title": "Bãi biển Cửa Lò",
+        "image": "assets/images/btb_image15.jpeg",
+        "caption": "Bãi biển Cửa Lò",
+        "desc": "Bãi biển cát trắng mịn dài 12 km, điểm nghỉ dưỡng hấp dẫn nhìn ra đảo Ngư và đảo Lan Châu."
+      }
+    ],
+    "heritage": [
+      "Khu di tích Kim Liên",
+      "Vườn quốc gia Pù Mát"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Nghệ An trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=Khu%20di%20t%C3%ADch%20Kim%20Li%C3%AAn%3B%20V%C6%B0%E1%BB%9Dn%20qu%E1%BB%91c%20gia%20P%C3%B9%20M%C3%A1t%3B%20bi%E1%BB%83n%20C%E1%BB%ADa%20L%C3%B2"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Nghệ An)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=Khu%20di%20t%C3%ADch%20Kim%20Li%C3%AAn%3B%20V%C6%B0%E1%BB%9Dn%20qu%E1%BB%91c%20gia%20P%C3%B9%20M%C3%A1t%3B%20bi%E1%BB%83n%20C%E1%BB%ADa%20L%C3%B2&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "14": {
+    "id": 14,
+    "name": "Hà Tĩnh",
+    "short": "Hà Tĩnh",
+    "slug": "14-ha-tinh",
+    "regionId": "vung-3",
+    "regionName": "Bắc Trung Bộ",
+    "silhouette": "assets/silhouettes/14_ha_tinh.png",
+    "litColor": "#06b6d4",
+    "quote": "Vùng đất Bắc Trung Bộ · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Hà Tĩnh là một trong những trung tâm trọng điểm thuộc Bắc Trung Bộ. Hà Tĩnh kết hợp di sản đại thi hào Nguyễn Du, hồ – rừng và bãi biển miền Trung. Du lịch có thể phát triển từ tham quan di tích, nghỉ biển, trải nghiệm sinh thái và khám phá văn hóa dân ca, ẩm thực xứ Nghệ. Hà Tĩnh có Khu kinh tế Vũng Áng và cảng nước sâu, là điểm quan trọng trong công nghiệp và logistics khu vực Bắc Trung Bộ.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "5.994,45 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "1.622.901",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "60 xã, 9 phường",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "18.343°B, 105.906°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Giữ nguyên địa giới cấp tỉnh.",
+          "Đơn vị hành chính cấp xã: 60 xã, 9 phường; tổng 69 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 18.343°B, 105.906°Đ (khu vực trung tâm Hà Tĩnh)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Công nghiệp nặng và luyện kim; cảng biển, logistics; nông – lâm nghiệp, thủy sản; năng lượng; du lịch biển và di sản văn hóa."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Hà Tĩnh kết hợp di sản đại thi hào Nguyễn Du, hồ – rừng và bãi biển miền Trung. Du lịch có thể phát triển từ tham quan di tích, nghỉ biển, trải nghiệm sinh thái và khám phá văn hóa dân ca, ẩm thực xứ Nghệ.",
+          "Hà Tĩnh có Khu kinh tế Vũng Áng và cảng nước sâu, là điểm quan trọng trong công nghiệp và logistics khu vực Bắc Trung Bộ."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Di tích quốc gia đặc biệt Ngã ba Đồng Lộc",
+        "image": "assets/images/btb_image16.jpeg",
+        "caption": "Di tích quốc gia đặc biệt Ngã ba Đồng Lộc",
+        "desc": "Nơi 10 nữ thanh niên xung phong anh dũng hy sinh ngày 24/7/1968, biểu tượng bất tử của lòng quả cảm."
+      },
+      {
+        "title": "Tượng đài và mộ 10 nữ liệt sĩ Đồng Lộc",
+        "image": "assets/images/btb_image17.jpeg",
+        "caption": "Tượng đài và mộ 10 nữ liệt sĩ Đồng Lộc",
+        "desc": "Khu tưởng niệm trang nghiêm giữa thung lũng Trường Sơn, ngọn lửa tri ân muôn đời."
+      },
+      {
+        "title": "Khu kinh tế và Cảng nước sâu Vũng Áng",
+        "image": "assets/images/btb_image18.jpeg",
+        "caption": "Khu kinh tế và Cảng nước sâu Vũng Áng",
+        "desc": "Cảng biển quốc tế có khả năng tiếp nhận tàu trọng tải đến 100.000 DWT, trung tâm công nghiệp luyện kim và điện năng."
+      },
+      {
+        "title": "Vườn Quốc gia Vũ Quang – Vườn Di sản ASEAN",
+        "image": "assets/images/btb_image19.jpeg",
+        "caption": "Vườn Quốc gia Vũ Quang – Vườn Di sản ASEAN",
+        "desc": "Kho báu xanh giữa đại ngàn Trường Sơn với nhiều loài động thực vật quý hiếm như Sao La, Mang Lớn."
+      }
+    ],
+    "heritage": [
+      "Khu lưu niệm Nguyễn Du",
+      "Hồ Kẻ Gỗ"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Hà Tĩnh trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=Khu%20l%C6%B0u%20ni%E1%BB%87m%20Nguy%E1%BB%85n%20Du%3B%20h%E1%BB%93%20K%E1%BA%BB%20G%E1%BB%97%3B%20bi%E1%BB%83n%20Thi%C3%AAn%20C%E1%BA%A7m"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Hà Tĩnh)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=Khu%20l%C6%B0u%20ni%E1%BB%87m%20Nguy%E1%BB%85n%20Du%3B%20h%E1%BB%93%20K%E1%BA%BB%20G%E1%BB%97%3B%20bi%E1%BB%83n%20Thi%C3%AAn%20C%E1%BA%A7m&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "15": {
+    "id": 15,
+    "name": "Quảng Trị",
+    "short": "Quảng Trị",
+    "slug": "15-quang-tri",
+    "regionId": "vung-3",
+    "regionName": "Bắc Trung Bộ",
+    "silhouette": "assets/silhouettes/15_quang_tri.png",
+    "litColor": "#ef4444",
+    "quote": "Vùng đất Bắc Trung Bộ · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Quảng Trị là một trong những trung tâm trọng điểm thuộc Bắc Trung Bộ. Quảng Trị mới bao gồm hệ thống hang động Phong Nha – Kẻ Bàng ở phía Bắc cùng các di tích chiến tranh, bãi biển và cửa khẩu ở phía Nam. Du lịch kết hợp thám hiểm hang, sinh thái, lịch sử và hành trình về nguồn. Hang Sơn Đoòng nằm trong khu vực Phong Nha – Kẻ Bàng và được biết đến rộng rãi như một trong những hang động lớn nhất thế giới theo khảo sát hiện đại.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "12.700,00 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "1.870.845",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "69 xã, 8 phường, 1 đặc khu",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "17.467°B, 106.623°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Quảng Bình + Quảng Trị.",
+          "Đơn vị hành chính cấp xã: 69 xã, 8 phường, 1 đặc khu; tổng 78 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 17.467°B, 106.623°Đ (khu vực Đồng Hới; điểm tham chiếu du lịch)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Du lịch hang động – di sản; nông – lâm nghiệp; thủy sản; công nghiệp và logistics; năng lượng tái tạo; dịch vụ cửa khẩu và cảng biển."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Quảng Trị mới bao gồm hệ thống hang động Phong Nha – Kẻ Bàng ở phía Bắc cùng các di tích chiến tranh, bãi biển và cửa khẩu ở phía Nam. Du lịch kết hợp thám hiểm hang, sinh thái, lịch sử và hành trình về nguồn.",
+          "Hang Sơn Đoòng nằm trong khu vực Phong Nha – Kẻ Bàng và được biết đến rộng rãi như một trong những hang động lớn nhất thế giới theo khảo sát hiện đại."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Di tích quốc gia đặc biệt Thành cổ Quảng Trị",
+        "image": "assets/images/btb_image21.jpeg",
+        "caption": "Di tích quốc gia đặc biệt Thành cổ Quảng Trị",
+        "desc": "Chứng tích 81 ngày đêm rực lửa mùa hè năm 1972, đài tưởng niệm tri ân những người con anh dũng vì độc lập."
+      },
+      {
+        "title": "Địa đạo Vịnh Mốc trong lòng đất lửa",
+        "image": "assets/images/btb_image22.jpeg",
+        "caption": "Địa đạo Vịnh Mốc trong lòng đất lửa",
+        "desc": "Kỳ tích làng hầm quân dân sự sâu trong lòng đất bờ bắc sông Bến Hải, tồn tại kiên cường suốt 1965-1972."
+      },
+      {
+        "title": "Cánh đồng Điện gió miền Tây Quảng Trị",
+        "image": "assets/images/btb_image23.jpeg",
+        "caption": "Cánh đồng Điện gió miền Tây Quảng Trị",
+        "desc": "Tiềm năng năng lượng tái tạo sạch vươn tầm, biến gió ngàn thành nguồn năng lượng phát triển kinh tế."
+      },
+      {
+        "title": "Vườn quốc gia Phong Nha – Kẻ Bàng",
+        "image": "assets/images/btb_image26.jpeg",
+        "caption": "Vườn quốc gia Phong Nha – Kẻ Bàng",
+        "desc": "Di sản Thiên nhiên Thế giới UNESCO với vương quốc hang động kỳ vĩ Sơn Đoòng, Phong Nha, Thiên Đường."
+      }
+    ],
+    "heritage": [
+      "Vườn quốc gia Phong Nha – Kẻ Bàng",
+      "Thành cổ Quảng Trị và địa đạo Vịnh Mốc"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Quảng Trị trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=Phong%20Nha%20K%E1%BA%BB%20B%C3%A0ng%3B%20Th%C3%A0nh%20c%E1%BB%95%20Qu%E1%BA%A3ng%20Tr%E1%BB%8B%3B%20%C4%91%E1%BB%8Ba%20%C4%91%E1%BA%A1o%20V%E1%BB%8Bnh%20M%E1%BB%91c"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Quảng Trị)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=Phong%20Nha%20K%E1%BA%BB%20B%C3%A0ng%3B%20Th%C3%A0nh%20c%E1%BB%95%20Qu%E1%BA%A3ng%20Tr%E1%BB%8B%3B%20%C4%91%E1%BB%8Ba%20%C4%91%E1%BA%A1o%20V%E1%BB%8Bnh%20M%E1%BB%91c&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "16": {
+    "id": 16,
+    "name": "Thành phố Huế",
+    "short": "Huế",
+    "slug": "16-thanh-pho-hue",
+    "regionId": "vung-3",
+    "regionName": "Bắc Trung Bộ",
+    "silhouette": "assets/silhouettes/16_thanh_pho_hue.png",
+    "litColor": "#a855f7",
+    "quote": "Vùng đất Bắc Trung Bộ · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Thành phố Huế là một trong những trung tâm trọng điểm thuộc Bắc Trung Bộ. Huế nổi bật với quần thể di tích triều Nguyễn, nhã nhạc cung đình, kiến trúc lăng tẩm, chùa cổ, sông Hương và phá Tam Giang. Du lịch tập trung vào di sản, ẩm thực, văn hóa nghệ thuật và trải nghiệm sinh thái đầm phá. Huế là đô thị di sản; Nhã nhạc cung đình Huế được UNESCO ghi danh là Di sản văn hóa phi vật thể của nhân loại.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "4.947,11 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "1.432.986",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "19 xã, 21 phường",
+        "sub": "Thành phố trực thuộc Trung ương"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "16.464°B, 107.591°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Giữ nguyên địa giới cấp tỉnh.",
+          "Đơn vị hành chính cấp xã: 19 xã, 21 phường; tổng 40 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 16.464°B, 107.591°Đ (khu vực trung tâm Huế)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Du lịch di sản; giáo dục, y tế và dịch vụ; công nghiệp nhẹ; thủy sản và nông nghiệp; thủ công mỹ nghệ, ẩm thực và kinh tế sáng tạo."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Huế nổi bật với quần thể di tích triều Nguyễn, nhã nhạc cung đình, kiến trúc lăng tẩm, chùa cổ, sông Hương và phá Tam Giang. Du lịch tập trung vào di sản, ẩm thực, văn hóa nghệ thuật và trải nghiệm sinh thái đầm phá.",
+          "Huế là đô thị di sản; Nhã nhạc cung đình Huế được UNESCO ghi danh là Di sản văn hóa phi vật thể của nhân loại."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Quần thể di tích Cố đô Huế",
+        "image": "assets/images/btb_image1.jpeg",
+        "caption": "Quần thể di tích Cố đô Huế",
+        "desc": "Quần thể kiến trúc Cố đô Huế do triều Nguyễn xây dựng, Di sản Văn hoá Thế giới UNESCO công nhận năm 1993, di tích quốc gia đặc biệt quan trọng."
+      },
+      {
+        "title": "Hệ đầm phá Tam Giang – Cầu Hai",
+        "image": "assets/images/btb_image2.jpeg",
+        "caption": "Hệ đầm phá Tam Giang – Cầu Hai",
+        "desc": "Hệ đầm phá nước lợ ven biển tiêu biểu trải dài 68 km, hệ sinh thái phong phú bậc nhất Đông Nam Á."
+      },
+      {
+        "title": "Hoàng hôn trên phá Tam Giang",
+        "image": "assets/images/btb_image3.jpeg",
+        "caption": "Hoàng hôn trên phá Tam Giang",
+        "desc": "Cảnh sắc mây nước thơ mộng, không gian sinh kế nuôi trồng thủy sản và du lịch cộng đồng độc đáo."
+      },
+      {
+        "title": "Cảng Chân Mây & Vịnh Lăng Cô",
+        "image": "assets/images/btb_image4.jpeg",
+        "caption": "Cảng Chân Mây & Vịnh Lăng Cô",
+        "desc": "Cảng biển nước sâu chiến lược miền Trung trong Khu kinh tế Chân Mây – Lăng Cô, đón tàu du lịch quốc tế."
+      }
+    ],
+    "heritage": [
+      "Quần thể di tích Cố đô Huế",
+      "Chùa Thiên Mụ"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Huế trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=%C4%90%E1%BA%A1i%20N%E1%BB%99i%20Hu%E1%BA%BF%3B%20ch%C3%B9a%20Thi%C3%AAn%20M%E1%BB%A5%3B%20l%C4%83ng%20Kh%E1%BA%A3i%20%C4%90%E1%BB%8Bnh"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Huế)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=%C4%90%E1%BA%A1i%20N%E1%BB%99i%20Hu%E1%BA%BF%3B%20ch%C3%B9a%20Thi%C3%AAn%20M%E1%BB%A5%3B%20l%C4%83ng%20Kh%E1%BA%A3i%20%C4%90%E1%BB%8Bnh&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "17": {
+    "id": 17,
+    "name": "Thành phố Đà Nẵng",
+    "short": "Đà Nẵng",
+    "slug": "17-thanh-pho-da-nang",
+    "regionId": "vung-4",
+    "regionName": "Duyên hải Nam Trung Bộ và Tây Nguyên",
+    "silhouette": "assets/silhouettes/17_thanh_pho_da_nang.png",
+    "litColor": "#0284c7",
+    "quote": "Vùng đất Duyên hải Nam Trung Bộ và Tây Nguyên · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Thành phố Đà Nẵng là một trong những trung tâm trọng điểm thuộc Duyên hải Nam Trung Bộ và Tây Nguyên. Thành phố mới nối đô thị biển Đà Nẵng với di sản Hội An, Mỹ Sơn, Cù Lao Chàm và các vùng núi phía Tây. Các sản phẩm gồm nghỉ dưỡng biển, di sản văn hóa, du lịch cộng đồng, ẩm thực, thể thao và sinh thái. Sau hợp nhất, Đà Nẵng bao gồm cả đô thị biển, phố cổ Hội An và thánh địa Mỹ Sơn; thành phố có lợi thế về cảng, sân bay và du lịch di sản.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "11.859,59 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "3.065.628",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "70 xã, 23 phường, 1 đặc khu",
+        "sub": "Thành phố trực thuộc Trung ương"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "16.054°B, 108.202°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Đà Nẵng + Quảng Nam.",
+          "Đơn vị hành chính cấp xã: 70 xã, 23 phường, 1 đặc khu; tổng 94 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 16.054°B, 108.202°Đ (khu vực trung tâm Đà Nẵng)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Dịch vụ, du lịch và thương mại; công nghệ thông tin, công nghiệp công nghệ cao; cảng biển, logistics; nông – lâm nghiệp và thủy sản ở các vùng mở rộng."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Thành phố mới nối đô thị biển Đà Nẵng với di sản Hội An, Mỹ Sơn, Cù Lao Chàm và các vùng núi phía Tây. Các sản phẩm gồm nghỉ dưỡng biển, di sản văn hóa, du lịch cộng đồng, ẩm thực, thể thao và sinh thái.",
+          "Sau hợp nhất, Đà Nẵng bao gồm cả đô thị biển, phố cổ Hội An và thánh địa Mỹ Sơn; thành phố có lợi thế về cảng, sân bay và du lịch di sản."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Bà Nà Hills & Cầu Vàng",
+        "image": "assets/images/ds_image15.jpeg",
+        "caption": "Địa danh tiêu biểu: Bà Nà Hills & Cầu Vàng",
+        "desc": "Biểu tượng du lịch hiện đại nổi tiếng toàn cầu, đỉnh núi Chúa mát mẻ quanh năm cùng làng Pháp mộng mơ."
+      },
+      {
+        "title": "Bán đảo Sơn Trà & Biển Mỹ Khê",
+        "image": "assets/images/ds_image16.jpeg",
+        "caption": "Địa danh tiêu biểu: Bán đảo Sơn Trà & Biển Mỹ Khê",
+        "desc": "Bãi biển nằm trong top quyến rũ nhất hành tinh, rừng nguyên sinh Sơn Trà là ngôi nhà của Voọc chà vá chân nâu."
+      },
+      {
+        "title": "Cầu Rồng & Sông Hàn lung linh",
+        "image": "assets/images/ds_image18.jpeg",
+        "caption": "Địa danh tiêu biểu: Cầu Rồng & Sông Hàn lung linh",
+        "desc": "Thành phố đáng sống với những cây cầu độc đáo, các lễ hội pháo hoa quốc tế rực rỡ."
+      }
+    ],
+    "heritage": [
+      "Phố cổ Hội An",
+      "Thánh địa Mỹ Sơn"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Đà Nẵng trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=ph%E1%BB%91%20c%E1%BB%95%20H%E1%BB%99i%20An%3B%20th%C3%A1nh%20%C4%91%E1%BB%8Ba%20M%E1%BB%B9%20S%C6%A1n%3B%20b%C3%A1n%20%C4%91%E1%BA%A3o%20S%C6%A1n%20Tr%C3%A0%20%C4%90%C3%A0%20N%E1%BA%B5ng"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Đà Nẵng)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=ph%E1%BB%91%20c%E1%BB%95%20H%E1%BB%99i%20An%3B%20th%C3%A1nh%20%C4%91%E1%BB%8Ba%20M%E1%BB%B9%20S%C6%A1n%3B%20b%C3%A1n%20%C4%91%E1%BA%A3o%20S%C6%A1n%20Tr%C3%A0%20%C4%90%C3%A0%20N%E1%BA%B5ng&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "18": {
+    "id": 18,
+    "name": "Đồng Nai",
+    "short": "Đồng Nai",
+    "slug": "18-dong-nai",
+    "regionId": "vung-5",
+    "regionName": "Đông Nam Bộ",
+    "silhouette": "assets/silhouettes/18_dong_nai.png",
+    "litColor": "#f59e0b",
+    "quote": "Vùng đất Đông Nam Bộ · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Đồng Nai là một trong những trung tâm trọng điểm thuộc Đông Nam Bộ. Tỉnh có vùng công nghiệp năng động cùng các khu rừng, hồ và di tích. Du lịch phù hợp gồm khám phá thiên nhiên, xem động vật hoang dã, dã ngoại hồ, tham quan di tích và trải nghiệm nông nghiệp. Đồng Nai là trung tâm sản xuất công nghiệp lớn của vùng Đông Nam Bộ; sau hợp nhất tỉnh có thêm nhiều vùng rừng và nông nghiệp của Bình Phước cũ.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "12.737,18 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "4.491.408",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "72 xã, 23 phường",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "10.957°B, 106.843°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Đồng Nai + Bình Phước.",
+          "Đơn vị hành chính cấp xã: 72 xã, 23 phường; tổng 95 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 10.957°B, 106.843°Đ (khu vực Biên Hòa)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Công nghiệp chế biến – chế tạo, điện tử, cơ khí; logistics và vận tải; nông nghiệp, cao su, điều; dịch vụ; du lịch rừng, hồ và văn hóa."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Tỉnh có vùng công nghiệp năng động cùng các khu rừng, hồ và di tích. Du lịch phù hợp gồm khám phá thiên nhiên, xem động vật hoang dã, dã ngoại hồ, tham quan di tích và trải nghiệm nông nghiệp.",
+          "Đồng Nai là trung tâm sản xuất công nghiệp lớn của vùng Đông Nam Bộ; sau hợp nhất tỉnh có thêm nhiều vùng rừng và nông nghiệp của Bình Phước cũ."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Vườn quốc gia Cát Tiên",
+        "image": "assets/images/ds_image29.webp",
+        "caption": "Địa danh tiêu biểu: Vườn quốc gia Cát Tiên",
+        "desc": "Khu Dự trữ Sinh quyển Thế giới UNESCO, rừng mưa nhiệt đới nguyên sinh với hệ động thực vật vô cùng phong phú."
+      },
+      {
+        "title": "Thủ phủ công nghiệp & Sân bay Long Thành",
+        "image": "assets/images/ds_image30.jpeg",
+        "caption": "Địa danh tiêu biểu: Thủ phủ công nghiệp & Sân bay Long Thành",
+        "desc": "Trung tâm công nghiệp chế biến, siêu dự án Cảng hàng không quốc tế Long Thành cửa ngõ bầu trời."
+      }
+    ],
+    "heritage": [
+      "Vườn quốc gia Cát Tiên",
+      "Hồ Trị An"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Đồng Nai trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=V%C6%B0%E1%BB%9Dn%20qu%E1%BB%91c%20gia%20C%C3%A1t%20Ti%C3%AAn%3B%20h%E1%BB%93%20Tr%E1%BB%8B%20An%3B%20khu%20du%20l%E1%BB%8Bch%20B%E1%BB%ADu%20Long"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Đồng Nai)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=V%C6%B0%E1%BB%9Dn%20qu%E1%BB%91c%20gia%20C%C3%A1t%20Ti%C3%AAn%3B%20h%E1%BB%93%20Tr%E1%BB%8B%20An%3B%20khu%20du%20l%E1%BB%8Bch%20B%E1%BB%ADu%20Long&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "19": {
+    "id": 19,
+    "name": "Thành phố Hồ Chí Minh",
+    "short": "Hồ Chí Minh",
+    "slug": "19-thanh-pho-ho-chi-minh",
+    "regionId": "vung-5",
+    "regionName": "Đông Nam Bộ",
+    "silhouette": "assets/silhouettes/19_thanh_pho_ho_chi_minh.png",
+    "litColor": "#e11d48",
+    "quote": "Vùng đất Đông Nam Bộ · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Thành phố Hồ Chí Minh là một trong những trung tâm trọng điểm thuộc Đông Nam Bộ. Không gian thành phố mở rộng kết hợp đô thị trung tâm, khu công nghiệp Bình Dương và biển đảo Bà Rịa – Vũng Tàu. Du lịch đa dạng gồm lịch sử đô thị, ẩm thực, mua sắm, nghỉ biển, thể thao biển và sinh thái Côn Đảo. Thành phố mới bao gồm cả vùng công nghiệp Bình Dương và vùng cảng – biển Bà Rịa Vũng Tàu; Côn Đảo là một đặc khu thuộc thành phố sau sắp xếp.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "6.772,59 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "14.002.598",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "54 xã, 113 phường, 1 đặc khu",
+        "sub": "Thành phố trực thuộc Trung ương"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "10.823°B, 106.630°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: TP.HCM + Bình Dương + Bà Rịa – Vũng Tàu.",
+          "Đơn vị hành chính cấp xã: 54 xã, 113 phường, 1 đặc khu; tổng 168 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 10.823°B, 106.630°Đ (khu vực trung tâm TP.HCM cũ)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Thương mại, tài chính và dịch vụ chuyên nghiệp; công nghiệp chế biến – chế tạo; công nghệ cao; logistics và cảng biển; du lịch, giáo dục, y tế; dầu khí và dịch vụ biển ở vùng Bà Rịa – Vũng Tàu cũ."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Không gian thành phố mở rộng kết hợp đô thị trung tâm, khu công nghiệp Bình Dương và biển đảo Bà Rịa – Vũng Tàu. Du lịch đa dạng gồm lịch sử đô thị, ẩm thực, mua sắm, nghỉ biển, thể thao biển và sinh thái Côn Đảo.",
+          "Thành phố mới bao gồm cả vùng công nghiệp Bình Dương và vùng cảng – biển Bà Rịa Vũng Tàu; Côn Đảo là một đặc khu thuộc thành phố sau sắp xếp."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Dinh Độc Lập & Bưu điện Trung tâm",
+        "image": "assets/images/ds_image31.jpeg",
+        "caption": "Địa danh tiêu biểu: Dinh Độc Lập & Bưu điện Trung tâm",
+        "desc": "Chứng tích lịch sử thống nhất đất nước, công trình kiến trúc Pháp cổ kính biểu tượng giữa trung tâm hoa lệ."
+      },
+      {
+        "title": "Địa đạo Củ Chi – Đất thép thành đồng",
+        "image": "assets/images/ds_image32.jpeg",
+        "caption": "Địa danh tiêu biểu: Địa đạo Củ Chi – Đất thép thành đồng",
+        "desc": "Mê cung hầm ngầm kỳ vĩ dưới lòng đất dài hơn 250 km, minh chứng tinh thần bất khuất trong kháng chiến."
+      },
+      {
+        "title": "Đô thị sông Sài Gòn & Trung tâm kinh tế",
+        "image": "assets/images/ds_image33.jpeg",
+        "caption": "Địa danh tiêu biểu: Đô thị sông Sài Gòn & Trung tâm kinh tế",
+        "desc": "Đầu tàu kinh tế, tài chính, đổi mới sáng tạo và giao thương quốc tế lớn nhất cả nước."
+      }
+    ],
+    "heritage": [
+      "Dinh Độc Lập",
+      "Côn Đảo"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Hồ Chí Minh trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=Dinh%20%C4%90%E1%BB%99c%20L%E1%BA%ADp%3B%20C%C3%B4n%20%C4%90%E1%BA%A3o%3B%20b%C3%A3i%20bi%E1%BB%83n%20V%C5%A9ng%20T%C3%A0u"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Hồ Chí Minh)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=Dinh%20%C4%90%E1%BB%99c%20L%E1%BA%ADp%3B%20C%C3%B4n%20%C4%90%E1%BA%A3o%3B%20b%C3%A3i%20bi%E1%BB%83n%20V%C5%A9ng%20T%C3%A0u&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "20": {
+    "id": 20,
+    "name": "Vĩnh Long",
+    "short": "Vĩnh Long",
+    "slug": "20-vinh-long",
+    "regionId": "vung-5",
+    "regionName": "Đông Nam Bộ",
+    "silhouette": "assets/silhouettes/20_vinh_long.png",
+    "litColor": "#8b5cf6",
+    "quote": "Vùng đất Đông Nam Bộ · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Vĩnh Long là một trong những trung tâm trọng điểm thuộc Đông Nam Bộ. Mạng lưới sông Mekong, cù lao, vườn cây, làng nghề dừa và di sản Khmer là thế mạnh. Du lịch thường gồm homestay miệt vườn, đi thuyền, ẩm thực, biểu diễn văn hóa và tham quan chùa cổ. Vĩnh Long mới bao gồm vùng dừa Bến Tre và nhiều địa bàn Khmer ở Trà Vinh; dừa, trái cây và nuôi trồng thủy sản là các sản phẩm quan trọng.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "6.296,20 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "4.257.581",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "105 xã, 19 phường",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "10.240°B, 105.957°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Vĩnh Long + Bến Tre + Trà Vinh.",
+          "Đơn vị hành chính cấp xã: 105 xã, 19 phường; tổng 124 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 10.240°B, 105.957°Đ (khu vực trung tâm Vĩnh Long)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Vườn cây ăn quả, dừa, lúa và thủy sản; chế biến nông sản; thương mại – vận tải sông; du lịch miệt vườn; sản phẩm thủ công và văn hóa Khmer."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Mạng lưới sông Mekong, cù lao, vườn cây, làng nghề dừa và di sản Khmer là thế mạnh. Du lịch thường gồm homestay miệt vườn, đi thuyền, ẩm thực, biểu diễn văn hóa và tham quan chùa cổ.",
+          "Vĩnh Long mới bao gồm vùng dừa Bến Tre và nhiều địa bàn Khmer ở Trà Vinh; dừa, trái cây và nuôi trồng thủy sản là các sản phẩm quan trọng."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Cầu Mỹ Thuận & Đất cù lao miệt vườn",
+        "image": "assets/images/ds_image34.jpeg",
+        "caption": "Địa danh tiêu biểu: Cầu Mỹ Thuận & Đất cù lao miệt vườn",
+        "desc": "Cây cầu dây văng lịch sử bắc qua sông Tiền, các cù lao trĩu quả chôm chôm, sầu riêng, bưởi Năm Roi."
+      },
+      {
+        "title": "Làng gốm đỏ Mang Thít",
+        "image": "assets/images/ds_image35.jpeg",
+        "caption": "Địa danh tiêu biểu: Làng gốm đỏ Mang Thít",
+        "desc": "Vương quốc gốm đỏ hơn 100 năm tuổi với hàng nghìn lò gạch nung rực rỡ bên dòng sông Cổ Chiên."
+      }
+    ],
+    "heritage": [
+      "Cù lao An Bình",
+      "Ao Bà Om và chùa Khmer"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Vĩnh Long trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=c%C3%B9%20lao%20An%20B%C3%ACnh%20V%C4%A9nh%20Long%3B%20Ao%20B%C3%A0%20Om%20Tr%C3%A0%20Vinh%3B%20l%C3%A0ng%20d%E1%BB%ABa%20B%E1%BA%BFn%20Tre"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Vĩnh Long)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=c%C3%B9%20lao%20An%20B%C3%ACnh%20V%C4%A9nh%20Long%3B%20Ao%20B%C3%A0%20Om%20Tr%C3%A0%20Vinh%3B%20l%C3%A0ng%20d%E1%BB%ABa%20B%E1%BA%BFn%20Tre&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "21": {
+    "id": 21,
+    "name": "Tây Ninh",
+    "short": "Tây Ninh",
+    "slug": "21-tay-ninh",
+    "regionId": "vung-5",
+    "regionName": "Đông Nam Bộ",
+    "silhouette": "assets/silhouettes/21_tay_ninh.png",
+    "litColor": "#10b981",
+    "quote": "Vùng đất Đông Nam Bộ · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Tây Ninh là một trong những trung tâm trọng điểm thuộc Đông Nam Bộ. Tây Ninh kết hợp núi Bà Đen và Tòa Thánh Cao Đài với không gian đồng bằng sông Vàm Cỏ, làng nghề và nông nghiệp của Long An cũ. Du lịch gồm hành hương, sinh thái, di sản tôn giáo và trải nghiệm nông thôn. Núi Bà Đen cao khoảng 986 m và thường được xem là đỉnh núi cao nhất Nam Bộ; tỉnh mới cũng là vùng sản xuất nông nghiệp lớn ở cửa ngõ Tây Nam TP.HCM.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "8.536,44 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "3.254.170",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "82 xã, 14 phường",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "11.311°B, 106.098°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Tây Ninh + Long An.",
+          "Đơn vị hành chính cấp xã: 82 xã, 14 phường; tổng 96 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 11.311°B, 106.098°Đ (khu vực thành phố Tây Ninh; điểm tham chiếu)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Nông nghiệp (lúa, mía, cao su, rau); công nghiệp chế biến và khu công nghiệp; thương mại biên giới; logistics; dịch vụ và du lịch văn hóa – tâm linh."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Tây Ninh kết hợp núi Bà Đen và Tòa Thánh Cao Đài với không gian đồng bằng sông Vàm Cỏ, làng nghề và nông nghiệp của Long An cũ. Du lịch gồm hành hương, sinh thái, di sản tôn giáo và trải nghiệm nông thôn.",
+          "Núi Bà Đen cao khoảng 986 m và thường được xem là đỉnh núi cao nhất Nam Bộ; tỉnh mới cũng là vùng sản xuất nông nghiệp lớn ở cửa ngõ Tây Nam TP.HCM."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Quần thể núi Bà Đen – Nóc nhà Nam Bộ",
+        "image": "assets/images/ds_image36.jpeg",
+        "caption": "Địa danh tiêu biểu: Quần thể núi Bà Đen – Nóc nhà Nam Bộ",
+        "desc": "Ngọn núi cao nhất miền Nam (986 m), trung tâm hành hương tâm linh với tượng Phật Bà bằng đồng cao nhất châu Á."
+      },
+      {
+        "title": "Tòa thánh Tây Ninh",
+        "image": "assets/images/ds_image37.jpeg",
+        "caption": "Địa danh tiêu biểu: Tòa thánh Tây Ninh",
+        "desc": "Tổ đình đạo Cao Đài với kiến trúc độc đáo kết hợp tinh hoa tôn giáo phương Đông và phương Tây."
+      }
+    ],
+    "heritage": [
+      "Núi Bà Đen",
+      "Tòa Thánh Cao Đài Tây Ninh"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Tây Ninh trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=n%C3%BAi%20B%C3%A0%20%C4%90en%3B%20T%C3%B2a%20Th%C3%A1nh%20Cao%20%C4%90%C3%A0i%20T%C3%A2y%20Ninh%3B%20%C4%91%E1%BB%93ng%20sen%20Long%20An"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Tây Ninh)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=n%C3%BAi%20B%C3%A0%20%C4%90en%3B%20T%C3%B2a%20Th%C3%A1nh%20Cao%20%C4%90%C3%A0i%20T%C3%A2y%20Ninh%3B%20%C4%91%E1%BB%93ng%20sen%20Long%20An&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "22": {
+    "id": 22,
+    "name": "Thành phố Cần Thơ",
+    "short": "Cần Thơ",
+    "slug": "22-thanh-pho-can-tho",
+    "regionId": "vung-5",
+    "regionName": "Đông Nam Bộ",
+    "silhouette": "assets/silhouettes/22_thanh_pho_can_tho.png",
+    "litColor": "#0284c7",
+    "quote": "Vùng đất Đông Nam Bộ · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Thành phố Cần Thơ là một trong những trung tâm trọng điểm thuộc Đông Nam Bộ. Cần Thơ mới mở rộng từ đô thị trung tâm Đồng bằng sông Cửu Long tới các vùng sản xuất nông nghiệp và văn hóa Khmer. Các trải nghiệm gồm chợ nổi, vườn trái cây, kiến trúc xưa, ẩm thực và các lễ hội địa phương. Cần Thơ là đầu mối dịch vụ, giáo dục và y tế lớn của Đồng bằng sông Cửu Long; sau sắp xếp, tỉnh/thành có thêm không gian văn hóa Khmer và vùng lúa – thủy sản.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "6.360,83 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "4.199.824",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "72 xã, 31 phường",
+        "sub": "Thành phố trực thuộc Trung ương"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "10.045°B, 105.747°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Cần Thơ + Sóc Trăng + Hậu Giang.",
+          "Đơn vị hành chính cấp xã: 72 xã, 31 phường; tổng 103 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 10.045°B, 105.747°Đ (khu vực Ninh Kiều)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Thương mại và dịch vụ vùng; giáo dục, y tế; chế biến gạo – thủy sản; logistics đường thủy; nông nghiệp, cây ăn quả và du lịch sông nước."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Cần Thơ mới mở rộng từ đô thị trung tâm Đồng bằng sông Cửu Long tới các vùng sản xuất nông nghiệp và văn hóa Khmer. Các trải nghiệm gồm chợ nổi, vườn trái cây, kiến trúc xưa, ẩm thực và các lễ hội địa phương.",
+          "Cần Thơ là đầu mối dịch vụ, giáo dục và y tế lớn của Đồng bằng sông Cửu Long; sau sắp xếp, tỉnh/thành có thêm không gian văn hóa Khmer và vùng lúa – thủy sản."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Chợ nổi Cái Răng",
+        "image": "assets/images/ds_image38.jpeg",
+        "caption": "Địa danh tiêu biểu: Chợ nổi Cái Răng",
+        "desc": "Di sản văn hóa phi vật thể quốc gia, nét sinh hoạt thương hồ độc đáo bậc nhất đồng bằng sông Cửu Long."
+      },
+      {
+        "title": "Bến Ninh Kiều & Đô thị Tây Đô",
+        "image": "assets/images/ds_image39.jpeg",
+        "caption": "Địa danh tiêu biểu: Bến Ninh Kiều & Đô thị Tây Đô",
+        "desc": "Trung tâm kinh tế, giáo dục, văn hóa của miền Tây Nam Bộ bên dòng sông Hậu hiền hòa."
+      }
+    ],
+    "heritage": [
+      "Chợ nổi Cái Răng",
+      "Nhà cổ Bình Thủy"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Cần Thơ trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=ch%E1%BB%A3%20n%E1%BB%95i%20C%C3%A1i%20R%C4%83ng%3B%20nh%C3%A0%20c%E1%BB%95%20B%C3%ACnh%20Th%E1%BB%A7y%3B%20ch%C3%B9a%20D%C6%A1i%20S%C3%B3c%20Tr%C4%83ng"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Cần Thơ)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=ch%E1%BB%A3%20n%E1%BB%95i%20C%C3%A1i%20R%C4%83ng%3B%20nh%C3%A0%20c%E1%BB%95%20B%C3%ACnh%20Th%E1%BB%A7y%3B%20ch%C3%B9a%20D%C6%A1i%20S%C3%B3c%20Tr%C4%83ng&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "23": {
+    "id": 23,
+    "name": "An Giang",
+    "short": "An Giang",
+    "slug": "23-an-giang",
+    "regionId": "vung-5",
+    "regionName": "Đông Nam Bộ",
+    "silhouette": "assets/silhouettes/23_an_giang.png",
+    "litColor": "#f97316",
+    "quote": "Vùng đất Đông Nam Bộ · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "An Giang là một trong những trung tâm trọng điểm thuộc Đông Nam Bộ. An Giang mới kết hợp vùng biên giới – núi ở Châu Đốc, đồng bằng phù sa với biển đảo Phú Quốc và Hà Tiên. Du lịch có thể nối hành hương, rừng tràm, văn hóa Khmer – Chăm – Hoa, biển đảo và ẩm thực hải sản. Tỉnh mới gồm Phú Quốc cùng các đảo thuộc vùng Kiên Giang cũ; An Giang cũng là vùng giao thoa văn hóa Kinh, Khmer, Chăm và Hoa ở khu vực biên giới.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "9.888,91 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "4.952.238",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "85 xã, 14 phường, 3 đặc khu",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "10.013°B, 105.081°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: An Giang + Kiên Giang.",
+          "Đơn vị hành chính cấp xã: 85 xã, 14 phường, 3 đặc khu; tổng 102 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 10.013°B, 105.081°Đ (khu vực Rạch Giá; điểm tham chiếu)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Lúa gạo, thủy sản và nuôi trồng; du lịch biển đảo và tâm linh; thương mại biên giới; chế biến thực phẩm; dịch vụ và kinh tế biển."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "An Giang mới kết hợp vùng biên giới – núi ở Châu Đốc, đồng bằng phù sa với biển đảo Phú Quốc và Hà Tiên. Du lịch có thể nối hành hương, rừng tràm, văn hóa Khmer – Chăm – Hoa, biển đảo và ẩm thực hải sản.",
+          "Tỉnh mới gồm Phú Quốc cùng các đảo thuộc vùng Kiên Giang cũ; An Giang cũng là vùng giao thoa văn hóa Kinh, Khmer, Chăm và Hoa ở khu vực biên giới."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Miếu Bà Chúa Xứ Núi Sam & Vùng Bảy Núi",
+        "image": "assets/images/ds_image40.jpeg",
+        "caption": "Địa danh tiêu biểu: Miếu Bà Chúa Xứ Núi Sam & Vùng Bảy Núi",
+        "desc": "Lễ hội Vía Bà Chúa Xứ Núi Sam di sản văn hóa phi vật thể nhân loại, địa hình Thất Sơn huyền bí."
+      },
+      {
+        "title": "Rừng tràm Trà Sư",
+        "image": "assets/images/ds_image41.jpeg",
+        "caption": "Địa danh tiêu biểu: Rừng tràm Trà Sư",
+        "desc": "Hệ sinh thái ngập nước tiêu biểu mùa nước nổi, thảm bèo xanh mướt chim muông ríu rít."
+      }
+    ],
+    "heritage": [
+      "Đảo Phú Quốc",
+      "Rừng tràm Trà Sư"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh An Giang trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=%C4%91%E1%BA%A3o%20Ph%C3%BA%20Qu%E1%BB%91c%3B%20r%E1%BB%ABng%20tr%C3%A0m%20Tr%C3%A0%20S%C6%B0%3B%20n%C3%BAi%20Sam%20Ch%C3%A2u%20%C4%90%E1%BB%91c"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (An Giang)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=%C4%91%E1%BA%A3o%20Ph%C3%BA%20Qu%E1%BB%91c%3B%20r%E1%BB%ABng%20tr%C3%A0m%20Tr%C3%A0%20S%C6%B0%3B%20n%C3%BAi%20Sam%20Ch%C3%A2u%20%C4%90%E1%BB%91c&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "24": {
+    "id": 24,
+    "name": "Cà Mau",
+    "short": "Cà Mau",
+    "slug": "24-ca-mau",
+    "regionId": "vung-5",
+    "regionName": "Đông Nam Bộ",
+    "silhouette": "assets/silhouettes/24_ca_mau.png",
+    "litColor": "#0d9488",
+    "quote": "Vùng đất Đông Nam Bộ · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Cà Mau là một trong những trung tâm trọng điểm thuộc Đông Nam Bộ. Cà Mau nổi bật với rừng ngập mặn, đất ngập nước, văn hóa vùng cực Nam và các giá trị âm nhạc – kiến trúc của Bạc Liêu cũ. Du lịch gồm đi xuồng xuyên rừng, quan sát chim, tham quan điện gió và trải nghiệm đời sống ven biển. Mũi Cà Mau là biểu tượng cực Nam đất liền; tỉnh có vai trò lớn trong ngành tôm và bảo vệ rừng ngập mặn ven biển.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "7.942,39 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "2.606.672",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "55 xã, 9 phường",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "9.177°B, 105.152°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Cà Mau + Bạc Liêu.",
+          "Đơn vị hành chính cấp xã: 55 xã, 9 phường; tổng 64 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 9.177°B, 105.152°Đ (khu vực trung tâm Cà Mau)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Nuôi trồng và chế biến thủy sản, đặc biệt tôm; năng lượng; lâm nghiệp và kinh tế rừng ngập mặn; nông nghiệp; du lịch sinh thái và văn hóa."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Cà Mau nổi bật với rừng ngập mặn, đất ngập nước, văn hóa vùng cực Nam và các giá trị âm nhạc – kiến trúc của Bạc Liêu cũ. Du lịch gồm đi xuồng xuyên rừng, quan sát chim, tham quan điện gió và trải nghiệm đời sống ven biển.",
+          "Mũi Cà Mau là biểu tượng cực Nam đất liền; tỉnh có vai trò lớn trong ngành tôm và bảo vệ rừng ngập mặn ven biển."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Vườn quốc gia Mũi Cà Mau & Cột mốc tọa độ",
+        "image": "assets/images/ds_image42.jpeg",
+        "caption": "Địa danh tiêu biểu: Vườn quốc gia Mũi Cà Mau & Cột mốc tọa độ",
+        "desc": "Điểm cực Nam Tổ quốc nơi mũi đất vươn ra biển, biểu tượng con tàu hướng ra đại dương."
+      },
+      {
+        "title": "Rừng ngập mặn U Minh Hạ",
+        "image": "assets/images/ds_image43.jpeg",
+        "caption": "Địa danh tiêu biểu: Rừng ngập mặn U Minh Hạ",
+        "desc": "Khu Dự trữ Sinh quyển Thế giới, cánh rừng tràm bạt ngàn với nghề gác kèo ong lấy mật độc đáo."
+      }
+    ],
+    "heritage": [
+      "Mũi Cà Mau và Vườn quốc gia Mũi Cà Mau",
+      "Nhà Công tử Bạc Liêu"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Cà Mau trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=M%C5%A9i%20C%C3%A0%20Mau%3B%20r%E1%BB%ABng%20U%20Minh%20H%E1%BA%A1%3B%20nh%C3%A0%20C%C3%B4ng%20t%E1%BB%AD%20B%E1%BA%A1c%20Li%C3%AAu"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Cà Mau)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=M%C5%A9i%20C%C3%A0%20Mau%3B%20r%E1%BB%ABng%20U%20Minh%20H%E1%BA%A1%3B%20nh%C3%A0%20C%C3%B4ng%20t%E1%BB%AD%20B%E1%BA%A1c%20Li%C3%AAu&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "25": {
+    "id": 25,
+    "name": "Đắk Lắk",
+    "short": "Đắk Lắk",
+    "slug": "25-dak-lak",
+    "regionId": "vung-4",
+    "regionName": "Duyên hải Nam Trung Bộ và Tây Nguyên",
+    "silhouette": "assets/silhouettes/25_dak_lak.png",
+    "litColor": "#d97706",
+    "quote": "Vùng đất Duyên hải Nam Trung Bộ và Tây Nguyên · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Đắk Lắk là một trong những trung tâm trọng điểm thuộc Duyên hải Nam Trung Bộ và Tây Nguyên. Đắk Lắk mới trải từ cao nguyên cà phê đến bờ biển Phú Yên, với các sản phẩm nông nghiệp, thác nước, hồ tự nhiên, văn hóa Ê Đê và cảnh quan địa chất ven biển. Tour biển – cao nguyên là thế mạnh khác biệt. Buôn Ma Thuột được biết đến rộng rãi là “thủ phủ cà phê” Việt Nam; sau hợp nhất, tỉnh có cả di sản cà phê Tây Nguyên và đường bờ biển Phú Yên cũ.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "18.096,40 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "3.346.853",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "88 xã, 14 phường",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "12.667°B, 108.038°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Đắk Lắk + Phú Yên.",
+          "Đơn vị hành chính cấp xã: 88 xã, 14 phường; tổng 102 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 12.667°B, 108.038°Đ (khu vực Buôn Ma Thuột)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Cà phê, hồ tiêu, cao su và nông sản; chế biến thực phẩm; năng lượng tái tạo; thủy sản và dịch vụ ven biển; du lịch sinh thái – văn hóa."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Đắk Lắk mới trải từ cao nguyên cà phê đến bờ biển Phú Yên, với các sản phẩm nông nghiệp, thác nước, hồ tự nhiên, văn hóa Ê Đê và cảnh quan địa chất ven biển. Tour biển – cao nguyên là thế mạnh khác biệt.",
+          "Buôn Ma Thuột được biết đến rộng rãi là “thủ phủ cà phê” Việt Nam; sau hợp nhất, tỉnh có cả di sản cà phê Tây Nguyên và đường bờ biển Phú Yên cũ."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Thủ phủ Cà phê Buôn Ma Thuột",
+        "image": "assets/images/ds_image19.jpeg",
+        "caption": "Địa danh tiêu biểu: Thủ phủ Cà phê Buôn Ma Thuột",
+        "desc": "Thủ phủ cà phê Việt Nam với thương hiệu cà phê Robusta nổi danh thế giới, bảo tàng thế giới cà phê."
+      },
+      {
+        "title": "Hồ Lắk & Thác Dray Nur",
+        "image": "assets/images/ds_image20.jpeg",
+        "caption": "Địa danh tiêu biểu: Hồ Lắk & Thác Dray Nur",
+        "desc": "Hồ nước ngọt tự nhiên lớn nhất Tây Nguyên, thác nước Dray Nur - Dray Sáp hùng vĩ gắn với sử thi hào hùng."
+      }
+    ],
+    "heritage": [
+      "Bảo tàng Thế giới Cà phê và không gian cà phê Buôn Ma Thuột",
+      "Gành Đá Đĩa"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Đắk Lắk trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=B%E1%BA%A3o%20t%C3%A0ng%20Th%E1%BA%BF%20gi%E1%BB%9Bi%20C%C3%A0%20ph%C3%AA%3B%20G%C3%A0nh%20%C4%90%C3%A1%20%C4%90%C4%A9a%3B%20h%E1%BB%93%20L%E1%BA%AFk"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Đắk Lắk)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=B%E1%BA%A3o%20t%C3%A0ng%20Th%E1%BA%BF%20gi%E1%BB%9Bi%20C%C3%A0%20ph%C3%AA%3B%20G%C3%A0nh%20%C4%90%C3%A1%20%C4%90%C4%A9a%3B%20h%E1%BB%93%20L%E1%BA%AFk&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "26": {
+    "id": 26,
+    "name": "Khánh Hòa",
+    "short": "Khánh Hòa",
+    "slug": "26-khanh-hoa",
+    "regionId": "vung-4",
+    "regionName": "Duyên hải Nam Trung Bộ và Tây Nguyên",
+    "silhouette": "assets/silhouettes/26_khanh_hoa.png",
+    "litColor": "#14b8a6",
+    "quote": "Vùng đất Duyên hải Nam Trung Bộ và Tây Nguyên · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Khánh Hòa là một trong những trung tâm trọng điểm thuộc Duyên hải Nam Trung Bộ và Tây Nguyên. Tỉnh kết hợp vịnh Nha Trang, bãi biển, đảo với tháp Chăm và cảnh quan bán sa mạc Ninh Thuận cũ. Du lịch gồm nghỉ dưỡng biển, lặn biển, tìm hiểu văn hóa Chăm, nho – rượu vang và khám phá thiên nhiên khô hạn. Khánh Hòa mới bao gồm vùng biển Nha Trang – Cam Ranh và vùng nắng gió Ninh Thuận, nơi nổi tiếng với nghề trồng nho, nuôi cừu và văn hóa Chăm.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "8.555,86 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "2.243.554",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "48 xã, 16 phường, 1 đặc khu",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "12.239°B, 109.197°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Khánh Hòa + Ninh Thuận.",
+          "Đơn vị hành chính cấp xã: 48 xã, 16 phường, 1 đặc khu; tổng 65 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 12.239°B, 109.197°Đ (khu vực Nha Trang)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Du lịch biển đảo; dịch vụ, cảng biển và logistics; nuôi trồng – khai thác thủy sản; năng lượng; nông nghiệp khô hạn, nho và chế biến thực phẩm."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Tỉnh kết hợp vịnh Nha Trang, bãi biển, đảo với tháp Chăm và cảnh quan bán sa mạc Ninh Thuận cũ. Du lịch gồm nghỉ dưỡng biển, lặn biển, tìm hiểu văn hóa Chăm, nho – rượu vang và khám phá thiên nhiên khô hạn.",
+          "Khánh Hòa mới bao gồm vùng biển Nha Trang – Cam Ranh và vùng nắng gió Ninh Thuận, nơi nổi tiếng với nghề trồng nho, nuôi cừu và văn hóa Chăm."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Vịnh Nha Trang & Tháp Bà Ponagar",
+        "image": "assets/images/ds_image21.jpeg",
+        "caption": "Địa danh tiêu biểu: Vịnh Nha Trang & Tháp Bà Ponagar",
+        "desc": "Một trong những vịnh biển đẹp nhất thế giới, quần thể đền tháp Chăm Pa cổ kính trên đồi Cù Lao."
+      },
+      {
+        "title": "Đảo Yến & Bán đảo Cam Ranh",
+        "image": "assets/images/ds_image22.jpeg",
+        "caption": "Địa danh tiêu biểu: Đảo Yến & Bán đảo Cam Ranh",
+        "desc": "Xứ sở Trầm hương và Yến sào trứ danh, vịnh biển nước sâu tự nhiên hàng đầu thế giới."
+      }
+    ],
+    "heritage": [
+      "Vịnh Nha Trang",
+      "Tháp Po Klong Garai"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Khánh Hòa trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=v%E1%BB%8Bnh%20Nha%20Trang%3B%20th%C3%A1p%20Po%20Klong%20Garai%3B%20v%C6%B0%E1%BB%9Dn%20nho%20Ninh%20Thu%E1%BA%ADn"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Khánh Hòa)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=v%E1%BB%8Bnh%20Nha%20Trang%3B%20th%C3%A1p%20Po%20Klong%20Garai%3B%20v%C6%B0%E1%BB%9Dn%20nho%20Ninh%20Thu%E1%BA%ADn&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "27": {
+    "id": 27,
+    "name": "Gia Lai",
+    "short": "Gia Lai",
+    "slug": "27-gia-lai",
+    "regionId": "vung-4",
+    "regionName": "Duyên hải Nam Trung Bộ và Tây Nguyên",
+    "silhouette": "assets/silhouettes/27_gia_lai.png",
+    "litColor": "#16a34a",
+    "quote": "Vùng đất Duyên hải Nam Trung Bộ và Tây Nguyên · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Gia Lai là một trong những trung tâm trọng điểm thuộc Duyên hải Nam Trung Bộ và Tây Nguyên. Gia Lai mới kết nối cao nguyên Pleiku với bờ biển Quy Nhơn, tạo dải du lịch từ hồ núi lửa, rừng thông, văn hóa cồng chiêng đến bãi biển và tháp Chăm. Đây là lợi thế cho tour liên vùng biển – cao nguyên. Tỉnh mới kết hợp hai sắc thái địa hình hiếm có: cao nguyên bazan trồng cà phê và bờ biển Nam Trung Bộ; văn hóa cồng chiêng Tây Nguyên là di sản phi vật thể được UNESCO ghi danh.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "21.576,53 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "3.583.693",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "110 xã, 25 phường",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "13.782°B, 109.219°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Gia Lai + Bình Định.",
+          "Đơn vị hành chính cấp xã: 110 xã, 25 phường; tổng 135 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 13.782°B, 109.219°Đ (khu vực Quy Nhơn; điểm tham chiếu du lịch)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Nông nghiệp quy mô lớn (cà phê, hồ tiêu, cao su, cây ăn quả); chế biến nông sản; thủy điện và năng lượng; thủy sản, cảng biển; thương mại và du lịch."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Gia Lai mới kết nối cao nguyên Pleiku với bờ biển Quy Nhơn, tạo dải du lịch từ hồ núi lửa, rừng thông, văn hóa cồng chiêng đến bãi biển và tháp Chăm. Đây là lợi thế cho tour liên vùng biển – cao nguyên.",
+          "Tỉnh mới kết hợp hai sắc thái địa hình hiếm có: cao nguyên bazan trồng cà phê và bờ biển Nam Trung Bộ; văn hóa cồng chiêng Tây Nguyên là di sản phi vật thể được UNESCO ghi danh."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Biển Hồ Pleiku (Hồ T'Nưng)",
+        "image": "assets/images/ds_image23.jpeg",
+        "caption": "Địa danh tiêu biểu: Biển Hồ Pleiku (Hồ T'Nưng)",
+        "desc": "Được mệnh danh là \"Mắt ngọc Pleiku\", dấu tích miệng núi lửa cổ đại ngút ngàn nước xanh trong biếc."
+      },
+      {
+        "title": "Không gian Văn hóa Cồng chiêng",
+        "image": "assets/images/ds_image24.jpeg",
+        "caption": "Địa danh tiêu biểu: Không gian Văn hóa Cồng chiêng",
+        "desc": "Kiệt tác truyền khẩu và Di sản văn hóa phi vật thể nhân loại của UNESCO giữa đại ngàn Tây Nguyên."
+      }
+    ],
+    "heritage": [
+      "Eo Gió – Kỳ Co",
+      "Biển Hồ T’Nưng"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Gia Lai trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=Eo%20Gi%C3%B3%20Quy%20Nh%C6%A1n%3B%20K%E1%BB%B3%20Co%3B%20Bi%E1%BB%83n%20H%E1%BB%93%20T%E2%80%99N%C6%B0ng%20Gia%20Lai"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Gia Lai)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=Eo%20Gi%C3%B3%20Quy%20Nh%C6%A1n%3B%20K%E1%BB%B3%20Co%3B%20Bi%E1%BB%83n%20H%E1%BB%93%20T%E2%80%99N%C6%B0ng%20Gia%20Lai&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "28": {
+    "id": 28,
+    "name": "Quảng Ngãi",
+    "short": "Quảng Ngãi",
+    "slug": "28-quang-ngai",
+    "regionId": "vung-4",
+    "regionName": "Duyên hải Nam Trung Bộ và Tây Nguyên",
+    "silhouette": "assets/silhouettes/28_quang_ngai.png",
+    "litColor": "#f43f5e",
+    "quote": "Vùng đất Duyên hải Nam Trung Bộ và Tây Nguyên · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Quảng Ngãi là một trong những trung tâm trọng điểm thuộc Duyên hải Nam Trung Bộ và Tây Nguyên. Tỉnh mới kết hợp biển đảo Lý Sơn với cao nguyên, rừng và bản làng Kon Tum. Du lịch có thể phát triển theo tuyến biển – núi, địa chất núi lửa, văn hóa dân tộc, công nghiệp và lịch sử địa phương. Khu kinh tế Dung Quất là trung tâm công nghiệp – năng lượng quan trọng; vùng Kon Tum cũ đem lại thế mạnh du lịch cao nguyên và văn hóa Tây Nguyên.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "14.832,55 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "2.161.755",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "86 xã, 9 phường, 1 đặc khu",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "15.120°B, 108.800°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Quảng Ngãi + Kon Tum.",
+          "Đơn vị hành chính cấp xã: 86 xã, 9 phường, 1 đặc khu; tổng 96 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 15.120°B, 108.800°Đ (khu vực trung tâm Quảng Ngãi)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Công nghiệp lọc hóa dầu và cơ khí tại Dung Quất; nông – lâm nghiệp; thủy sản; du lịch biển đảo; dược liệu, cà phê và sản phẩm nông nghiệp vùng cao."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Tỉnh mới kết hợp biển đảo Lý Sơn với cao nguyên, rừng và bản làng Kon Tum. Du lịch có thể phát triển theo tuyến biển – núi, địa chất núi lửa, văn hóa dân tộc, công nghiệp và lịch sử địa phương.",
+          "Khu kinh tế Dung Quất là trung tâm công nghiệp – năng lượng quan trọng; vùng Kon Tum cũ đem lại thế mạnh du lịch cao nguyên và văn hóa Tây Nguyên."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Đảo thiên đường Lý Sơn",
+        "image": "assets/images/ds_image25.webp",
+        "caption": "Địa danh tiêu biểu: Đảo thiên đường Lý Sơn",
+        "desc": "Bảo tàng sống về địa chất núi lửa biển với cổng Tò Vò, miệng núi lửa Thới Lới và di tích Đội Hoàng Sa kiêm quản Bắc Hải."
+      },
+      {
+        "title": "Khu kinh tế Dung Quất",
+        "image": "assets/images/ds_image26.jpeg",
+        "caption": "Địa danh tiêu biểu: Khu kinh tế Dung Quất",
+        "desc": "Nhà máy lọc dầu đầu tiên của Việt Nam, trung tâm công nghiệp nặng ven biển năng động."
+      }
+    ],
+    "heritage": [
+      "Đảo Lý Sơn",
+      "Nhà thờ gỗ Kon Tum"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Quảng Ngãi trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=%C4%91%E1%BA%A3o%20L%C3%BD%20S%C6%A1n%3B%20nh%C3%A0%20th%E1%BB%9D%20g%E1%BB%97%20Kon%20Tum%3B%20M%C4%83ng%20%C4%90en"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Quảng Ngãi)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=%C4%91%E1%BA%A3o%20L%C3%BD%20S%C6%A1n%3B%20nh%C3%A0%20th%E1%BB%9D%20g%E1%BB%97%20Kon%20Tum%3B%20M%C4%83ng%20%C4%90en&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "29": {
+    "id": 29,
+    "name": "Lâm Đồng",
+    "short": "Lâm Đồng",
+    "slug": "29-lam-dong",
+    "regionId": "vung-4",
+    "regionName": "Duyên hải Nam Trung Bộ và Tây Nguyên",
+    "silhouette": "assets/silhouettes/29_lam_dong.png",
+    "litColor": "#a855f7",
+    "quote": "Vùng đất Duyên hải Nam Trung Bộ và Tây Nguyên · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Lâm Đồng là một trong những trung tâm trọng điểm thuộc Duyên hải Nam Trung Bộ và Tây Nguyên. Lâm Đồng mới trải từ cao nguyên mát mẻ Đà Lạt qua rừng, hồ, thác đến bờ biển Phan Thiết – Mũi Né. Tỉnh có thể kết nối du lịch nghỉ dưỡng, nông nghiệp công nghệ cao, cồn cát, thể thao biển và sinh thái rừng. Lâm Đồng là tỉnh có diện tích tự nhiên lớn nhất trong 34 tỉnh, thành sau sắp xếp; không gian mới có cả Đà Lạt, cao nguyên Đắk Nông cũ và vùng biển Bình Thuận cũ.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "24.233,07 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "3.872.999",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "103 xã, 20 phường, 1 đặc khu",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "11.940°B, 108.458°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Lâm Đồng + Đắk Nông + Bình Thuận.",
+          "Đơn vị hành chính cấp xã: 103 xã, 20 phường, 1 đặc khu; tổng 124 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 11.940°B, 108.458°Đ (khu vực Đà Lạt; điểm tham chiếu du lịch)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Du lịch nghỉ dưỡng; rau, hoa, cà phê và chè; công nghiệp chế biến; bô-xít – alumin; năng lượng; thủy sản và du lịch biển ở vùng Bình Thuận cũ."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Lâm Đồng mới trải từ cao nguyên mát mẻ Đà Lạt qua rừng, hồ, thác đến bờ biển Phan Thiết – Mũi Né. Tỉnh có thể kết nối du lịch nghỉ dưỡng, nông nghiệp công nghệ cao, cồn cát, thể thao biển và sinh thái rừng.",
+          "Lâm Đồng là tỉnh có diện tích tự nhiên lớn nhất trong 34 tỉnh, thành sau sắp xếp; không gian mới có cả Đà Lạt, cao nguyên Đắk Nông cũ và vùng biển Bình Thuận cũ."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Thành phố Festival Hoa Đà Lạt",
+        "image": "assets/images/ds_image27.jpeg",
+        "caption": "Địa danh tiêu biểu: Thành phố Festival Hoa Đà Lạt",
+        "desc": "Thành phố sương mù ngàn hoa, thung lũng Tình Yêu, hồ Xuân Hương và khí hậu ôn đới quanh năm."
+      },
+      {
+        "title": "Đỉnh Langbiang huyền thoại",
+        "image": "assets/images/ds_image28.jpeg",
+        "caption": "Địa danh tiêu biểu: Đỉnh Langbiang huyền thoại",
+        "desc": "Nóc nhà Đà Lạt với chuyện tình chàng K'lang và nàng H'biang, rừng thông đại ngàn bát ngát."
+      }
+    ],
+    "heritage": [
+      "Đà Lạt",
+      "Đồi cát Mũi Né"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Lâm Đồng trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=%C4%90%C3%A0%20L%E1%BA%A1t%20h%E1%BB%93%20Xu%C3%A2n%20H%C6%B0%C6%A1ng%3B%20%C4%91%E1%BB%93i%20c%C3%A1t%20M%C5%A9i%20N%C3%A9%3B%20h%E1%BB%93%20T%C3%A0%20%C4%90%C3%B9ng"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Lâm Đồng)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=%C4%90%C3%A0%20L%E1%BA%A1t%20h%E1%BB%93%20Xu%C3%A2n%20H%C6%B0%C6%A1ng%3B%20%C4%91%E1%BB%93i%20c%C3%A1t%20M%C5%A9i%20N%C3%A9%3B%20h%E1%BB%93%20T%C3%A0%20%C4%90%C3%B9ng&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "30": {
+    "id": 30,
+    "name": "Quảng Ninh",
+    "short": "Quảng Ninh",
+    "slug": "30-quang-ninh",
+    "regionId": "vung-2",
+    "regionName": "Đồng bằng sông Hồng",
+    "silhouette": "assets/silhouettes/30_quang_ninh.png",
+    "litColor": "#06b6d4",
+    "quote": "Vùng đất Đồng bằng sông Hồng · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Quảng Ninh là một trong những trung tâm trọng điểm thuộc Đồng bằng sông Hồng. Quảng Ninh có lợi thế nổi trội về di sản biển đảo, cảnh quan karst, tâm linh và du lịch nghỉ dưỡng. Hạ Long – Bái Tử Long – Cô Tô – Yên Tử tạo chuỗi sản phẩm từ du thuyền, tắm biển đến hành hương và leo núi. Quảng Ninh là địa phương có cả thế mạnh than đá lẫn du lịch di sản biển; vịnh Hạ Long và quần đảo Cát Bà được UNESCO ghi danh chung trong di sản mở rộng năm 2023.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "6.207,93 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "1.497.447",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "22 xã, 30 phường, 2 đặc khu",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "20.951°B, 107.080°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Giữ nguyên địa giới cấp tỉnh.",
+          "Đơn vị hành chính cấp xã: 22 xã, 30 phường, 2 đặc khu; tổng 54 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 20.951°B, 107.080°Đ (khu vực Hạ Long)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Du lịch – dịch vụ; khai thác và chế biến than; cảng biển, logistics; công nghiệp; kinh tế cửa khẩu, nuôi trồng thủy sản và dịch vụ đảo."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Quảng Ninh có lợi thế nổi trội về di sản biển đảo, cảnh quan karst, tâm linh và du lịch nghỉ dưỡng. Hạ Long – Bái Tử Long – Cô Tô – Yên Tử tạo chuỗi sản phẩm từ du thuyền, tắm biển đến hành hương và leo núi.",
+          "Quảng Ninh là địa phương có cả thế mạnh than đá lẫn du lịch di sản biển; vịnh Hạ Long và quần đảo Cát Bà được UNESCO ghi danh chung trong di sản mở rộng năm 2023."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Vịnh Hạ Long – Kỳ quan thiên nhiên thế giới",
+        "image": "assets/images/ds_image6.jpeg",
+        "caption": "Địa danh tiêu biểu: Vịnh Hạ Long – Kỳ quan thiên nhiên thế giới",
+        "desc": "Di sản Thiên nhiên Thế giới UNESCO với hàng nghìn đảo đá vôi nhô lên từ làn nước màu ngọc bích tuyệt mỹ."
+      },
+      {
+        "title": "Non thiêng Yên Tử",
+        "image": "assets/images/ds_image7.jpeg",
+        "caption": "Địa danh tiêu biểu: Non thiêng Yên Tử",
+        "desc": "Cội nguồn Thiền phái Trúc Lâm do Phật hoàng Trần Nhân Tông sáng lập, trung tâm Phật giáo danh tiếng."
+      },
+      {
+        "title": "Đảo ngọc Cô Tô & Trà Cổ",
+        "image": "assets/images/ds_image8.jpeg",
+        "caption": "Địa danh tiêu biểu: Đảo ngọc Cô Tô & Trà Cổ",
+        "desc": "Bãi cát trắng mịn nguyên sơ, mũi Sa Vĩ nơi nét vẽ đầu tiên của bản đồ Tổ quốc."
+      }
+    ],
+    "heritage": [
+      "Vịnh Hạ Long",
+      "Yên Tử"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Quảng Ninh trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=V%E1%BB%8Bnh%20H%E1%BA%A1%20Long%3B%20Y%C3%AAn%20T%E1%BB%AD%3B%20%C4%91%E1%BA%A3o%20C%C3%B4%20T%C3%B4"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Quảng Ninh)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=V%E1%BB%8Bnh%20H%E1%BA%A1%20Long%3B%20Y%C3%AAn%20T%E1%BB%AD%3B%20%C4%91%E1%BA%A3o%20C%C3%B4%20T%C3%B4&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "31": {
+    "id": 31,
+    "name": "Đồng Tháp",
+    "short": "Đồng Tháp",
+    "slug": "31-dong-thap",
+    "regionId": "vung-5",
+    "regionName": "Đông Nam Bộ",
+    "silhouette": "assets/silhouettes/31_dong_thap.png",
+    "litColor": "#ec4899",
+    "quote": "Vùng đất Đông Nam Bộ · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Đồng Tháp là một trong những trung tâm trọng điểm thuộc Đông Nam Bộ. Đồng Tháp mới nối vùng đất ngập nước Đồng Tháp Mười với vườn cây ăn quả và không gian ven sông Tiền. Du lịch gồm quan sát chim, vườn hoa, vườn cây, di tích văn hóa và trải nghiệm miền Tây. Đồng Tháp nổi tiếng với sen và vùng đất ngập nước; sau sắp xếp tỉnh có thêm các vùng cây ăn trái và di tích ven sông Tiền của Tiền Giang cũ.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "5.938,64 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "4.370.046",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "82 xã, 20 phường",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "10.460°B, 105.632°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Đồng Tháp + Tiền Giang.",
+          "Đơn vị hành chính cấp xã: 82 xã, 20 phường; tổng 102 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 10.460°B, 105.632°Đ (khu vực Cao Lãnh)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Trồng lúa, cây ăn quả và hoa; nuôi trồng thủy sản; chế biến thực phẩm; thương mại – logistics; du lịch sông nước, sinh thái và làng nghề."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Đồng Tháp mới nối vùng đất ngập nước Đồng Tháp Mười với vườn cây ăn quả và không gian ven sông Tiền. Du lịch gồm quan sát chim, vườn hoa, vườn cây, di tích văn hóa và trải nghiệm miền Tây.",
+          "Đồng Tháp nổi tiếng với sen và vùng đất ngập nước; sau sắp xếp tỉnh có thêm các vùng cây ăn trái và di tích ven sông Tiền của Tiền Giang cũ."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Vườn quốc gia Tràm Chim",
+        "image": "assets/images/ds_image44.jpeg",
+        "caption": "Địa danh tiêu biểu: Vườn quốc gia Tràm Chim",
+        "desc": "Khu Ramsar thế giới, xứ sở của loài Sếu đầu đỏ quý hiếm và bạt ngàn sen hồng ngát hương."
+      },
+      {
+        "title": "Làng hoa kiểng Sa Đéc",
+        "image": "assets/images/ds_image45.jpeg",
+        "caption": "Địa danh tiêu biểu: Làng hoa kiểng Sa Đéc",
+        "desc": "Thủ phủ hoa kiểng trăm năm tuổi miền Tây, cung cấp hoa xuân rực rỡ muôn màu cho cả nước."
+      }
+    ],
+    "heritage": [
+      "Vườn quốc gia Tràm Chim",
+      "Làng hoa Sa Đéc"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Đồng Tháp trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=V%C6%B0%E1%BB%9Dn%20qu%E1%BB%91c%20gia%20Tr%C3%A0m%20Chim%3B%20l%C3%A0ng%20hoa%20Sa%20%C4%90%C3%A9c%3B%20sen%20%C4%90%E1%BB%93ng%20Th%C3%A1p"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Đồng Tháp)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=V%C6%B0%E1%BB%9Dn%20qu%E1%BB%91c%20gia%20Tr%C3%A0m%20Chim%3B%20l%C3%A0ng%20hoa%20Sa%20%C4%90%C3%A9c%3B%20sen%20%C4%90%E1%BB%93ng%20Th%C3%A1p&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "32": {
+    "id": 32,
+    "name": "Ninh Bình",
+    "short": "Ninh Bình",
+    "slug": "32-ninh-binh",
+    "regionId": "vung-2",
+    "regionName": "Đồng bằng sông Hồng",
+    "silhouette": "assets/silhouettes/32_ninh_binh.png",
+    "litColor": "#10b981",
+    "quote": "Vùng đất Đồng bằng sông Hồng · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Ninh Bình là một trong những trung tâm trọng điểm thuộc Đồng bằng sông Hồng. Tỉnh mới nối cảnh quan núi đá vôi – sông nước Tràng An với di tích cố đô Hoa Lư, kiến trúc tôn giáo và các không gian văn hóa đồng bằng. Du lịch có thể kết hợp thuyền, đạp xe, hành hương, làng nghề và ẩm thực. Tràng An là di sản thế giới hỗn hợp (văn hóa và thiên nhiên); tỉnh mới còn có nhiều nhà thờ, chùa và làng nghề nổi bật ở vùng đồng bằng cũ.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "3.942,62 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "4.412.264",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "97 xã, 32 phường",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "20.251°B, 105.975°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Ninh Bình + Hà Nam + Nam Định.",
+          "Đơn vị hành chính cấp xã: 97 xã, 32 phường; tổng 129 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 20.251°B, 105.975°Đ (khu vực Ninh Bình)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Du lịch di sản và sinh thái; công nghiệp chế biến, cơ khí, vật liệu; nông nghiệp; dịch vụ; kinh tế ven biển và thủy sản từ vùng Nam Định cũ."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Tỉnh mới nối cảnh quan núi đá vôi – sông nước Tràng An với di tích cố đô Hoa Lư, kiến trúc tôn giáo và các không gian văn hóa đồng bằng. Du lịch có thể kết hợp thuyền, đạp xe, hành hương, làng nghề và ẩm thực.",
+          "Tràng An là di sản thế giới hỗn hợp (văn hóa và thiên nhiên); tỉnh mới còn có nhiều nhà thờ, chùa và làng nghề nổi bật ở vùng đồng bằng cũ."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Quần thể danh thắng Tràng An",
+        "image": "assets/images/ds_image9.jpeg",
+        "caption": "Địa danh tiêu biểu: Quần thể danh thắng Tràng An",
+        "desc": "Di sản Thế giới kép (văn hóa và thiên nhiên) duy nhất tại Đông Nam Á, cảnh quan karst nhiệt đới ngập nước kỳ vĩ."
+      },
+      {
+        "title": "Cố đô Hoa Lư & Tam Cốc Bích Động",
+        "image": "assets/images/ds_image10.jpeg",
+        "caption": "Địa danh tiêu biểu: Cố đô Hoa Lư & Tam Cốc Bích Động",
+        "desc": "Kinh đô đầu tiên của nhà nước phong kiến trung ương tập quyền Việt Nam dưới thời Đinh, Tiền Lê."
+      }
+    ],
+    "heritage": [
+      "Quần thể danh thắng Tràng An",
+      "Cố đô Hoa Lư"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Ninh Bình trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=Tr%C3%A0ng%20An%20Ninh%20B%C3%ACnh%3B%20c%E1%BB%91%20%C4%91%C3%B4%20Hoa%20L%C6%B0%3B%20Tam%20C%E1%BB%91c"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Ninh Bình)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=Tr%C3%A0ng%20An%20Ninh%20B%C3%ACnh%3B%20c%E1%BB%91%20%C4%91%C3%B4%20Hoa%20L%C6%B0%3B%20Tam%20C%E1%BB%91c&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "33": {
+    "id": 33,
+    "name": "Hưng Yên",
+    "short": "Hưng Yên",
+    "slug": "33-hung-yen",
+    "regionId": "vung-2",
+    "regionName": "Đồng bằng sông Hồng",
+    "silhouette": "assets/silhouettes/33_hung_yen.png",
+    "litColor": "#8b5cf6",
+    "quote": "Vùng đất Đồng bằng sông Hồng · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Hưng Yên là một trong những trung tâm trọng điểm thuộc Đồng bằng sông Hồng. Du lịch Hưng Yên dựa trên di tích thương cảng Phố Hiến, chùa – đình làng, di sản nông nghiệp đồng bằng và văn hóa ven biển vùng Thái Bình. Có thể kết hợp tuyến di tích, làng nghề, lễ hội và trải nghiệm nông thôn. Hưng Yên nổi tiếng với nhãn lồng; vùng Thái Bình cũ có truyền thống trồng lúa và văn hóa làng xã đồng bằng Bắc Bộ.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "2.514,81 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "3.567.943",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "93 xã, 11 phường",
+        "sub": "Tỉnh"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "20.646°B, 106.051°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Hưng Yên + Thái Bình.",
+          "Đơn vị hành chính cấp xã: 93 xã, 11 phường; tổng 104 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 20.646°B, 106.051°Đ (khu vực trung tâm Hưng Yên)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Công nghiệp chế biến, cơ khí, điện tử và khu công nghiệp; nông nghiệp thâm canh; trồng nhãn, rau màu; chế biến thực phẩm; dịch vụ – logistics."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Du lịch Hưng Yên dựa trên di tích thương cảng Phố Hiến, chùa – đình làng, di sản nông nghiệp đồng bằng và văn hóa ven biển vùng Thái Bình. Có thể kết hợp tuyến di tích, làng nghề, lễ hội và trải nghiệm nông thôn.",
+          "Hưng Yên nổi tiếng với nhãn lồng; vùng Thái Bình cũ có truyền thống trồng lúa và văn hóa làng xã đồng bằng Bắc Bộ."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Quần thể di tích Phố Hiến",
+        "image": "assets/images/ds_image11.jpeg",
+        "caption": "Địa danh tiêu biểu: Quần thể di tích Phố Hiến",
+        "desc": "Thương cảng quốc tế hưng thịnh thế kỷ 16-17 với câu ca dao lưu truyền: \"Thứ nhất Kinh Kỳ, thứ nhì Phố Hiến\"."
+      },
+      {
+        "title": "Đặc sản Nhãn lồng & Chùa Chuông",
+        "image": "assets/images/ds_image12.jpeg",
+        "caption": "Địa danh tiêu biểu: Đặc sản Nhãn lồng & Chùa Chuông",
+        "desc": "Sản vật tiến vua trứ danh cùng các di tích cổ kính đậm đặc dấu ấn châu thổ sông Hồng."
+      }
+    ],
+    "heritage": [
+      "Phố Hiến",
+      "Chùa Keo"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Hưng Yên trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=Ph%E1%BB%91%20Hi%E1%BA%BFn%20H%C6%B0ng%20Y%C3%AAn%3B%20ch%C3%B9a%20Keo%20Th%C3%A1i%20B%C3%ACnh%3B%20nh%C3%A3n%20l%E1%BB%93ng%20H%C6%B0ng%20Y%C3%AAn"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Hưng Yên)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=Ph%E1%BB%91%20Hi%E1%BA%BFn%20H%C6%B0ng%20Y%C3%AAn%3B%20ch%C3%B9a%20Keo%20Th%C3%A1i%20B%C3%ACnh%3B%20nh%C3%A3n%20l%E1%BB%93ng%20H%C6%B0ng%20Y%C3%AAn&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "34": {
+    "id": 34,
+    "name": "Thành phố Hải Phòng",
+    "short": "Hải Phòng",
+    "slug": "34-thanh-pho-hai-phong",
+    "regionId": "vung-2",
+    "regionName": "Đồng bằng sông Hồng",
+    "silhouette": "assets/silhouettes/34_thanh_pho_hai_phong.png",
+    "litColor": "#0284c7",
+    "quote": "Vùng đất Đồng bằng sông Hồng · Tinh hoa văn hóa & Tiềm năng phát triển bền vững",
+    "overview": "Thành phố Hải Phòng là một trong những trung tâm trọng điểm thuộc Đồng bằng sông Hồng. Hải Phòng kết hợp đô thị cảng, di sản công nghiệp – kiến trúc, các di tích ở Hải Dương và hệ sinh thái biển đảo Cát Bà. Sản phẩm du lịch gồm ẩm thực đô thị, nghỉ dưỡng biển, du thuyền và khám phá thiên nhiên. Hải Phòng là một trong những trung tâm cảng biển quan trọng nhất Việt Nam; sau hợp nhất, thành phố có thêm không gian di tích, làng nghề và nông nghiệp của Hải Dương.",
+    "stats": [
+      {
+        "label": "Diện tích",
+        "value": "3.194,72 km²",
+        "sub": "Sau sắp xếp 2025"
+      },
+      {
+        "label": "Dân số",
+        "value": "4.664.124",
+        "sub": "Dân số tham chiếu"
+      },
+      {
+        "label": "Hành chính",
+        "value": "67 xã, 45 phường, 2 đặc khu",
+        "sub": "Thành phố trực thuộc Trung ương"
+      },
+      {
+        "label": "Tọa độ",
+        "value": "20.845°B, 106.688°Đ",
+        "sub": "Điểm tham chiếu"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý & Địa giới hành chính",
+        "icon": "geo",
+        "content": [
+          "Địa giới hành chính: Hải Phòng + Hải Dương.",
+          "Đơn vị hành chính cấp xã: 67 xã, 45 phường, 2 đặc khu; tổng 114 đơn vị hành chính cấp xã..",
+          "Tọa độ tham khảo: 20.845°B, 106.688°Đ (khu vực trung tâm Hải Phòng)."
+        ]
+      },
+      {
+        "title": "Cơ cấu kinh tế nổi bật",
+        "icon": "trend",
+        "content": [
+          "Cảng biển và logistics; công nghiệp chế tạo, điện tử, ô tô; dịch vụ vận tải; thương mại; nuôi trồng thủy sản và du lịch biển đảo."
+        ]
+      },
+      {
+        "title": "Du lịch & Đặc điểm địa phương",
+        "icon": "mountain",
+        "content": [
+          "Hải Phòng kết hợp đô thị cảng, di sản công nghiệp – kiến trúc, các di tích ở Hải Dương và hệ sinh thái biển đảo Cát Bà. Sản phẩm du lịch gồm ẩm thực đô thị, nghỉ dưỡng biển, du thuyền và khám phá thiên nhiên.",
+          "Hải Phòng là một trong những trung tâm cảng biển quan trọng nhất Việt Nam; sau hợp nhất, thành phố có thêm không gian di tích, làng nghề và nông nghiệp của Hải Dương."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Quần đảo Cát Bà & Vịnh Lan Hạ",
+        "image": "assets/images/ds_image13.jpeg",
+        "caption": "Địa danh tiêu biểu: Quần đảo Cát Bà & Vịnh Lan Hạ",
+        "desc": "Khu dự trữ sinh quyển thế giới và Di sản Thiên nhiên Thế giới UNESCO, vịnh biển thơ mộng với hàng trăm hòn đảo đá vôi kỳ thú."
+      },
+      {
+        "title": "Thành phố Cảng & Hoa phượng đỏ",
+        "image": "assets/images/ds_image14.jpeg",
+        "caption": "Địa danh tiêu biểu: Thành phố Cảng & Hoa phượng đỏ",
+        "desc": "Cửa chính ra biển của miền Bắc, trung tâm logistics cảng nước sâu quốc tế Lạch Huyện hiện đại."
+      }
+    ],
+    "heritage": [
+      "Quần đảo Cát Bà và vịnh Lan Hạ",
+      "Côn Sơn – Kiếp Bạc"
+    ],
+    "links": [
+      {
+        "title": "Tra cứu ảnh Hải Phòng trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=qu%E1%BA%A7n%20%C4%91%E1%BA%A3o%20C%C3%A1t%20B%C3%A0%3B%20v%E1%BB%8Bnh%20Lan%20H%E1%BA%A1%3B%20C%C3%B4n%20S%C6%A1n%20Ki%E1%BA%BFp%20B%E1%BA%A1c"
+      },
+      {
+        "title": "Hình ảnh tư liệu Wikimedia Commons (Hải Phòng)",
+        "url": "https://commons.wikimedia.org/w/index.php?search=qu%E1%BA%A7n%20%C4%91%E1%BA%A3o%20C%C3%A1t%20B%C3%A0%3B%20v%E1%BB%8Bnh%20Lan%20H%E1%BA%A1%3B%20C%C3%B4n%20S%C6%A1n%20Ki%E1%BA%BFp%20B%E1%BA%A1c&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "35": {
+    "id": 35,
+    "name": "Đặc khu Hoàng Sa (Quần đảo Hoàng Sa)",
+    "short": "Hoàng Sa",
+    "slug": "hoang-sa",
+    "regionId": "vung-4",
+    "regionName": "Duyên hải Nam Trung Bộ và Tây Nguyên",
+    "silhouette": "assets/silhouettes/35_hoang_sa.png",
+    "litColor": "#f59e0b",
+    "quote": "Chủ quyền thiêng liêng nơi đầu sóng · Hào khí Hùng binh Hoàng Sa · Cương vực ngàn đời của Tổ quốc",
+    "overview": "Quần đảo Hoàng Sa (Paracel Islands, trong thư tịch cổ còn gọi là Bãi Cát Vàng) là một quần đảo san hô gồm khoảng 37 đảo, đá, cồn cát, bãi cạn và rạn san hô trên vùng biển rộng khoảng 30.000 km² ở phía đông miền Trung Việt Nam. Theo tổ chức hành chính Việt Nam sau sắp xếp năm 2025 (Nghị quyết 1659/NQ-UBTVQH15), đây là Đặc khu Hoàng Sa trực thuộc thành phố Đà Nẵng. Việt Nam khẳng định có đầy đủ cơ sở lịch sử và pháp lý vững chắc khẳng định chủ quyền không thể chối cãi đối với quần đảo Hoàng Sa theo luật pháp quốc tế.",
+    "stats": [
+      {
+        "label": "Vùng biển",
+        "value": "~30.000 km²",
+        "sub": "Phần nổi ~10 km² (37 đảo, đá, rạn)"
+      },
+      {
+        "label": "Hành chính",
+        "value": "01 Đặc khu",
+        "sub": "Đặc khu Hoàng Sa, TP. Đà Nẵng"
+      },
+      {
+        "label": "Dân số",
+        "value": "Lực lượng nhiệm vụ",
+        "sub": "Ngư dân bám biển & nhân sự công tác"
+      },
+      {
+        "label": "Tọa độ cực",
+        "value": "15°44′B – 17°06′B",
+        "sub": "Kinh độ: 111°11′Đ – 112°53′Đ"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý, Tên gọi & Cấu trúc địa hình",
+        "icon": "geo",
+        "content": [
+          "Tên gọi: Quần đảo Hoàng Sa (tên quốc tế: Paracel Islands, sử liệu cổ Việt Nam ghi chép là \"Bãi Cát Vàng\"). Vị trí nằm ở phía đông đất liền miền Trung Việt Nam, thuộc Biển Đông, án ngữ các trục đường hàng hải quốc tế huyết mạch.",
+          "Tọa độ các điểm cực: Cực Bắc (đảo Đá Bắc: 17°06′00″B, 111°30′08″Đ); Cực Nam (bãi ngầm Ốc Tai Voi: 15°44′02″B, 112°14′01″Đ); Cực Đông (bãi cạn Gò Nổi: 16°49′07″B, 112°53′04″Đ); Cực Tây (đảo Tri Tôn: 15°47′02″B, 111°11′08″Đ).",
+          "Cấu trúc: Quần đảo gồm khoảng 37 đảo, đá, bãi cạn, bãi ngầm chia làm hai nhóm chính: Cụm Lưỡi Liềm (Trăng Khuyết) ở phía tây (Hoàng Sa, Hữu Nhật, Quang Ảnh, Quang Hòa, Duy Mộng, Tri Tôn...) và Cụm An Vĩnh ở phía đông bắc (Phú Lâm, đảo Cây, Linh Côn, bãi Bông Bay...)."
+        ]
+      },
+      {
+        "title": "Chủ quyền lịch sử & Căn cứ pháp lý vững chắc",
+        "icon": "flag",
+        "content": [
+          "Lập trường Việt Nam: Việt Nam có đầy đủ cơ sở lịch sử và pháp lý vững chắc khẳng định chủ quyền đối với quần đảo Hoàng Sa. Thư tịch cổ, bản đồ cổ, Châu bản triều Nguyễn ghi chép hoạt động kiểm soát, tuần tra, khai thác liên tục của Hải đội Hoàng Sa và Đội Bắc Hải từ nhiều thế kỷ.",
+          "Pháp lý quốc tế: Nhà nước Việt Nam qua các thời kỳ lịch sử đã xác lập và thực thi chủ quyền một cách hòa bình, thực chất, liên tục và phù hợp với luật pháp quốc tế, bao gồm Công ước Liên Hợp Quốc về Luật Biển 1982 (UNCLOS).",
+          "Tình trạng thực tế: Trung Quốc dùng vũ lực chiếm đóng trái phép toàn bộ quần đảo Hoàng Sa từ năm 1974 sau cuộc xung đột quân sự với lực lượng quân đội Việt Nam Cộng hòa. Việt Nam liên tục lên tiếng phản đối và kiên quyết khẳng định chủ quyền không thể chối cãi."
+        ]
+      },
+      {
+        "title": "An ninh – Quốc phòng & Diễn biến Biển Đông (Cập nhật 2026)",
+        "icon": "shield",
+        "content": [
+          "Ý nghĩa phòng thủ: Hoàng Sa giữ vai trò tiền tiêu đặc biệt trọng yếu đối với việc kiểm soát, quan sát, bảo đảm thông tin liên lạc, an toàn hàng hải và an ninh vùng biển phía bắc Biển Đông.",
+          "Diễn biến đáng chú ý năm 2026: Việt Nam liên tục theo dõi sát sao và lên tiếng kiên quyết phản đối các hoạt động cải tạo, xây dựng trái phép của Trung Quốc tại các thực thể như rạn Hải Sâm (Antelope Reef) và đảo Ba Ba (Yagong).",
+          "Ngày 28/08/2026, Người phát ngôn Bộ Ngoại giao Việt Nam chính thức tuyên bố phản đối mọi hoạt động xâm phạm chủ quyền, yêu cầu tôn trọng luật pháp quốc tế, DOC và không làm phức tạp thêm tình hình trên Biển Đông."
+        ]
+      },
+      {
+        "title": "Vị trí chiến lược & Giá trị kinh tế biển",
+        "icon": "trend",
+        "content": [
+          "Tuyến hàng hải huyết mạch: Nằm gần tuyến hàng hải quốc tế kết nối Đông Bắc Á với Đông Nam Á, Ấn Độ Dương và châu Âu, vận chuyển hàng tỷ thùng dầu và nguồn năng lượng LNG trọng yếu mỗi năm.",
+          "Khai thác hải sản: Vùng biển Hoàng Sa là ngư trường truyền thống của ngư dân Đà Nẵng, Quảng Ngãi, Quảng Nam với nguồn lợi hải sản phong phú ngàn đời.",
+          "Tiềm năng nghiên cứu & khoáng sản: Tiềm năng năng lượng thềm lục địa, nguồn tài nguyên khoáng sản biển sâu và giá trị vô giá cho nghiên cứu hải dương học, hệ sinh thái rạn san hô nhiệt đới."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Đảo Hoàng Sa (Pattle Island) & Cụm Lưỡi Liềm",
+        "image": "assets/images/hoang_sa_island.jpg",
+        "caption": "Vẻ đẹp kỳ vĩ của đảo Hoàng Sa giữa biển trời xanh biếc",
+        "desc": "Đảo san hô hình vòng cung nổi tiếng nằm ở phía tây quần đảo. Thảm thực vật xanh tươi, bãi cát trắng mịn bao quanh bởi làn nước màu ngọc bích tuyệt mỹ, là biểu tượng thiêng liêng của quần đảo Hoàng Sa."
+      },
+      {
+        "title": "Đảo Phú Lâm & Nhóm An Vĩnh",
+        "image": "assets/images/ds_image6.jpeg",
+        "caption": "Đảo Phú Lâm - thực thể có diện tích đất nổi lớn nhất quần đảo",
+        "desc": "Nằm trong cụm An Vĩnh phía đông bắc, là thực thể đảo san hô có diện tích nổi tự nhiên lớn nhất (khoảng 2,1 km²), giữ vị trí quan sát chiến lược bao quát vùng biển phía bắc."
+      },
+      {
+        "title": "Đảo Tri Tôn & Ngư trường Hoàng Sa",
+        "image": "assets/images/ds_image25.webp",
+        "caption": "Vùng biển Lý Sơn - cửa ngõ vươn khơi hướng về Hoàng Sa",
+        "desc": "Đảo Tri Tôn nằm ở cực tây nam của quần đảo Hoàng Sa, là ngư trường truyền thống của ngư dân các tỉnh miền Trung Việt Nam suốt nhiều thế kỷ."
+      },
+      {
+        "title": "Nhà trưng bày Hoàng Sa bên bờ biển Đà Nẵng",
+        "image": "assets/images/ds_image16.jpeg",
+        "caption": "Nhà trưng bày Hoàng Sa tại đường Hoàng Sa, TP. Đà Nẵng",
+        "desc": "Công trình kiến trúc hình Con dấu chủ quyền của các vua triều Nguyễn, nơi lưu giữ hàng trăm tấm bản đồ cổ, Châu bản triều Nguyễn và hiện vật lịch sử khẳng định chủ quyền bất khả xâm phạm của Việt Nam."
+      }
+    ],
+    "heritage": [
+      "Lễ khao lề thế lính Hoàng Sa (Di sản phi vật thể quốc gia)",
+      "Di tích Đội Hoàng Sa kiêm quản Bắc Hải (Đảo Lý Sơn)",
+      "Hệ thống Châu bản triều Nguyễn về chủ quyền Hoàng Sa",
+      "Nhà trưng bày Hoàng Sa (Đường Hoàng Sa, TP. Đà Nẵng)"
+    ],
+    "links": [
+      {
+        "title": "Cổng thông tin điện tử UBND TP. Đà Nẵng (Đặc khu Hoàng Sa)",
+        "url": "https://danang.gov.vn/"
+      },
+      {
+        "title": "Tra cứu tư liệu Quần đảo Hoàng Sa trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=Qu%E1%BA%A7n+%C4%91%E1%BA%A3o+Ho%C3%A0ng+Sa+Vi%E1%BB%87t+Nam"
+      },
+      {
+        "title": "Hình ảnh tư liệu Hoàng Sa (Paracel Islands) - Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/w/index.php?search=Paracel+Islands&title=Special:MediaSearch&type=image"
+      }
+    ]
+  },
+  "36": {
+    "id": 36,
+    "name": "Huyện Trường Sa (Quần đảo Trường Sa)",
+    "short": "Trường Sa",
+    "slug": "truong-sa",
+    "regionId": "vung-4",
+    "regionName": "Duyên hải Nam Trung Bộ và Tây Nguyên",
+    "silhouette": "assets/silhouettes/36_truong_sa.png",
+    "litColor": "#06b6d4",
+    "quote": "Trường Sa vì cả nước, cả nước vì Trường Sa · Lá chắn tiền tiêu hiên ngang giữa biển trời Tổ quốc",
+    "overview": "Quần đảo Trường Sa (Spratly Islands) nằm ở phía nam Biển Đông, gồm hơn 100 đảo nổi, đảo chìm, bãi đá ngầm và rạn san hô trải rộng trên vùng biển chiến lược từ 160.000 đến 410.000 km². Theo tổ chức hành chính Việt Nam, quần đảo là huyện Trường Sa thuộc tỉnh Khánh Hòa, gồm 1 thị trấn (Trường Sa) và 2 xã đảo (Song Tử Tây, Sinh Tồn). Nơi đây giữ vị trí yết hầu về quốc phòng - an ninh trên biển, nằm sát ngã tư các tuyến hàng hải quốc tế nhộn nhịp bậc nhất thế giới. Quân và dân Trường Sa ngày đêm vững vàng nơi đầu sóng ngọn gió, bảo vệ trọn vẹn chủ quyền biển đảo thiêng liêng.",
+    "stats": [
+      {
+        "label": "Vùng biển",
+        "value": "160.000 – 410.000 km²",
+        "sub": "Phần nổi tự nhiên ~2 - 11 km² (>100 đảo, đá, rạn)"
+      },
+      {
+        "label": "Hành chính",
+        "value": "1 thị trấn, 2 xã",
+        "sub": "TT. Trường Sa, xã Song Tử Tây, xã Sinh Tồn"
+      },
+      {
+        "label": "Dân số",
+        "value": "Quân & dân huyện đảo",
+        "sub": "Cộng đồng cư dân, trường học, trạm xá, âu tàu"
+      },
+      {
+        "label": "Tọa độ cực",
+        "value": "06°30′B – 12°00′B",
+        "sub": "Kinh độ: 111°30′Đ – 117°20′Đ"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vị trí địa lý, Tên gọi & Hệ thống các cụm đảo",
+        "icon": "geo",
+        "content": [
+          "Tên gọi: Quần đảo Trường Sa (tên quốc tế: Spratly Islands). Nằm ở khu vực phía nam Biển Đông, án ngữ cửa ngõ hàng hải giao thương quốc tế nối Ấn Độ Dương với Thái Bình Dương.",
+          "Hệ thống thực thể đảo: Gồm hơn 100 đảo, đá, rạn san hô, bãi cạn và bãi ngầm phân bố thành nhiều cụm: Cụm Song Tử (Song Tử Tây, Song Tử Đông), Cụm Loại Ta, Cụm Nam Yết (Nam Yết, Sơn Ca), Cụm Sinh Tồn, Cụm Trường Sa Lớn, Cụm An Bang, Cụm Tiên Nữ.",
+          "Đặc điểm tự nhiên: Khí hậu nhiệt đới gió mùa biển, nhiều nắng và gió bão khắc nghiệt. Đất đảo cát san hô cằn cỗi nhưng dưới bàn tay quân và dân ta nay đã xanh tươi bóng cây bàng vuông, mù u, tra biển."
+        ]
+      },
+      {
+        "title": "Chủ quyền thiêng liêng & Quản lý thực tế",
+        "icon": "flag",
+        "content": [
+          "Căn cứ lịch sử và pháp lý: Việt Nam khẳng định có đầy đủ cơ sở lịch sử và chứng cứ pháp lý xác lập chủ quyền đối với quần đảo Trường Sa qua nhiều thế kỷ, thực thi quyền chủ quyền liên tục và hòa bình.",
+          "Quản lý thực tế: Hiện nay, Việt Nam đang quản lý thực tế 21 thực thể đảo, đá, rạn san hô trong quần đảo Trường Sa cùng hệ thống các Trạm Dịch vụ Kinh tế - Khoa học kỹ thuật (nhà giàn DK1) trên thềm lục địa phía Nam.",
+          "Tuân thủ pháp luật quốc tế: Việt Nam kiên quyết bảo vệ chủ quyền bằng biện pháp hòa bình, trên cơ sở luật pháp quốc tế, đặc biệt là UNCLOS 1982 và nỗ lực cùng ASEAN hoàn thiện Bộ Quy tắc Ứng xử Biển Đông (COC)."
+        ]
+      },
+      {
+        "title": "Đời sống quân dân, Giáo dục & Y tế hải đảo",
+        "icon": "users",
+        "content": [
+          "Hạ tầng dân sinh khang trang: Đảo Trường Sa Lớn, Song Tử Tây, Sinh Tồn có trường tiểu học kiên cố, các lớp học rộn rã tiếng giảng bài của thầy cô và tiếng cười trẻ thơ.",
+          "Y tế biển đảo: Bệnh xá quân dân y trên các đảo được trang bị máy móc hiện đại, hệ thống Telemedicine kết nối trực tiếp với các bệnh viện đầu ngành trong đất liền, kịp thời cấp cứu chiến sĩ và ngư dân.",
+          "Năng lượng xanh & phủ sóng 4G: Hệ thống pin năng lượng mặt trời, tua-bin gió và mạng viễn thông Viettel phủ sóng toàn huyện đảo, kết nối Trường Sa gần hơn với đất liền."
+        ]
+      },
+      {
+        "title": "Hậu cần nghề cá & Ngã tư hàng hải quốc tế",
+        "icon": "trend",
+        "content": [
+          "Điểm tựa của ngư dân: Các âu tàu tại Trường Sa Lớn, Song Tử Tây, Sinh Tồn, Đá Tây có khả năng tiếp nhận hàng trăm tàu cá vào tránh trú bão, được cung cấp miễn phí nước ngọt, khám bệnh và hỗ trợ sửa chữa máy móc.",
+          "Hệ thống Hải đăng quốc gia: Những ngọn hải đăng sừng sững (Trường Sa Lớn, Song Tử Tây, Đá Lát, An Bang...) là \"mắt thần\" thắp sáng dẫn đường an toàn cho tàu thuyền quốc tế qua lại.",
+          "Tuyến vận tải huyết mạch: Nằm gần ngã tư đường hàng hải quốc tế nhộn nhịp nhất thế giới qua Biển Đông, có ý nghĩa chiến lược sống còn đối với an ninh giao thương toàn cầu."
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Đảo Trường Sa Lớn & Cột mốc chủ quyền",
+        "image": "assets/images/truong_sa_island.jpg",
+        "caption": "Cột mốc chủ quyền và quốc kỳ thiêng liêng trên đảo Trường Sa Lớn",
+        "desc": "Trái tim của quần đảo, trung tâm hành chính huyện đảo Trường Sa với đường băng, chùa Trường Sa trang nghiêm, bờ kè đá vững chãi và cột mốc chủ quyền thiêng liêng sừng sững giữa biển khơi."
+      },
+      {
+        "title": "Hệ thống Hải đăng Trường Sa & Song Tử Tây",
+        "image": "assets/images/ds_image21.jpeg",
+        "caption": "Hải đăng kiên cường thắp sáng thâu đêm giữa đại dương",
+        "desc": "Những \"mắt thần\" biển đảo dẫn đường cho các đoàn tàu hàng hải quốc tế và tàu cá ngư dân qua lại an toàn giữa đại dương."
+      },
+      {
+        "title": "Cây bàng vuông & Cây phong ba kiên cường",
+        "image": "assets/images/ds_image22.jpeg",
+        "caption": "Sức sống kiên cường nơi đầu sóng ngọn gió",
+        "desc": "Loài cây biểu tượng cho ý chí sắt đá, bất khuất của cán bộ chiến sĩ và nhân dân bám trụ nơi tiền tiêu Tổ quốc."
+      },
+      {
+        "title": "Âu tàu và điểm tựa cứu hộ ngư dân",
+        "image": "assets/images/ds_image25.webp",
+        "caption": "Âu tàu tiếp tế nước ngọt và nơi tránh trú bão an toàn",
+        "desc": "Điểm tựa vững chắc giữa trùng khơi, cung cấp nước ngọt, y tế, sửa chữa tàu thuyền miễn phí cho bà con ngư dân đánh bắt xa bờ."
+      }
+    ],
+    "heritage": [
+      "Cột mốc chủ quyền Quốc gia Quần đảo Trường Sa",
+      "Quần thể chùa Trường Sa (Trường Sa Lớn, Song Tử Tây, Sinh Tồn)",
+      "Khu tưởng niệm Chiến sĩ Gạc Ma (Bán đảo Cam Ranh, Khánh Hòa)",
+      "Hệ thống Nhà giàn DK1 trên thềm lục địa phía Nam Tổ quốc"
+    ],
+    "links": [
+      {
+        "title": "Cổng thông tin điện tử tỉnh Khánh Hòa (Huyện Trường Sa)",
+        "url": "https://khanhhoa.gov.vn/"
+      },
+      {
+        "title": "Tra cứu tư liệu Quần đảo Trường Sa trên Google Images",
+        "url": "https://www.google.com/search?tbm=isch&q=Qu%E1%BA%A7n+%C4%91%E1%BA%A3o+Tr%C6%B0%E1%BB%9Dng+Sa+Vi%E1%BB%87t+Nam"
+      },
+      {
+        "title": "Hình ảnh tư liệu Trường Sa (Spratly Islands) - Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/w/index.php?search=Spratly+Islands&title=Special:MediaSearch&type=image"
+      }
+    ]
+  }
+}

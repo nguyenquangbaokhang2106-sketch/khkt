@@ -1,0 +1,37 @@
+stt,tinh_thanh,id_svg,ma_duong_ve_PDF,tep_svg,tep_png
+1,Lạng Sơn,tinh_01_lang_son,62,01_lang_son.svg,01_lang_son.png
+2,Cao Bằng,tinh_02_cao_bang,64,02_cao_bang.svg,02_cao_bang.png
+3,Hà Nội,tinh_03_ha_noi,66,03_ha_noi.svg,03_ha_noi.png
+4,Thái Nguyên,tinh_04_thai_nguyen,68,04_thai_nguyen.svg,04_thai_nguyen.png
+5,Tuyên Quang,tinh_05_tuyen_quang,71,05_tuyen_quang.svg,05_tuyen_quang.png
+6,Lào Cai,tinh_06_lao_cai,74,06_lao_cai.svg,06_lao_cai.png
+7,Bắc Ninh,tinh_07_bac_ninh,77,07_bac_ninh.svg,07_bac_ninh.png
+8,Phú Thọ,tinh_08_phu_tho,80,08_phu_tho.svg,08_phu_tho.png
+9,Lai Châu,tinh_09_lai_chau,84,09_lai_chau.svg,09_lai_chau.png
+10,Điện Biên,tinh_10_dien_bien,86,10_dien_bien.svg,10_dien_bien.png
+11,Sơn La,tinh_11_son_la,88,11_son_la.svg,11_son_la.png
+12,Thanh Hóa,tinh_12_thanh_hoa,90,12_thanh_hoa.svg,12_thanh_hoa.png
+13,Nghệ An,tinh_13_nghe_an,92,13_nghe_an.svg,13_nghe_an.png
+14,Hà Tĩnh,tinh_14_ha_tinh,94,14_ha_tinh.svg,14_ha_tinh.png
+15,Quảng Trị,tinh_15_quang_tri,96,15_quang_tri.svg,15_quang_tri.png
+16,Thành phố Huế,tinh_16_thanh_pho_hue,99,16_thanh_pho_hue.svg,16_thanh_pho_hue.png
+17,Thành phố Đà Nẵng,tinh_17_thanh_pho_da_nang,101,17_thanh_pho_da_nang.svg,17_thanh_pho_da_nang.png
+18,Đồng Nai,tinh_18_dong_nai,104,18_dong_nai.svg,18_dong_nai.png
+19,Thành phố Hồ Chí Minh,tinh_19_thanh_pho_ho_chi_minh,107,19_thanh_pho_ho_chi_minh.svg,19_thanh_pho_ho_chi_minh.png
+20,Vĩnh Long,tinh_20_vinh_long,111,20_vinh_long.svg,20_vinh_long.png
+21,Tây Ninh,tinh_21_tay_ninh,115,21_tay_ninh.svg,21_tay_ninh.png
+22,Thành phố Cần Thơ,tinh_22_thanh_pho_can_tho,118,22_thanh_pho_can_tho.svg,22_thanh_pho_can_tho.png
+23,An Giang,tinh_23_an_giang,122,23_an_giang.svg,23_an_giang.png
+24,Cà Mau,tinh_24_ca_mau,125,24_ca_mau.svg,24_ca_mau.png
+25,Đắk Lắk,tinh_25_dak_lak,128,25_dak_lak.svg,25_dak_lak.png
+26,Khánh Hòa,tinh_26_khanh_hoa,131,26_khanh_hoa.svg,26_khanh_hoa.png
+27,Gia Lai,tinh_27_gia_lai,134,27_gia_lai.svg,27_gia_lai.png
+28,Quảng Ngãi,tinh_28_quang_ngai,137,28_quang_ngai.svg,28_quang_ngai.png
+29,Lâm Đồng,tinh_29_lam_dong,141,29_lam_dong.svg,29_lam_dong.png
+30,Quảng Ninh,tinh_30_quang_ninh,160,30_quang_ninh.svg,30_quang_ninh.png
+31,Đồng Tháp,tinh_31_dong_thap,163,31_dong_thap.svg,31_dong_thap.png
+32,Ninh Bình,tinh_32_ninh_binh,166,32_ninh_binh.svg,32_ninh_binh.png
+33,Hưng Yên,tinh_33_hung_yen,170,33_hung_yen.svg,33_hung_yen.png
+34,Thành phố Hải Phòng,tinh_34_thanh_pho_hai_phong,173,34_thanh_pho_hai_phong.svg,34_thanh_pho_hai_phong.png
+35,Quần đảo Hoàng Sa,tinh_35_hoang_sa,180,35_hoang_sa.svg,35_hoang_sa.png
+36,Quần đảo Trường Sa,tinh_36_truong_sa,181,36_truong_sa.svg,36_truong_sa.png
