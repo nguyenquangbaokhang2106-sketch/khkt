@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Chi tiết tỉnh thành — Việt Nam Atlas</title>
+<title>Chi tiết tỉnh thành — VietNam Explorer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
@@ -234,7 +234,7 @@ button{font:inherit;cursor:pointer}
   <a href="./index.html" class="back-btn" title="Quay lại bản đồ tương tác Việt Nam">
     <span>← Quay lại Bản đồ</span>
   </a>
-  <div class="top-title">VIỆT NAM ATLAS</div>
+  <div class="top-title">VIETNAM EXPLORER</div>
   <div class="top-badge" id="top-badge">
     <span class="top-dot" id="top-dot"></span>
     <span id="top-region-text">Bản đồ 34 tỉnh thành</span>
@@ -392,7 +392,7 @@ function renderPage(id) {
   url.searchParams.set('id', id);
   window.history.replaceState({id}, '', url.toString());
 
-  document.title = `${p.name} — Thông tin & Hình ảnh đầy đủ · Việt Nam Atlas`;
+  document.title = `${p.name} — Thông tin & Hình ảnh đầy đủ · VietNam Explorer`;
 
   // Top badge
   document.getElementById('top-dot').style.background = p.litColor;
