@@ -25,58 +25,58 @@ button{color:inherit}a{color:inherit;text-decoration:none}
 .icon{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
 
 /* Header */
-.site-header{height:84px;padding:0 4.2%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:#fafbf6}
+.site-header{height:90px;padding:0 4.2%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:#fafbf6}
 .brand{display:flex;align-items:center;gap:12px}
 .brand-mark{width:36px;height:40px;color:var(--green)}
-.brand-name{font-size:20px;font-weight:750;letter-spacing:-.8px}
+.brand-name{font-size:24px;font-weight:750;letter-spacing:-.8px}
 .brand-name span{font-weight:400;color:#859082}
-.header-note{font-size:11px;color:var(--muted);letter-spacing:1.4px;text-transform:uppercase}
-.nav-pill{display:flex;align-items:center;gap:9px;font-size:12px;background:#e9eedf;padding:9px 16px;border-radius:30px;font-weight:500}
+.header-note{font-size:15px;color:var(--muted);letter-spacing:1.4px;text-transform:uppercase}
+.nav-pill{display:flex;align-items:center;gap:9px;font-size:16px;background:#e9eedf;padding:9px 16px;border-radius:30px;font-weight:500}
 .dot{display:inline-block;width:7px;height:7px;background:#5e8d41;border-radius:50%}
 
 /* Main layout */
 main{max-width:1600px;margin:auto;padding:30px 4.2% 24px}
 .intro{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:22px;gap:20px}
-.eyebrow{font-size:10px;font-weight:650;letter-spacing:2.2px;text-transform:uppercase;color:#6b8562;display:flex;gap:9px;align-items:center;margin:0 0 10px}
+.eyebrow{font-size:14px;font-weight:650;letter-spacing:2.2px;text-transform:uppercase;color:#6b8562;display:flex;gap:9px;align-items:center;margin:0 0 10px}
 .eyebrow:before{content:'';width:22px;height:1.5px;background:#849d79}
-h1{margin:0;font-size:clamp(26px,2.8vw,40px);line-height:1.25;font-weight:600;letter-spacing:-1.4px}
+h1{margin:0;font-size:clamp(30px,2.8vw,44px);line-height:1.25;font-weight:600;letter-spacing:-1.4px}
 h1 span{color:#768d6d;font-weight:450}
-.intro-copy{font-size:12.5px;line-height:1.8;color:var(--muted);margin:0;max-width:360px}
+.intro-copy{font-size:16.5px;line-height:1.8;color:var(--muted);margin:0;max-width:360px}
 
 /* Workspace */
-.workspace{display:grid;grid-template-columns:300px minmax(0,1fr);border:1px solid var(--line);border-radius:22px;overflow:hidden;background:var(--panel-bg);min-height:740px;box-shadow:0 12px 40px rgba(45,65,40,0.04)}
+.workspace{display:grid;grid-template-columns:340px minmax(0,1fr);border:1px solid var(--line);border-radius:22px;overflow:hidden;background:var(--panel-bg);min-height:740px;box-shadow:0 12px 40px rgba(45,65,40,0.04)}
 
 /* Sidebar */
 .sidebar{padding:24px 20px 18px;border-right:1px solid var(--line);display:flex;flex-direction:column;background:var(--sidebar-bg)}
-.sidebar-heading{display:flex;align-items:center;justify-content:space-between;margin:0 0 16px;font-size:13px;font-weight:650;letter-spacing:-.2px}
-.count{font-size:11px;font-weight:600;background:#e8ece0;color:#456041;padding:4px 9px;border-radius:8px}
+.sidebar-heading{display:flex;align-items:center;justify-content:space-between;margin:0 0 16px;font-size:17px;font-weight:650;letter-spacing:-.2px}
+.count{font-size:15px;font-weight:600;background:#e8ece0;color:#456041;padding:4px 9px;border-radius:8px}
 
 .search-box{position:relative}
 .search-box .icon{position:absolute;left:13px;top:13px;width:17px;color:#85927e}
-.search-box input{width:100%;border:1px solid #dce2d3;border-radius:10px;background:#f5f7ef;padding:12px 34px 12px 38px;font-size:12px;color:var(--ink);transition:border-color .2s,background .2s}
+.search-box input{width:100%;border:1px solid #dce2d3;border-radius:10px;background:#f5f7ef;padding:12px 34px 12px 38px;font-size:16px;color:var(--ink);transition:border-color .2s,background .2s}
 .search-box input:focus{background:#ffffff;border-color:#71954f}
 input::placeholder{color:#8b9683}
-.search-clear{position:absolute;right:8px;top:8px;border:0;background:transparent;width:28px;height:28px;color:#788670;font-size:18px;border-radius:50%;display:grid;place-items:center}
+.search-clear{position:absolute;right:8px;top:8px;border:0;background:transparent;width:28px;height:28px;color:#788670;font-size:22px;border-radius:50%;display:grid;place-items:center}
 .search-clear:hover{background:#e7ece0}
 
-.list-top{display:flex;justify-content:space-between;align-items:center;margin:18px 4px 10px;font-size:9.5px;letter-spacing:1.3px;color:#88947e;font-weight:600}
-.active-region-tag{display:inline-flex;align-items:center;gap:5px;font-size:9.5px;padding:3px 7px;border-radius:5px;background:#e2ebda;color:#355632;letter-spacing:0}
+.list-top{display:flex;justify-content:space-between;align-items:center;margin:18px 4px 10px;font-size:13.5px;letter-spacing:1.3px;color:#88947e;font-weight:600}
+.active-region-tag{display:inline-flex;align-items:center;gap:5px;font-size:13.5px;padding:3px 7px;border-radius:5px;background:#e2ebda;color:#355632;letter-spacing:0}
 
 .province-list{flex:1;max-height:460px;overflow-y:auto;padding:0 4px 0 0;scrollbar-width:thin;scrollbar-color:#cdd7c1 transparent}
-.province-row{width:100%;display:flex;align-items:center;text-align:left;gap:9px;border:0;border-radius:9px;background:transparent;padding:9px 10px;font-size:11.5px;margin:2px 0;transition:background .18s,transform .15s}
+.province-row{width:100%;display:flex;align-items:center;text-align:left;gap:9px;border:0;border-radius:9px;background:transparent;padding:9px 10px;font-size:15.5px;margin:2px 0;transition:background .18s,transform .15s}
 .row-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;box-shadow:0 0 0 1.5px rgba(255,255,255,0.9)}
-.row-number{font-size:9.5px;color:#959f8a;width:18px;font-variant-numeric:tabular-nums;font-weight:500}
+.row-number{font-size:13.5px;color:#959f8a;width:24px;font-variant-numeric:tabular-nums;font-weight:500}
 .row-name{flex:1;font-weight:550;letter-spacing:-.2px}
-.row-region{font-size:9px;color:#7f8d75;background:#ebefe3;padding:2px 6px;border-radius:4px;white-space:nowrap;max-width:92px;overflow:hidden;text-overflow:ellipsis}
-.row-arrow{color:#90a083;opacity:0;transition:opacity .18s;font-size:12px}
+.row-region{font-size:13px;color:#7f8d75;background:#ebefe3;padding:2px 6px;border-radius:4px;white-space:nowrap;max-width:120px;overflow:hidden;text-overflow:ellipsis}
+.row-arrow{color:#90a083;opacity:0;transition:opacity .18s;font-size:16px}
 .province-row:hover,.province-row.preview{background:#edf3e4;transform:translateX(2px)}
 .province-row.selected{background:#e0eccb;color:#284a29}
 .province-row.in-active-region{border-left:3px solid var(--row-accent,#356b46);padding-left:7px}
 .province-row.dimmed{opacity:0.38}
 .province-row:hover .row-arrow,.province-row.selected .row-arrow{opacity:1}
-.empty{font-size:12px;line-height:1.8;color:var(--muted);padding:25px 12px;text-align:center}
+.empty{font-size:16px;line-height:1.8;color:var(--muted);padding:25px 12px;text-align:center}
 
-.sidebar-foot{border-top:1px solid var(--line);margin-top:auto;padding:15px 4px 0;display:flex;gap:10px;font-size:10px;color:#85927b;line-height:1.7}
+.sidebar-foot{border-top:1px solid var(--line);margin-top:auto;padding:15px 4px 0;display:flex;gap:10px;font-size:14px;color:#85927b;line-height:1.7}
 .sidebar-foot .icon{width:16px;height:16px;margin-top:2px}
 
 /* Map Panel */
@@ -84,7 +84,7 @@ input::placeholder{color:#8b9683}
 
 /* Top control & Region Selector Bar */
 .map-header-bar{position:absolute;top:20px;left:24px;right:24px;z-index:10;display:flex;flex-direction:column;gap:12px;pointer-events:none}
-.map-topline{display:flex;align-items:center;gap:9px;font-size:10px;letter-spacing:1.8px;color:#6b7d60;font-weight:650;text-transform:uppercase}
+.map-topline{display:flex;align-items:center;gap:9px;font-size:14px;letter-spacing:1.8px;color:#6b7d60;font-weight:650;text-transform:uppercase}
 .map-topline .dot{width:6px;height:6px}
 
 /* Region Navigation Pills Bar */
@@ -103,7 +103,7 @@ input::placeholder{color:#8b9683}
   box-shadow:0 6px 20px rgba(45,65,40,0.06);
   max-width:calc(100% - 70px);
 }
-.region-bar-title{font-size:9.5px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:#78886e;padding:0 6px 0 3px;display:flex;align-items:center;gap:4px}
+.region-bar-title{font-size:13.5px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:#78886e;padding:0 6px 0 3px;display:flex;align-items:center;gap:4px}
 .region-pill{
   display:inline-flex;
   align-items:center;
@@ -112,7 +112,7 @@ input::placeholder{color:#8b9683}
   background:#ffffff;
   padding:6px 11px;
   border-radius:24px;
-  font-size:11px;
+  font-size:15px;
   font-weight:600;
   color:#3b4d3a;
   transition:all .18s cubic-bezier(.4,0,.2,1);
@@ -120,7 +120,7 @@ input::placeholder{color:#8b9683}
 }
 .pill-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;transition:transform .2s}
 .pill-title{letter-spacing:-.1px}
-.pill-badge{font-size:9.5px;font-weight:600;background:#edf2e4;color:#5a6e50;padding:2px 6px;border-radius:10px;line-height:1.2}
+.pill-badge{font-size:13.5px;font-weight:600;background:#edf2e4;color:#5a6e50;padding:2px 6px;border-radius:10px;line-height:1.2}
 .region-pill:hover{background:#f3f7ea;border-color:#b8c8ad;transform:translateY(-1px);color:#1e3522}
 .region-pill:hover .pill-dot{transform:scale(1.25)}
 .region-pill.is-active{background:#233d2c;color:#ffffff;border-color:#233d2c;box-shadow:0 4px 14px rgba(35,61,44,0.28);transform:translateY(-1px)}
@@ -128,7 +128,7 @@ input::placeholder{color:#8b9683}
 .region-pill.is-active .pill-badge{background:rgba(255,255,255,0.25);color:#ffffff}
 
 /* North compass */
-.north{position:absolute;top:20px;right:25px;text-align:center;font-size:10px;font-weight:700;color:#6b7e5f;z-index:2;pointer-events:none}
+.north{position:absolute;top:20px;right:25px;text-align:center;font-size:14px;font-weight:700;color:#6b7e5f;z-index:2;pointer-events:none}
 .north svg{display:block;width:20px;height:36px;margin-top:4px}
 
 /* SVG Map Stage */
@@ -154,16 +154,19 @@ input::placeholder{color:#8b9683}
   transition:fill .28s ease,stroke .28s ease,stroke-width .24s ease,filter .28s ease;
 }
 .province-label{
-  font-size:44px;
-  font-weight:600;
-  fill:#1b3223;
+  font-size:48px;
+  font-weight:700;
+  fill:#ffffff;
+  stroke:rgba(20,35,25,0.65);
+  stroke-width:5px;
+  stroke-linejoin:round;
+  paint-order:stroke fill;
   text-anchor:middle;
-  stroke:none;
-  paint-order:stroke;
   pointer-events:none;
   transition:fill .24s,font-weight .24s;
 }
 .labels-off .province-label{display:none}
+.province[data-region="vung-6"] .province-label{fill:#15341a;stroke:rgba(255,255,255,0.85);stroke-width:5px}
 
 /* ACTIVE REGION MODE: Lighting up each province in distinct prominent colors */
 [data-active-region] .province[data-in-active-region="true"] .land{
@@ -228,14 +231,14 @@ input::placeholder{color:#8b9683}
 }
 
 /* Sea label */
-.sea-label{position:absolute;left:64%;top:48%;font-size:11px;letter-spacing:6px;writing-mode:vertical-rl;color:#9cb093;font-weight:500;pointer-events:none}
+.sea-label{position:absolute;left:64%;top:48%;font-size:15px;letter-spacing:6px;writing-mode:vertical-rl;color:#9cb093;font-weight:500;pointer-events:none}
 
 /* Detail Card */
 .detail-card{
   position:absolute;
   right:24px;
   top:125px;
-  width:226px;
+  width:260px;
   background:rgba(253,254,250,0.92);
   backdrop-filter:blur(16px);
   -webkit-backdrop-filter:blur(16px);
@@ -246,14 +249,14 @@ input::placeholder{color:#8b9683}
   z-index:15;
   transition:all .25s ease;
 }
-.detail-top{display:flex;align-items:center;justify-content:space-between;color:#7e8e72;font-size:9.5px;letter-spacing:1.3px;font-weight:600}
-.detail-tag{background:#e7ede0;color:#45603b;padding:3px 7px;border-radius:6px;font-size:9px}
+.detail-top{display:flex;align-items:center;justify-content:space-between;color:#7e8e72;font-size:13.5px;letter-spacing:1.3px;font-weight:600}
+.detail-tag{background:#e7ede0;color:#45603b;padding:3px 7px;border-radius:6px;font-size:13px}
 .detail-symbol{width:42px;height:42px;background:#eef3e6;border-radius:12px;display:grid;place-items:center;margin:18px 0 14px;color:#5a8146;transition:background .2s,color .2s}
 .detail-symbol svg{width:22px;height:22px}
-#detail-name{font-size:22px;line-height:1.35;letter-spacing:-.8px;font-weight:650;margin:0 0 8px;overflow-wrap:anywhere}
-.detail-region-pill{display:inline-flex;align-items:center;gap:6px;font-size:10px;font-weight:600;padding:4px 8px;border-radius:6px;margin-bottom:12px;background:#e6ede0;color:#2f4e31}
+#detail-name{font-size:26px;line-height:1.35;letter-spacing:-.8px;font-weight:650;margin:0 0 8px;overflow-wrap:anywhere}
+.detail-region-pill{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:600;padding:4px 8px;border-radius:6px;margin-bottom:12px;background:#e6ede0;color:#2f4e31}
 .detail-region-dot{width:7px;height:7px;border-radius:50%}
-.detail-desc{font-size:11px;color:#7a8771;line-height:1.8;margin:0}
+.detail-desc{font-size:15px;color:#7a8771;line-height:1.8;margin:0}
 
 /* Region mini list in detail card when a region is selected */
 .region-province-mini-list{display:flex;flex-wrap:wrap;gap:5px;margin-top:14px;max-height:140px;overflow-y:auto;padding-right:2px}
@@ -261,7 +264,7 @@ input::placeholder{color:#8b9683}
   display:inline-flex;
   align-items:center;
   gap:5px;
-  font-size:10px;
+  font-size:14px;
   font-weight:600;
   padding:4px 8px;
   border-radius:12px;
@@ -280,7 +283,7 @@ input::placeholder{color:#8b9683}
   align-items:center;
   justify-content:center;
   gap:6px;
-  font-size:11px;
+  font-size:15px;
   font-weight:600;
   padding:8px 12px;
   border-radius:8px;
@@ -293,30 +296,30 @@ input::placeholder{color:#8b9683}
 .action-btn.primary{background:#2b5439;color:#ffffff;border-color:#2b5439}
 .action-btn.primary:hover{background:#1f3e2a}
 
-.detail-bottom{border-top:1px solid var(--line);margin-top:18px;padding-top:12px;display:flex;align-items:center;justify-content:space-between;font-size:9.5px;color:#7f9071}
-.selection-clear{border:0;background:transparent;padding:0;font-size:10.5px;font-weight:600;color:#c04a3e;text-decoration:underline;text-underline-offset:3px;display:none}
+.detail-bottom{border-top:1px solid var(--line);margin-top:18px;padding-top:12px;display:flex;align-items:center;justify-content:space-between;font-size:13.5px;color:#7f9071}
+.selection-clear{border:0;background:transparent;padding:0;font-size:14.5px;font-weight:600;color:#c04a3e;text-decoration:underline;text-underline-offset:3px;display:none}
 .detail-card.has-selection .selection-clear{display:block}
 .detail-card.has-selection .detail-id{display:none}
 
 /* Controls */
 .map-tools{position:absolute;bottom:25px;right:24px;z-index:10;display:flex;gap:7px}
-.tool{width:36px;height:36px;border:1px solid #dbe2d1;border-radius:10px;background:#fbfcf6;display:grid;place-items:center;font-size:20px;transition:background .2s,transform .15s;box-shadow:0 3px 10px rgba(0,0,0,0.03)}
+.tool{width:36px;height:36px;border:1px solid #dbe2d1;border-radius:10px;background:#fbfcf6;display:grid;place-items:center;font-size:24px;transition:background .2s,transform .15s;box-shadow:0 3px 10px rgba(0,0,0,0.03)}
 .tool:hover{background:#e3eccf;transform:translateY(-1px)}
 .tool .icon{width:16px;height:16px}
 .tool[aria-pressed=true]{background:#dce8c6}
-.zoom-percent{font-size:10px;font-weight:600;align-self:center;min-width:34px;text-align:center;color:#758567}
+.zoom-percent{font-size:14px;font-weight:600;align-self:center;min-width:34px;text-align:center;color:#758567}
 
-.map-hint{position:absolute;bottom:27px;left:27px;display:flex;align-items:center;gap:8px;font-size:10px;color:#7b8d6f;font-weight:500}
+.map-hint{position:absolute;bottom:27px;left:27px;display:flex;align-items:center;gap:8px;font-size:14px;color:#7b8d6f;font-weight:500}
 .map-hint .icon{width:15px;height:15px}
 
-.tooltip{position:fixed;pointer-events:none;z-index:30;background:#1e3526;color:#f8faee;font-size:11.5px;font-weight:500;padding:9px 14px;border-radius:9px;box-shadow:0 6px 20px rgba(20,40,25,0.28);display:none;align-items:center;gap:7px}
+.tooltip{position:fixed;pointer-events:none;z-index:30;background:#1e3526;color:#f8faee;font-size:15.5px;font-weight:500;padding:9px 14px;border-radius:9px;box-shadow:0 6px 20px rgba(20,40,25,0.28);display:none;align-items:center;gap:7px}
 .tooltip.visible{display:flex}
 .tooltip-dot{width:8px;height:8px;border-radius:50%;display:inline-block}
 
-.panel-number{position:absolute;bottom:75px;right:33px;font-size:68px;font-weight:500;line-height:1;letter-spacing:-5px;color:#d7e2cb;pointer-events:none}
+.panel-number{position:absolute;bottom:75px;right:33px;font-size:72px;font-weight:500;line-height:1;letter-spacing:-5px;color:#d7e2cb;pointer-events:none}
 
 /* Footer */
-footer{display:flex;justify-content:space-between;gap:20px;padding:20px 2px 0;font-size:9.5px;color:#8d9884;line-height:1.8}
+footer{display:flex;justify-content:space-between;gap:20px;padding:20px 2px 0;font-size:13.5px;color:#8d9884;line-height:1.8}
 footer strong{font-weight:600;color:#5a6e50}
 .footer-source{max-width:580px}
 .footer-tag{white-space:nowrap;letter-spacing:1px}
@@ -332,37 +335,37 @@ footer strong{font-weight:600;color:#5a6e50}
   .workspace{grid-template-columns:260px 1fr}
   .region-bar{max-width:100%}
   .detail-card{width:190px;right:16px;padding:16px;top:140px}
-  #detail-name{font-size:19px}
+  #detail-name{font-size:23px}
   .map-stage{inset:95px 170px 30px 15px}
 }
 @media(max-width:850px){
   .site-header{height:70px;padding:0 5%}
-  .brand-name{font-size:17px}
+  .brand-name{font-size:21px}
   .header-note{display:none}
   main{padding:20px 4% 18px}
   .intro{display:block;margin-bottom:18px}
-  h1{font-size:26px;letter-spacing:-1px}
+  h1{font-size:30px;letter-spacing:-1px}
   .intro-copy{margin-top:10px;max-width:none}
   .workspace{display:flex;flex-direction:column;min-height:0;border-radius:18px}
   .sidebar{order:2;border-right:0;border-top:1px solid var(--line);padding:20px}
   .province-list{max-height:260px;display:grid;grid-template-columns:1fr 1fr;align-content:start;gap:2px 8px}
-  .province-row{font-size:10.5px;padding:8px 6px;gap:6px}
+  .province-row{font-size:14.5px;padding:8px 6px;gap:6px}
   .map-panel{min-height:680px;order:1}
   .map-header-bar{top:15px;left:14px;right:14px}
   .region-bar{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;padding:6px;gap:5px;border-radius:12px;scrollbar-width:none}
   .region-bar::-webkit-scrollbar{display:none}
-  .region-pill{padding:5px 9px;font-size:10px}
+  .region-pill{padding:5px 9px;font-size:14px}
   .region-bar-title{display:none}
   .map-stage{inset:90px 70px 65px 5px}
   .detail-card{top:125px;right:12px;width:150px;padding:14px;border-radius:12px}
   .detail-symbol{width:32px;height:32px;margin:12px 0 10px}
-  #detail-name{font-size:16px}
-  .detail-desc{font-size:9.5px;line-height:1.6}
-  .sea-label{left:62%;top:56%;font-size:9px}
-  .panel-number{font-size:52px;bottom:70px;right:16px}
+  #detail-name{font-size:20px}
+  .detail-desc{font-size:13.5px;line-height:1.6}
+  .sea-label{left:62%;top:56%;font-size:13px}
+  .panel-number{font-size:56px;bottom:70px;right:16px}
   .map-tools{bottom:18px;right:14px;gap:4px}
   .tool{width:32px;height:32px}
-  .map-hint{left:14px;bottom:18px;font-size:8.5px}
+  .map-hint{left:14px;bottom:18px;font-size:12.5px}
   footer{flex-direction:column;gap:6px}
 }
 @media(prefers-reduced-motion:reduce){
@@ -458,7 +461,7 @@ footer strong{font-weight:600;color:#5a6e50}
 
     <!-- Map Stage -->
     <div class="map-stage">
-      <svg id="map" class="map-svg" viewBox="-160 250 2800 5250" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="Bản đồ tương tác 34 tỉnh thành và 5 vùng Việt Nam">
+      <svg id="map" class="map-svg" viewBox="-160 250 2800 5250" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="Bản đồ tương tác 34 tỉnh thành và 6 vùng kinh tế Việt Nam">
         <g id="map-viewport">
           <g class="map-shapes" id="map-shapes">
             <!-- PROVINCE_PATHS -->
@@ -488,7 +491,7 @@ footer strong{font-weight:600;color:#5a6e50}
         <span id="detail-region-name">Miền Bắc</span>
       </div>
 
-      <p class="detail-desc" id="detail-desc">Chọn một trong 5 vùng ở thanh trên để thắp sáng các tỉnh, hoặc di chuột đến một tỉnh thành trên bản đồ.</p>
+      <p class="detail-desc" id="detail-desc">Chọn một trong 6 vùng ở thanh trên để thắp sáng các tỉnh, hoặc di chuột đến một tỉnh thành trên bản đồ.</p>
 
       <!-- Mini chips container for provinces in active region -->
       <div class="region-province-mini-list" id="region-province-mini-list" style="display:none"></div>
