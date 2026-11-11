@@ -1,0 +1,637 @@
+# -*- coding: utf-8 -*-
+import json
+
+QUIZ_QUESTIONS = [
+    # PHẦN I. TRẮC NGHIỆM CHỌN ĐÁP ÁN ĐÚNG (Câu 1–10)
+    {
+        "id": 1,
+        "part": "PHẦN I. TRẮC NGHIỆM",
+        "type": "mc",
+        "question": "Sau sắp xếp đơn vị hành chính cấp tỉnh năm 2025, cả nước có bao nhiêu tỉnh, thành phố trực thuộc Trung ương?",
+        "options": [
+            {"id": "A", "text": "63 tỉnh thành"},
+            {"id": "B", "text": "54 tỉnh thành"},
+            {"id": "C", "text": "34 tỉnh thành"},
+            {"id": "D", "text": "36 tỉnh thành"}
+        ],
+        "answer": "C",
+        "explain": "Sau sáp nhập năm 2025, Việt Nam có 34 tỉnh, thành phố trực thuộc Trung ương cùng 2 quần đảo Hoàng Sa và Trường Sa.",
+        "provinces": ["all"]
+    },
+    {
+        "id": 2,
+        "part": "PHẦN I. TRẮC NGHIỆM",
+        "type": "mc",
+        "question": "Hai tỉnh Hà Giang và Tuyên Quang trước đây được sáp nhập thành tỉnh mới nào?",
+        "options": [
+            {"id": "A", "text": "Lào Cai"},
+            {"id": "B", "text": "Tuyên Quang"},
+            {"id": "C", "text": "Phú Thọ"},
+            {"id": "D", "text": "Thái Nguyên"}
+        ],
+        "answer": "B",
+        "explain": "Hai tỉnh Hà Giang và Tuyên Quang sáp nhập lấy tên là tỉnh Tuyên Quang mới.",
+        "provinces": [5]
+    },
+    {
+        "id": 3,
+        "part": "PHẦN I. TRẮC NGHIỆM",
+        "type": "mc",
+        "question": "Địa danh thác Bản Giốc thuộc tỉnh nào?",
+        "options": [
+            {"id": "A", "text": "Lạng Sơn"},
+            {"id": "B", "text": "Cao Bằng"},
+            {"id": "C", "text": "Lào Cai"},
+            {"id": "D", "text": "Lai Châu"}
+        ],
+        "answer": "B",
+        "explain": "Thác Bản Giốc là thác nước tự nhiên hùng vĩ nằm trên biên giới Việt - Trung thuộc tỉnh Cao Bằng.",
+        "provinces": [2, 1]
+    },
+    {
+        "id": 4,
+        "part": "PHẦN I. TRẮC NGHIỆM",
+        "type": "mc",
+        "question": "Đền Hùng là địa danh tiêu biểu của tỉnh nào?",
+        "options": [
+            {"id": "A", "text": "Phú Thọ"},
+            {"id": "B", "text": "Thái Nguyên"},
+            {"id": "C", "text": "Tuyên Quang"},
+            {"id": "D", "text": "Bắc Ninh"}
+        ],
+        "answer": "A",
+        "explain": "Khu di tích lịch sử Đền Hùng - đất tổ cội nguồn của dân tộc Việt Nam thuộc tỉnh Phú Thọ.",
+        "provinces": [8]
+    },
+    {
+        "id": 5,
+        "part": "PHẦN I. TRẮC NGHIỆM",
+        "type": "mc",
+        "question": "Dân ca Quan họ gắn với địa phương nào?",
+        "options": [
+            {"id": "A", "text": "Hưng Yên"},
+            {"id": "B", "text": "Bắc Ninh"},
+            {"id": "C", "text": "Phú Thọ"},
+            {"id": "D", "text": "Thái Nguyên"}
+        ],
+        "answer": "B",
+        "explain": "Dân ca Quan họ là di sản văn hóa phi vật thể đại diện của nhân loại, gắn liền với vùng đất Bắc Ninh - Kinh Bắc.",
+        "provinces": [7]
+    },
+    {
+        "id": 6,
+        "part": "PHẦN I. TRẮC NGHIỆM",
+        "type": "mc",
+        "question": "Vịnh Hạ Long và ngành khai thác than là những nét nổi bật của tỉnh nào?",
+        "options": [
+            {"id": "A", "text": "Quảng Ninh"},
+            {"id": "B", "text": "Hải Phòng"},
+            {"id": "C", "text": "Ninh Bình"},
+            {"id": "D", "text": "Hưng Yên"}
+        ],
+        "answer": "A",
+        "explain": "Quảng Ninh nổi tiếng với kỳ quan thiên nhiên thế giới Vịnh Hạ Long và vùng mỏ than lớn nhất cả nước.",
+        "provinces": [30]
+    },
+    {
+        "id": 7,
+        "part": "PHẦN I. TRẮC NGHIỆM",
+        "type": "mc",
+        "question": "Nhã nhạc cung đình là di sản văn hóa tiêu biểu gắn với địa phương nào?",
+        "options": [
+            {"id": "A", "text": "Quảng Trị"},
+            {"id": "B", "text": "Đà Nẵng"},
+            {"id": "C", "text": "Thành phố Huế"},
+            {"id": "D", "text": "Quảng Ngãi"}
+        ],
+        "answer": "C",
+        "explain": "Nhã nhạc cung đình Huế là di sản văn hóa phi vật thể của nhân loại gắn liền với cố đô Huế.",
+        "provinces": [16, 17]
+    },
+    {
+        "id": 8,
+        "part": "PHẦN I. TRẮC NGHIỆM",
+        "type": "mc",
+        "question": "Buôn Ma Thuột và Vườn quốc gia Yok Đôn gắn với tỉnh nào?",
+        "options": [
+            {"id": "A", "text": "Đắk Lắk"},
+            {"id": "B", "text": "Gia Lai"},
+            {"id": "C", "text": "Lâm Đồng"},
+            {"id": "D", "text": "Khánh Hòa"}
+        ],
+        "answer": "A",
+        "explain": "Thành phố Buôn Ma Thuột (thủ phủ cà phê) và Vườn quốc gia Yok Đôn thuộc tỉnh Đắk Lắk.",
+        "provinces": [25]
+    },
+    {
+        "id": 9,
+        "part": "PHẦN I. TRẮC NGHIỆM",
+        "type": "mc",
+        "question": "Chợ nổi Cái Răng và bến Ninh Kiều là địa danh tiêu biểu của thành phố nào?",
+        "options": [
+            {"id": "A", "text": "An Giang"},
+            {"id": "B", "text": "Vĩnh Long"},
+            {"id": "C", "text": "Cần Thơ"},
+            {"id": "D", "text": "Đồng Tháp"}
+        ],
+        "answer": "C",
+        "explain": "Chợ nổi Cái Răng và bến Ninh Kiều là biểu tượng du lịch sông nước của TP. Cần Thơ - đô thị trung tâm miền Tây.",
+        "provinces": [22]
+    },
+    {
+        "id": 10,
+        "part": "PHẦN I. TRẮC NGHIỆM",
+        "type": "mc",
+        "question": "Rừng U Minh Hạ và điểm cực Nam của đất liền Việt Nam gắn với tỉnh nào?",
+        "options": [
+            {"id": "A", "text": "An Giang"},
+            {"id": "B", "text": "Cà Mau"},
+            {"id": "C", "text": "Đồng Tháp"},
+            {"id": "D", "text": "Vĩnh Long"}
+        ],
+        "answer": "B",
+        "explain": "Mũi Cà Mau (điểm cực Nam đất liền) và Vườn quốc gia U Minh Hạ thuộc tỉnh Cà Mau.",
+        "provinces": [24]
+    },
+
+    # PHẦN II. ĐÚNG HAY SAI? (Câu 11–18)
+    {
+        "id": 11,
+        "part": "PHẦN II. ĐÚNG HAY SAI?",
+        "type": "tf",
+        "question": "Cao nguyên đá Đồng Văn là một đặc trưng nổi bật được giới thiệu gắn với tỉnh Tuyên Quang mới.",
+        "options": [
+            {"id": "Đúng", "text": "Đúng"},
+            {"id": "Sai", "text": "Sai"}
+        ],
+        "answer": "Đúng",
+        "explain": "Đúng: Do Hà Giang được sáp nhập vào Tuyên Quang mới, nên Công viên địa chất toàn cầu Cao nguyên đá Đồng Văn nay thuộc Tuyên Quang mới.",
+        "provinces": [5]
+    },
+    {
+        "id": 12,
+        "part": "PHẦN II. ĐÚNG HAY SAI?",
+        "type": "tf",
+        "question": "Thác Bản Giốc thuộc tỉnh Lạng Sơn.",
+        "options": [
+            {"id": "Đúng", "text": "Đúng"},
+            {"id": "Sai", "text": "Sai"}
+        ],
+        "answer": "Sai",
+        "explain": "Sai: Thác Bản Giốc thuộc địa phận xã Đàm Thủy, huyện Trùng Khánh, tỉnh Cao Bằng.",
+        "provinces": [2, 1]
+    },
+    {
+        "id": 13,
+        "part": "PHẦN II. ĐÚNG HAY SAI?",
+        "type": "tf",
+        "question": "Hồ Hoàn Kiếm và Văn Miếu – Quốc Tử Giám là những địa danh tiêu biểu của Hà Nội.",
+        "options": [
+            {"id": "Đúng", "text": "Đúng"},
+            {"id": "Sai", "text": "Sai"}
+        ],
+        "answer": "Đúng",
+        "explain": "Đúng: Hồ Hoàn Kiếm và Văn Miếu - Quốc Tử Giám là hai biểu tượng ngàn năm văn hiến tiêu biểu của Thủ đô Hà Nội.",
+        "provinces": [3]
+    },
+    {
+        "id": 14,
+        "part": "PHẦN II. ĐÚNG HAY SAI?",
+        "type": "tf",
+        "question": "Tràng An là quần thể danh thắng thuộc tỉnh Ninh Bình.",
+        "options": [
+            {"id": "Đúng", "text": "Đúng"},
+            {"id": "Sai", "text": "Sai"}
+        ],
+        "answer": "Đúng",
+        "explain": "Đúng: Quần thể danh thắng Tràng An (di sản hỗn hợp văn hóa và thiên nhiên thế giới) thuộc tỉnh Ninh Bình.",
+        "provinces": [32]
+    },
+    {
+        "id": 15,
+        "part": "PHẦN II. ĐÚNG HAY SAI?",
+        "type": "tf",
+        "question": "Khu kinh tế Nghi Sơn gắn với tỉnh Nghệ An.",
+        "options": [
+            {"id": "Đúng", "text": "Đúng"},
+            {"id": "Sai", "text": "Sai"}
+        ],
+        "answer": "Sai",
+        "explain": "Sai: Khu kinh tế Nghi Sơn và Nhà máy lọc hóa dầu Nghi Sơn thuộc tỉnh Thanh Hóa.",
+        "provinces": [12, 13]
+    },
+    {
+        "id": 16,
+        "part": "PHẦN II. ĐÚNG HAY SAI?",
+        "type": "tf",
+        "question": "Biển Hồ là một địa danh nổi bật của Gia Lai.",
+        "options": [
+            {"id": "Đúng", "text": "Đúng"},
+            {"id": "Sai", "text": "Sai"}
+        ],
+        "answer": "Đúng",
+        "explain": "Đúng: Biển Hồ (hồ T'Nưng) mệnh danh là 'đôi mắt Pleiku', là hồ nước tự nhiên trên miệng núi lửa cổ tại Gia Lai.",
+        "provinces": [27]
+    },
+    {
+        "id": 17,
+        "part": "PHẦN II. ĐÚNG HAY SAI?",
+        "type": "tf",
+        "question": "Mũi Né là một trong những điểm nhấn du lịch được giới thiệu của tỉnh Lâm Đồng mới.",
+        "options": [
+            {"id": "Đúng", "text": "Đúng"},
+            {"id": "Sai", "text": "Sai"}
+        ],
+        "answer": "Đúng",
+        "explain": "Đúng: Theo định hướng sáp nhập Bình Thuận vào Lâm Đồng, Mũi Né trở thành điểm đến du lịch biển nổi bật của Lâm Đồng mới.",
+        "provinces": [29]
+    },
+    {
+        "id": 18,
+        "part": "PHẦN II. ĐÚNG HAY SAI?",
+        "type": "tf",
+        "question": "Vườn quốc gia Yok Đôn là đặc trưng của tỉnh Cà Mau.",
+        "options": [
+            {"id": "Đúng", "text": "Đúng"},
+            {"id": "Sai", "text": "Sai"}
+        ],
+        "answer": "Sai",
+        "explain": "Sai: Vườn quốc gia Yok Đôn (rừng khộp lớn nhất nước) thuộc tỉnh Đắk Lắk; còn Cà Mau có Vườn quốc gia U Minh Hạ và Mũi Cà Mau.",
+        "provinces": [25, 24]
+    },
+
+    # PHẦN III. ĐIỀN TỪ/CỤM TỪ THÍCH HỢP (Câu 19–25)
+    {
+        "id": 19,
+        "part": "PHẦN III. ĐIỀN TỪ THÍCH HỢP",
+        "type": "fill",
+        "question": "Tỉnh mới được hình thành từ Hà Giang và Tuyên Quang có tên là ____________.",
+        "options": [
+            {"id": "A", "text": "Tuyên Quang"},
+            {"id": "B", "text": "Hà Giang"},
+            {"id": "C", "text": "Lào Cai"},
+            {"id": "D", "text": "Thái Nguyên"}
+        ],
+        "answer": "Tuyên Quang",
+        "accepted_answers": ["tuyen quang", "tuyên quang", "tỉnh tuyên quang"],
+        "explain": "Đáp án: Tuyên Quang.",
+        "provinces": [5]
+    },
+    {
+        "id": 20,
+        "part": "PHẦN III. ĐIỀN TỪ THÍCH HỢP",
+        "type": "fill",
+        "question": "Đỉnh núi Fansipan thuộc tỉnh ____________.",
+        "options": [
+            {"id": "A", "text": "Lào Cai"},
+            {"id": "B", "text": "Lai Châu"},
+            {"id": "C", "text": "Yên Bái"},
+            {"id": "D", "text": "Điện Biên"}
+        ],
+        "answer": "Lào Cai",
+        "accepted_answers": ["lao cai", "lào cai", "tỉnh lào cai"],
+        "explain": "Đáp án: Lào Cai. Đỉnh Fansipan (nóc nhà Đông Dương, 3.143m) nằm tại thị xã Sa Pa, tỉnh Lào Cai.",
+        "provinces": [6]
+    },
+    {
+        "id": 21,
+        "part": "PHẦN III. ĐIỀN TỪ THÍCH HỢP",
+        "type": "fill",
+        "question": "Dân ca ____________ là di sản văn hóa tiêu biểu của Bắc Ninh.",
+        "options": [
+            {"id": "A", "text": "Quan họ"},
+            {"id": "B", "text": "Ví, Giặm"},
+            {"id": "C", "text": "Ca trù"},
+            {"id": "D", "text": "Đờn ca tài tử"}
+        ],
+        "answer": "Quan họ",
+        "accepted_answers": ["quan ho", "quan họ", "dân ca quan họ"],
+        "explain": "Đáp án: Quan họ. Dân ca Quan họ Bắc Ninh được UNESCO công nhận là di sản văn hóa phi vật thể của nhân loại.",
+        "provinces": [7]
+    },
+    {
+        "id": 22,
+        "part": "PHẦN III. ĐIỀN TỪ THÍCH HỢP",
+        "type": "fill",
+        "question": "Nhà máy lọc hóa dầu ____________ là công trình công nghiệp năng lượng quan trọng ở Thanh Hóa.",
+        "options": [
+            {"id": "A", "text": "Nghi Sơn"},
+            {"id": "B", "text": "Dung Quất"},
+            {"id": "C", "text": "Vũng Áng"},
+            {"id": "D", "text": "Long Sơn"}
+        ],
+        "answer": "Nghi Sơn",
+        "accepted_answers": ["nghi son", "nghi sơn"],
+        "explain": "Đáp án: Nghi Sơn. Nhà máy Lọc hóa dầu Nghi Sơn nằm tại Khu kinh tế Nghi Sơn, thị xã Nghi Sơn, tỉnh Thanh Hóa.",
+        "provinces": [12]
+    },
+    {
+        "id": 23,
+        "part": "PHẦN III. ĐIỀN TỪ THÍCH HỢP",
+        "type": "fill",
+        "question": "Khu kinh tế ____________ ở Hà Tĩnh có lợi thế cảng nước sâu.",
+        "options": [
+            {"id": "A", "text": "Vũng Áng"},
+            {"id": "B", "text": "Nghi Sơn"},
+            {"id": "C", "text": "Chân Mây"},
+            {"id": "D", "text": "Đình Vũ"}
+        ],
+        "answer": "Vũng Áng",
+        "accepted_answers": ["vung ang", "vũng áng"],
+        "explain": "Đáp án: Vũng Áng. Khu kinh tế Vũng Áng ở thị xã Kỳ Anh, Hà Tĩnh sở hữu cụm cảng nước sâu Vũng Áng - Sơn Dương.",
+        "provinces": [14]
+    },
+    {
+        "id": 24,
+        "part": "PHẦN III. ĐIỀN TỪ THÍCH HỢP",
+        "question": "Thành phố ____________ nổi tiếng với chợ nổi Cái Răng và bến Ninh Kiều.",
+        "type": "fill",
+        "options": [
+            {"id": "A", "text": "Cần Thơ"},
+            {"id": "B", "text": "Vĩnh Long"},
+            {"id": "C", "text": "Mỹ Tho"},
+            {"id": "D", "text": "Long Xuyên"}
+        ],
+        "answer": "Cần Thơ",
+        "accepted_answers": ["can tho", "cần thơ", "tp can tho", "tp cần thơ", "thành phố cần thơ"],
+        "explain": "Đáp án: Cần Thơ. 'Cần Thơ gạo trắng nước trong / Ai đi đến đó lòng không muốn về'.",
+        "provinces": [22]
+    },
+    {
+        "id": 25,
+        "part": "PHẦN III. ĐIỀN TỪ THÍCH HỢP",
+        "type": "fill",
+        "question": "Rừng ____________ Hạ là một đặc trưng thiên nhiên của Cà Mau.",
+        "options": [
+            {"id": "A", "text": "U Minh"},
+            {"id": "B", "text": "Cúc Phương"},
+            {"id": "C", "text": "Yok Đôn"},
+            {"id": "D", "text": "Cát Tiên"}
+        ],
+        "answer": "U Minh",
+        "accepted_answers": ["u minh", "uminh"],
+        "explain": "Đáp án: U Minh (Vườn quốc gia U Minh Hạ, rừng tràm ngập nước đặc trưng của bán đảo Cà Mau).",
+        "provinces": [24]
+    },
+
+    # PHẦN IV. NỐI ĐỊA DANH/SẢN PHẨM VỚI TỈNH, THÀNH PHÙ HỢP (Câu 26–29)
+    {
+        "id": 26,
+        "part": "PHẦN IV. NỐI CỘT PHÙ HỢP",
+        "type": "match",
+        "question": "Ghép nối đúng mỗi địa danh ở cột A với tỉnh, thành ở cột B:",
+        "pairs": [
+            {"left": "1. Thác Bản Giốc", "right": "Cao Bằng", "match": "b"},
+            {"left": "2. Vịnh Hạ Long", "right": "Quảng Ninh", "match": "d"},
+            {"left": "3. Đền Hùng", "right": "Phú Thọ", "match": "c"},
+            {"left": "4. Tràng An", "right": "Ninh Bình", "match": "a"}
+        ],
+        "answer_summary": "1-Cao Bằng, 2-Quảng Ninh, 3-Phú Thọ, 4-Ninh Bình",
+        "options": [
+            {"id": "A", "text": "1-b, 2-d, 3-c, 4-a"},
+            {"id": "B", "text": "1-a, 2-b, 3-c, 4-d"},
+            {"id": "C", "text": "1-c, 2-d, 3-a, 4-b"},
+            {"id": "D", "text": "1-d, 2-c, 3-b, 4-a"}
+        ],
+        "answer": "A",
+        "explain": "Đáp án chuẩn: 1-b (Bản Giốc - Cao Bằng), 2-d (Hạ Long - Quảng Ninh), 3-c (Đền Hùng - Phú Thọ), 4-a (Tràng An - Ninh Bình).",
+        "provinces": [2, 30, 8, 32]
+    },
+    {
+        "id": 27,
+        "part": "PHẦN IV. NỐI CỘT PHÙ HỢP",
+        "type": "match",
+        "question": "Ghép nối đúng mỗi đặc trưng ở cột A với địa phương ở cột B:",
+        "pairs": [
+            {"left": "1. Quan họ", "right": "Bắc Ninh", "match": "d"},
+            {"left": "2. Nhã nhạc cung đình", "right": "Huế", "match": "a"},
+            {"left": "3. Chợ nổi Cái Răng", "right": "Cần Thơ", "match": "c"},
+            {"left": "4. Biển Hồ", "right": "Gia Lai", "match": "b"}
+        ],
+        "answer_summary": "1-Bắc Ninh, 2-Huế, 3-Cần Thơ, 4-Gia Lai",
+        "options": [
+            {"id": "A", "text": "1-d, 2-a, 3-c, 4-b"},
+            {"id": "B", "text": "1-a, 2-b, 3-c, 4-d"},
+            {"id": "C", "text": "1-b, 2-c, 3-d, 4-a"},
+            {"id": "D", "text": "1-c, 2-d, 3-a, 4-b"}
+        ],
+        "answer": "A",
+        "explain": "Đáp án chuẩn: 1-d (Quan họ - Bắc Ninh), 2-a (Nhã nhạc - Huế), 3-c (Cái Răng - Cần Thơ), 4-b (Biển Hồ - Gia Lai).",
+        "provinces": [7, 16, 22, 27]
+    },
+    {
+        "id": 28,
+        "part": "PHẦN IV. NỐI CỘT PHÙ HỢP",
+        "type": "match",
+        "question": "Ghép nối đúng mỗi địa danh với vùng / tỉnh được giới thiệu:",
+        "pairs": [
+            {"left": "1. Cao nguyên Mộc Châu", "right": "Sơn La", "match": "b"},
+            {"left": "2. Ngã ba Đồng Lộc", "right": "Hà Tĩnh", "match": "d"},
+            {"left": "3. Yok Đôn", "right": "Đắk Lắk", "match": "c"},
+            {"left": "4. U Minh Hạ", "right": "Cà Mau", "match": "a"}
+        ],
+        "answer_summary": "1-Sơn La, 2-Hà Tĩnh, 3-Đắk Lắk, 4-Cà Mau",
+        "options": [
+            {"id": "A", "text": "1-b, 2-d, 3-c, 4-a"},
+            {"id": "B", "text": "1-a, 2-b, 3-c, 4-d"},
+            {"id": "C", "text": "1-d, 2-c, 3-b, 4-a"},
+            {"id": "D", "text": "1-c, 2-a, 3-d, 4-b"}
+        ],
+        "answer": "A",
+        "explain": "Đáp án chuẩn: 1-b (Mộc Châu - Sơn La), 2-d (Đồng Lộc - Hà Tĩnh), 3-c (Yok Đôn - Đắk Lắk), 4-a (U Minh Hạ - Cà Mau).",
+        "provinces": [11, 14, 25, 24]
+    },
+    {
+        "id": 29,
+        "part": "PHẦN IV. NỐI CỘT PHÙ HỢP",
+        "type": "match",
+        "question": "Ghép nối đúng mỗi địa phương với màu sắc vùng trong chú giải bản đồ:",
+        "pairs": [
+            {"left": "1. Hà Nội", "right": "Đỏ cam (ĐB sông Hồng)", "match": "b"},
+            {"left": "2. Quảng Ninh", "right": "Đỏ cam (ĐB sông Hồng)", "match": "d"},
+            {"left": "3. Thanh Hóa", "right": "Vàng đất (Bắc Trung Bộ)", "match": "a"},
+            {"left": "4. Cà Mau", "right": "Xanh lá (ĐB sông Cửu Long)", "match": "c"}
+        ],
+        "answer_summary": "Hà Nội, Quảng Ninh: Đỏ cam; Thanh Hóa: Vàng đất; Cà Mau: Xanh lá",
+        "options": [
+            {"id": "A", "text": "1-b, 2-d, 3-a, 4-c"},
+            {"id": "B", "text": "1-a, 2-b, 3-c, 4-d"},
+            {"id": "C", "text": "1-c, 2-a, 3-d, 4-b"},
+            {"id": "D", "text": "1-d, 2-c, 3-b, 4-a"}
+        ],
+        "answer": "A",
+        "explain": "Đáp án chuẩn: Hà Nội & Quảng Ninh: Đỏ cam (Đồng bằng sông Hồng); Thanh Hóa: Vàng đất (Bắc Trung Bộ); Cà Mau: Xanh lá (Đồng bằng sông Cửu Long).",
+        "provinces": [3, 30, 12, 24]
+    },
+
+    # PHẦN V. ĐOÁN TỈNH, THÀNH QUA DỮ KIỆN (Câu 30–35)
+    {
+        "id": 30,
+        "part": "PHẦN V. ĐOÁN TỈNH THÀNH",
+        "type": "guess",
+        "question": "Tôi có Hồ Hoàn Kiếm, Văn Miếu – Quốc Tử Giám và là trung tâm chính trị – hành chính quốc gia. Tôi là thành phố nào?",
+        "options": [
+            {"id": "A", "text": "Thành phố Huế"},
+            {"id": "B", "text": "Thủ đô Hà Nội"},
+            {"id": "C", "text": "TP. Đà Nẵng"},
+            {"id": "D", "text": "TP. Hải Phòng"}
+        ],
+        "answer": "B",
+        "explain": "Đáp án: Thủ đô Hà Nội - trái tim của cả nước.",
+        "provinces": [3]
+    },
+    {
+        "id": 31,
+        "part": "PHẦN V. ĐOÁN TỈNH THÀNH",
+        "type": "guess",
+        "question": "Tôi nổi tiếng với vịnh Hạ Long, Yên Tử và ngành khai thác than. Tôi là tỉnh nào?",
+        "options": [
+            {"id": "A", "text": "Hải Phòng"},
+            {"id": "B", "text": "Quảng Ninh"},
+            {"id": "C", "text": "Lạng Sơn"},
+            {"id": "D", "text": "Thái Nguyên"}
+        ],
+        "answer": "B",
+        "explain": "Đáp án: Tỉnh Quảng Ninh.",
+        "provinces": [30]
+    },
+    {
+        "id": 32,
+        "part": "PHẦN V. ĐOÁN TỈNH THÀNH",
+        "type": "guess",
+        "question": "Tôi có cao nguyên đá Đồng Văn, cột cờ Lũng Cú và mật ong bạc hà Mèo Vạc. Tôi là tỉnh nào?",
+        "options": [
+            {"id": "A", "text": "Lào Cai"},
+            {"id": "B", "text": "Cao Bằng"},
+            {"id": "C", "text": "Tuyên Quang"},
+            {"id": "D", "text": "Sơn La"}
+        ],
+        "answer": "C",
+        "explain": "Đáp án: Tỉnh Tuyên Quang (sau khi sáp nhập Hà Giang vào Tuyên Quang).",
+        "provinces": [5]
+    },
+    {
+        "id": 33,
+        "part": "PHẦN V. ĐOÁN TỈNH THÀNH",
+        "type": "guess",
+        "question": "Tôi gắn với Đền Hùng và vùng đất cội nguồn dân tộc. Tôi là tỉnh nào?",
+        "options": [
+            {"id": "A", "text": "Phú Thọ"},
+            {"id": "B", "text": "Bắc Ninh"},
+            {"id": "C", "text": "Tuyên Quang"},
+            {"id": "D", "text": "Vĩnh Phúc"}
+        ],
+        "answer": "A",
+        "explain": "Đáp án: Tỉnh Phú Thọ - vùng đất cội nguồn con Lạc cháu Hồng.",
+        "provinces": [8]
+    },
+    {
+        "id": 34,
+        "part": "PHẦN V. ĐOÁN TỈNH THÀNH",
+        "type": "guess",
+        "question": "Tôi có Biển Hồ và không gian văn hóa cồng chiêng Tây Nguyên. Tôi là tỉnh nào?",
+        "options": [
+            {"id": "A", "text": "Đắk Lắk"},
+            {"id": "B", "text": "Gia Lai"},
+            {"id": "C", "text": "Kon Tum"},
+            {"id": "D", "text": "Lâm Đồng"}
+        ],
+        "answer": "B",
+        "explain": "Đáp án: Tỉnh Gia Lai - phố núi Pleiku mộng mơ bên Biển Hồ T'nưng.",
+        "provinces": [27]
+    },
+    {
+        "id": 35,
+        "part": "PHẦN V. ĐOÁN TỈNH THÀNH",
+        "type": "guess",
+        "question": "Tôi có Phú Quốc, Núi Sam và rừng tràm Trà Sư. Tôi là tỉnh nào?",
+        "options": [
+            {"id": "A", "text": "Cà Mau"},
+            {"id": "B", "text": "Đồng Tháp"},
+            {"id": "C", "text": "An Giang"},
+            {"id": "D", "text": "Cần Thơ"}
+        ],
+        "answer": "C",
+        "explain": "Đáp án: Tỉnh An Giang (theo phương án sáp nhập Kiên Giang vào An Giang mới, bao gồm đảo ngọc Phú Quốc).",
+        "provinces": [23]
+    },
+
+    # PHẦN VI. NHẬN BIẾT VÙNG QUA MÀU SẮC TRÊN BẢN ĐỒ (Câu 36–40)
+    {
+        "id": 36,
+        "part": "PHẦN VI. NHẬN BIẾT MÀU VÙNG",
+        "type": "color",
+        "question": "Theo chú giải, vùng Trung du và miền núi Bắc Bộ được thể hiện bằng màu gì?",
+        "options": [
+            {"id": "A", "text": "Xanh lá đậm", "color": "#1f753c"},
+            {"id": "B", "text": "Đỏ cam", "color": "#ea4d25"},
+            {"id": "C", "text": "Vàng đất", "color": "#d49832"},
+            {"id": "D", "text": "Xanh dương", "color": "#109ddc"}
+        ],
+        "answer": "A",
+        "explain": "Đáp án: Xanh lá đậm (#1f753c) tượng trưng cho vùng đồi núi, trung du và rừng rậm Tây Bắc - Đông Bắc.",
+        "provinces": ["vung-1"]
+    },
+    {
+        "id": 37,
+        "part": "PHẦN VI. NHẬN BIẾT MÀU VÙNG",
+        "type": "color",
+        "question": "Theo chú giải, vùng Đồng bằng sông Hồng được thể hiện bằng màu gì?",
+        "options": [
+            {"id": "A", "text": "Vàng đất", "color": "#d49832"},
+            {"id": "B", "text": "Đỏ cam", "color": "#ea4d25"},
+            {"id": "C", "text": "Xanh dương", "color": "#109ddc"},
+            {"id": "D", "text": "Tím hoa cà", "color": "#963b90"}
+        ],
+        "answer": "B",
+        "explain": "Đáp án: Đỏ cam (#ea4d25) tượng trưng cho vùng phù sa châu thổ màu mỡ sông Hồng.",
+        "provinces": ["vung-2"]
+    },
+    {
+        "id": 38,
+        "part": "PHẦN VI. NHẬN BIẾT MÀU VÙNG",
+        "type": "color",
+        "question": "Theo chú giải, vùng Bắc Trung Bộ được thể hiện bằng màu gì?",
+        "options": [
+            {"id": "A", "text": "Xanh lá đậm", "color": "#1f753c"},
+            {"id": "B", "text": "Xanh dương", "color": "#109ddc"},
+            {"id": "C", "text": "Vàng đất", "color": "#d49832"},
+            {"id": "D", "text": "Đỏ cam", "color": "#ea4d25"}
+        ],
+        "answer": "C",
+        "explain": "Đáp án: Vàng đất (#d49832) - màu đất bazan, nắng gió miền Trung kiên cường.",
+        "provinces": ["vung-3"]
+    },
+    {
+        "id": 39,
+        "part": "PHẦN VI. NHẬN BIẾT MÀU VÙNG",
+        "type": "color",
+        "question": "Theo chú giải, vùng Duyên hải Nam Trung Bộ và Tây Nguyên (gồm cả Hoàng Sa, Trường Sa) được thể hiện bằng màu gì?",
+        "options": [
+            {"id": "A", "text": "Tím hoa cà", "color": "#963b90"},
+            {"id": "B", "text": "Xanh lá", "color": "#9eca3f"},
+            {"id": "C", "text": "Vàng nghệ", "color": "#d49832"},
+            {"id": "D", "text": "Xanh dương", "color": "#109ddc"}
+        ],
+        "answer": "D",
+        "explain": "Đáp án: Xanh dương (#109ddc) tượng trưng cho biển đảo mênh mông, Đà Nẵng, cao nguyên lộng gió và hai quần đảo Hoàng Sa - Trường Sa thiêng liêng.",
+        "provinces": ["vung-4", 17, 35, 36]
+    },
+    {
+        "id": 40,
+        "part": "PHẦN VI. NHẬN BIẾT MÀU VÙNG",
+        "type": "color",
+        "question": "Theo chú giải, vùng Đồng bằng sông Cửu Long (Tây Nam Bộ) được thể hiện bằng màu gì?",
+        "options": [
+            {"id": "A", "text": "Đỏ cam", "color": "#ea4d25"},
+            {"id": "B", "text": "Xanh lá (xanh mạ non)", "color": "#9eca3f"},
+            {"id": "C", "text": "Tím hoa cà", "color": "#963b90"},
+            {"id": "D", "text": "Vàng đất", "color": "#d49832"}
+        ],
+        "answer": "B",
+        "explain": "Đáp án: Xanh lá (xanh mạ non, #9eca3f) tượng trưng cho vựa lúa xanh mướt, sông nước trù phú của đồng bằng sông Cửu Long.",
+        "provinces": ["vung-6"]
+    }
+]
+
+print(f"Total questions validated: {len(QUIZ_QUESTIONS)}")

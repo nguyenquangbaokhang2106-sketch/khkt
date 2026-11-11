@@ -14,10 +14,10 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;450;500;550;600;650;700;750;800&display=swap');
 :root{
-  --paper:#f6f7f2;--ink:#21372d;--muted:#738175;--line:#e0e5da;--green:#2a573d;--lime:#def19a;
-  --panel-bg:#fcfcf8;--sidebar-bg:#fbfcf7;
+  --paper:#ffffff;--ink:#21372d;--muted:#738175;--line:#e2e8f0;--green:#2a573d;--lime:#def19a;
+  --panel-bg:#ffffff;--sidebar-bg:#ffffff;
   font-family:'Be Vietnam Pro',-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
-  color:var(--ink);background:var(--paper);
+  color:var(--ink);background:#ffffff;
 }
 *{box-sizing:border-box}body{margin:0}button,input{font:inherit}button{cursor:pointer}
 button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #6b9545;outline-offset:3px}
@@ -25,12 +25,12 @@ button{color:inherit}a{color:inherit;text-decoration:none}
 .icon{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
 
 /* Header */
-.site-header{height:90px;padding:0 4.2%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:#fafbf6}
+.site-header{height:90px;padding:0 4.2%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:#F8FAFC}
 .brand{display:flex;align-items:center;gap:12px}
 .brand-mark{width:36px;height:40px;color:var(--green)}
 .brand-name{font-size:24px;font-weight:750;letter-spacing:-.8px}
 .brand-name span{font-weight:400;color:#859082}
-.header-note{font-size:15px;color:var(--muted);letter-spacing:1.4px;text-transform:uppercase}
+.header-note{font-size:19px;font-weight:750;color:#dc2626;letter-spacing:1px;text-transform:uppercase;background:#F8FAFC;padding:8px 18px;border-radius:20px;border:1px solid #fca5a5;display:inline-block;box-shadow:0 2px 8px rgba(220,38,38,0.08)}
 .nav-pill{display:flex;align-items:center;gap:9px;font-size:16px;background:#e9eedf;padding:9px 16px;border-radius:30px;font-weight:500}
 .dot{display:inline-block;width:7px;height:7px;background:#5e8d41;border-radius:50%}
 
@@ -65,7 +65,7 @@ input::placeholder{color:#8b9683}
 .province-list{flex:1;max-height:460px;overflow-y:auto;padding:0 4px 0 0;scrollbar-width:thin;scrollbar-color:#cdd7c1 transparent}
 .province-row{width:100%;display:flex;align-items:center;text-align:left;gap:9px;border:0;border-radius:9px;background:transparent;padding:9px 10px;font-size:15.5px;margin:2px 0;transition:background .18s,transform .15s}
 .row-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;box-shadow:0 0 0 1.5px rgba(255,255,255,0.9)}
-.row-number{font-size:13.5px;color:#959f8a;width:24px;font-variant-numeric:tabular-nums;font-weight:500}
+.row-number{display:none !important}
 .row-name{flex:1;font-weight:550;letter-spacing:-.2px}
 .row-region{font-size:13px;color:#7f8d75;background:#ebefe3;padding:2px 6px;border-radius:4px;white-space:nowrap;max-width:120px;overflow:hidden;text-overflow:ellipsis}
 .row-arrow{color:#90a083;opacity:0;transition:opacity .18s;font-size:16px}
@@ -80,7 +80,7 @@ input::placeholder{color:#8b9683}
 .sidebar-foot .icon{width:16px;height:16px;margin-top:2px}
 
 /* Map Panel */
-.map-panel{position:relative;min-height:740px;background:#f0f4e9;overflow:hidden;isolation:isolate;background-image:radial-gradient(#c7d2bc 0.8px,transparent .8px);background-size:24px 24px;display:flex;flex-direction:column}
+.map-panel{position:relative;min-height:740px;background:#ffffff;overflow:hidden;isolation:isolate;background-image:radial-gradient(#e2e8f0 1px,transparent 1px);background-size:24px 24px;display:flex;flex-direction:column}
 
 /* Top control & Region Selector Bar */
 .map-header-bar{position:absolute;top:20px;left:24px;right:24px;z-index:10;display:flex;flex-direction:column;gap:12px;pointer-events:none}
@@ -120,7 +120,7 @@ input::placeholder{color:#8b9683}
 }
 .pill-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;transition:transform .2s}
 .pill-title{letter-spacing:-.1px}
-.pill-badge{font-size:13.5px;font-weight:600;background:#edf2e4;color:#5a6e50;padding:2px 6px;border-radius:10px;line-height:1.2}
+.pill-badge{display:none !important}
 .region-pill:hover{background:#f3f7ea;border-color:#b8c8ad;transform:translateY(-1px);color:#1e3522}
 .region-pill:hover .pill-dot{transform:scale(1.25)}
 .region-pill.is-active{background:#233d2c;color:#ffffff;border-color:#233d2c;box-shadow:0 4px 14px rgba(35,61,44,0.28);transform:translateY(-1px)}
@@ -339,9 +339,9 @@ footer strong{font-weight:600;color:#5a6e50}
   .map-stage{inset:95px 170px 30px 15px}
 }
 @media(max-width:850px){
-  .site-header{height:70px;padding:0 5%}
+  .site-header{height:auto;padding:12px 5%;flex-wrap:wrap;gap:10px}
   .brand-name{font-size:21px}
-  .header-note{display:none}
+  .header-note{font-size:16px;padding:6px 12px}
   main{padding:20px 4% 18px}
   .intro{display:block;margin-bottom:18px}
   h1{font-size:30px;letter-spacing:-1px}
@@ -463,6 +463,21 @@ footer strong{font-weight:600;color:#5a6e50}
     <div class="map-stage">
       <svg id="map" class="map-svg" viewBox="-160 250 2800 5250" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="Bản đồ tương tác 34 tỉnh thành và 6 vùng kinh tế Việt Nam">
         <g id="map-viewport">
+          <!-- Nhãn các quốc gia lân cận & Vịnh biển -->
+          <g class="neighbor-labels" aria-hidden="true" style="pointer-events:none; user-select:none;">
+            <!-- TRUNG QUỐC -->
+            <text x="1750" y="700" font-family="'Be Vietnam Pro', sans-serif" font-size="78" font-weight="800" fill="#64748b" letter-spacing="18" text-anchor="middle" opacity="0.85">TRUNG QUỐC</text>
+            
+            <!-- VỊNH BẮC BỘ -->
+            <text x="1620" y="1380" font-family="'Be Vietnam Pro', sans-serif" font-size="52" font-weight="750" fill="#0284c7" letter-spacing="8" text-anchor="middle" opacity="0.8">VỊNH BẮC BỘ</text>
+
+            <!-- LÀO -->
+            <text x="460" y="1950" font-family="'Be Vietnam Pro', sans-serif" font-size="82" font-weight="800" fill="#64748b" letter-spacing="24" text-anchor="middle" opacity="0.85">LÀO</text>
+
+            <!-- CAMPUCHIA -->
+            <text x="680" y="3750" font-family="'Be Vietnam Pro', sans-serif" font-size="78" font-weight="800" fill="#64748b" letter-spacing="16" text-anchor="middle" opacity="0.85">CAMPUCHIA</text>
+          </g>
+
           <g class="map-shapes" id="map-shapes">
             <!-- PROVINCE_PATHS -->
           </g>
@@ -529,11 +544,20 @@ footer strong{font-weight:600;color:#5a6e50}
 </section>
 
 <footer>
-  <div class="footer-source">
-    <strong>Dữ liệu: 34 tỉnh/thành cùng 2 quần đảo Hoàng Sa & Trường Sa được phân bổ vào các vùng kinh tế đặc trưng.</strong>
-    Bản đồ tương tác trực quan hóa ranh giới và đặc trưng vùng miền, tích hợp đầy đủ không gian biển đảo chủ quyền thiêng liêng của Tổ quốc.
+  <div class="footer-source" style="max-width:850px;line-height:1.7;">
+    <div style="font-weight:700;color:#1e3a29;font-size:15px;margin-bottom:6px;">
+      Dự án: "Nghiên cứu, thiết kế và thực nghiệm mô hình Beard Game tích hợp mã QR nhằm nâng cao nhận thức về địa giới hành chính và văn hóa Việt Nam cho học sinh THPT" tham dự cuộc thi Những đóa hoa Công nghệ
+    </div>
+    <div style="color:#4a5d4e;font-size:14.5px;margin-bottom:8px;">
+      <strong>Nhóm học sinh:</strong> Nguyễn Quang Bảo Khang - 12/7 &amp; Lương Nguyễn Hà My - Lớp 11/9 - Trường THPT Ngô Quyền &nbsp;&nbsp;&nbsp;&nbsp;<strong>GVHD:</strong> Trần Thị Khánh Trinh
+    </div>
+    <div style="margin-top:10px;">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfc8BeEn4gbq9qW9lNMwaBfePO3BgmGp5sT_wHk-SEQkjainQ/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:7px;background:#dc2626;color:#ffffff;padding:8px 18px;border-radius:20px;font-weight:700;font-size:14px;box-shadow:0 3px 10px rgba(220,38,38,0.25);transition:all .2s ease;">
+        📋 Phiếu khảo sát / Đóng góp ý kiến dự án ➔
+      </a>
+    </div>
   </div>
-  <span class="footer-tag">6 VÙNG KINH TẾ · 34 TỈNH THÀNH & 2 QUẦN ĐẢO · VIETNAM EXPLORER</span>
+  <span class="footer-tag" style="align-self:flex-end;">6 VÙNG KINH TẾ · 34 TỈNH THÀNH &amp; 2 QUẦN ĐẢO</span>
 </footer>
 </main>
 
@@ -657,8 +681,8 @@ function renderList(query = '') {
 
     const dot = document.createElement('span');
     dot.className = 'row-dot';
-    dot.style.background = p.litColor;
-    dot.title = 'Màu phát sáng: ' + p.litColor;
+    dot.style.background = p.baseColor;
+    dot.title = 'Màu vùng: ' + p.baseColor;
 
     const number = document.createElement('span');
     number.className = 'row-number';

@@ -17,28 +17,8 @@ REGIONS_SPEC = [
         'theme': '#1a5d33',
         'accent': '#22773d',
         'province_ids': [5, 2, 1, 8, 4, 6, 11, 10, 9],
-        'base_colors': {
-            1: '#1f753c',   # Lạng Sơn: Xanh lá đậm
-            2: '#247d42',   # Cao Bằng
-            4: '#1e7239',   # Thái Nguyên
-            5: '#268144',   # Tuyên Quang
-            6: '#21773e',   # Lào Cai
-            8: '#278446',   # Phú Thọ
-            9: '#1b6c35',   # Lai Châu
-            10: '#237a40',  # Điện Biên
-            11: '#298848',  # Sơn La
-        },
-        'lit_colors': {
-            1: '#34d399',   # Lạng Sơn
-            2: '#2dd4bf',   # Cao Bằng
-            4: '#10b981',   # Thái Nguyên
-            5: '#4ade80',   # Tuyên Quang
-            6: '#86efac',   # Lào Cai
-            8: '#16a34a',   # Phú Thọ
-            9: '#6ee7b7',   # Lai Châu
-            10: '#059669',  # Điện Biên
-            11: '#22c55e',  # Sơn La
-        }
+        'base_colors': {pid: '#1f753c' for pid in [5, 2, 1, 8, 4, 6, 11, 10, 9]},
+        'lit_colors': {pid: '#34d399' for pid in [5, 2, 1, 8, 4, 6, 11, 10, 9]}
     },
     {
         'id': 'vung-2',
@@ -49,22 +29,8 @@ REGIONS_SPEC = [
         'theme': '#bf3717',
         'accent': '#ec5028',
         'province_ids': [3, 34, 30, 7, 33, 32],
-        'base_colors': {
-            3: '#ea4d25',   # Hà Nội: Đỏ cam rực rỡ
-            7: '#ef5830',   # Bắc Ninh
-            30: '#e6471f',  # Quảng Ninh
-            32: '#ed532c',  # Ninh Bình
-            33: '#f15b34',  # Hưng Yên
-            34: '#e84922',  # Hải Phòng
-        },
-        'lit_colors': {
-            3: '#f43f5e',   # Hà Nội
-            7: '#fb7185',   # Bắc Ninh
-            30: '#f97316',  # Quảng Ninh
-            32: '#ff6b4a',  # Ninh Bình
-            33: '#fdba74',  # Hưng Yên
-            34: '#fb923c',  # Hải Phòng
-        }
+        'base_colors': {pid: '#ea4d25' for pid in [3, 34, 30, 7, 33, 32]},
+        'lit_colors': {pid: '#fb7185' for pid in [3, 34, 30, 7, 33, 32]}
     },
     {
         'id': 'vung-3',
@@ -75,20 +41,8 @@ REGIONS_SPEC = [
         'theme': '#a26d17',
         'accent': '#d0942d',
         'province_ids': [16, 12, 13, 14, 15],
-        'base_colors': {
-            12: '#d49832',  # Thanh Hóa: Vàng đất / nghệ ấm
-            13: '#cb8f28',  # Nghệ An
-            14: '#d79c35',  # Hà Tĩnh
-            15: '#ce922b',  # Quảng Trị
-            16: '#c68a24',  # Huế
-        },
-        'lit_colors': {
-            12: '#f59e0b',  # Thanh Hóa
-            13: '#eab308',  # Nghệ An
-            14: '#facc15',  # Hà Tĩnh
-            15: '#d97706',  # Quảng Trị
-            16: '#fcd34d',  # Huế
-        }
+        'base_colors': {pid: '#d49832' for pid in [16, 12, 13, 14, 15]},
+        'lit_colors': {pid: '#f59e0b' for pid in [16, 12, 13, 14, 15]}
     },
     {
         'id': 'vung-4',
@@ -99,26 +53,8 @@ REGIONS_SPEC = [
         'theme': '#0b75a6',
         'accent': '#0ca0e5',
         'province_ids': [17, 28, 27, 25, 26, 29, 35, 36],
-        'base_colors': {
-            17: '#109ddc',  # Đà Nẵng: Xanh da trời tươi sáng
-            25: '#0aa4ea',  # Đắk Lắk
-            26: '#15a7ee',  # Khánh Hòa
-            27: '#0696dc',  # Gia Lai
-            28: '#0fa1e6',  # Quảng Ngãi
-            29: '#0292d7',  # Lâm Đồng
-            35: '#d49832',  # Hoàng Sa: Vàng cam ấm
-            36: '#0ca0e5',  # Trường Sa: Xanh lam biển sáng
-        },
-        'lit_colors': {
-            17: '#38bdf8',  # Đà Nẵng
-            25: '#0ea5e9',  # Đắk Lắk
-            26: '#06b6d4',  # Khánh Hòa
-            27: '#67e8f9',  # Gia Lai
-            28: '#60a5fa',  # Quảng Ngãi
-            29: '#3b82f6',  # Lâm Đồng
-            35: '#fbbf24',  # Hoàng Sa
-            36: '#22d3ee',  # Trường Sa
-        }
+        'base_colors': {pid: '#109ddc' for pid in [17, 28, 27, 25, 26, 29, 35, 36]},
+        'lit_colors': {pid: '#38bdf8' for pid in [17, 28, 27, 25, 26, 29, 35, 36]}
     },
     {
         'id': 'vung-5',
@@ -129,40 +65,20 @@ REGIONS_SPEC = [
         'theme': '#6d226a',
         'accent': '#92368c',
         'province_ids': [19, 18, 21],
-        'base_colors': {
-            18: '#963b90',  # Đồng Nai: Tím hoa cà
-            19: '#8d3187',  # TP.Hồ Chí Minh
-            21: '#9a4095',  # Tây Ninh
-        },
-        'lit_colors': {
-            18: '#c084fc',  # Đồng Nai
-            19: '#e879f9',  # TP.Hồ Chí Minh
-            21: '#d946ef',  # Tây Ninh
-        }
+        'base_colors': {pid: '#963b90' for pid in [19, 18, 21]},
+        'lit_colors': {pid: '#d946ef' for pid in [19, 18, 21]}
     },
     {
         'id': 'vung-6',
         'key': 'dbscl',
         'name': 'Đồng bằng sông Cửu Long',
-        'short': 'Tây Nam Bộ (ĐBSCL)',
+        'short': 'Đồng bằng sông Cửu Long',
         'desc': 'Gồm 5 tỉnh thành: TP.Cần Thơ, An Giang, Đồng Tháp, Vĩnh Long, Cà Mau.',
         'theme': '#6f8f20',
         'accent': '#9eca3f',
         'province_ids': [22, 23, 31, 20, 24],
-        'base_colors': {
-            20: '#a2ce42',  # Vĩnh Long: Xanh nõn chuối
-            22: '#99c53a',  # Cần Thơ
-            23: '#a6d246',  # An Giang
-            24: '#93bf35',  # Cà Mau
-            31: '#a9d649',  # Đồng Tháp
-        },
-        'lit_colors': {
-            20: '#bef264',  # Vĩnh Long
-            22: '#a3e635',  # Cần Thơ
-            23: '#84cc16',  # An Giang
-            24: '#d9f99d',  # Cà Mau
-            31: '#65a30d',  # Đồng Tháp
-        }
+        'base_colors': {pid: '#9eca3f' for pid in [22, 23, 31, 20, 24]},
+        'lit_colors': {pid: '#bef264' for pid in [22, 23, 31, 20, 24]}
     }
 ]
 
@@ -253,7 +169,7 @@ output = (template
 
 fallback_rows = ''.join(
     f'<button type="button" class="province-row" data-id="{p["id"]}" data-region="{p["regionId"]}" aria-pressed="false">'
-    f'<span class="row-dot" style="background:{p["litColor"]}" title="Màu phát sáng: {p["litColor"]}"></span>'
+    f'<span class="row-dot" style="background:{p["baseColor"]}" title="Màu vùng: {p["baseColor"]}"></span>'
     f'<span class="row-number">{p["id"]:02}</span>'
     f'<span class="row-name">{html.escape(p["short"])}</span>'
     f'<span class="row-region">{html.escape(p["regionShort"])}</span>'
@@ -269,4 +185,5 @@ assert len(regions_data) == 6
 (ROOT / 'dist').mkdir(exist_ok=True)
 (ROOT / 'dist' / 'index.html').write_text(output, encoding='utf-8')
 (ROOT / 'index.html').write_text(output, encoding='utf-8')
+(ROOT.parent / 'index.html').write_text(output, encoding='utf-8')
 print(f'Built {len(provinces)} provinces across {len(regions_data)} regions -> dist/index.html & index.html')
