@@ -1152,40 +1152,64 @@ function renderPage(id) {
   // Key stats
   const statsGrid = document.getElementById('stats-grid');
   statsGrid.replaceChildren();
-  const stats = [
-    {label: 'Trung tâm hành chính', val: p.capital, sub: 'Đô thị hạt nhân'},
-    {label: 'Diện tích tự nhiên', val: p.area, sub: 'Quy mô địa lý'},
-    {label: 'Dân số', val: p.population, sub: 'Số liệu thống kê'},
-    {label: 'Số đơn vị cấp huyện', val: p.districts, sub: 'Quận, huyện, thị xã'}
-  ];
-  stats.forEach(s => {
-    const el = document.createElement('div');
-    el.className = 'stat-card';
-    el.innerHTML = `<div class="stat-label">${s.label}</div><div class="stat-val">${s.val}</div><div class="stat-sub">${s.sub}</div>`;
-    statsGrid.append(el);
-  });
+  if (p.stats && p.stats.length) {
+    p.stats.forEach(s => {
+      const el = document.createElement('div');
+      el.className = 'stat-card';
+      const label = s.label || 'Thông số';
+      const val = s.value || s.val || 'Đang cập nhật';
+      const sub = s.sub || '';
+      el.innerHTML = `<div class="stat-label">${label}</div><div class="stat-val">${val}</div><div class="stat-sub">${sub}</div>`;
+      statsGrid.append(el);
+    });
+  }
 
   // Section cards
+  const iconMap = {
+    geo: '🧭',
+    history: '📜',
+    flag: '🇻🇳',
+    shield: '🛡️',
+    trend: '📈',
+    users: '👥',
+    leaf: '🌿',
+    mountain: '⛰️',
+    compass: '🧭',
+    gem: '💎',
+    bolt: '⚡',
+    medal: '🏅',
+    star: '⭐',
+    chip: '💡'
+  };
+
   const sectionGrid = document.getElementById('section-grid');
   sectionGrid.replaceChildren();
-  const cards = [
-    {icon: '🧭', title: 'Vị trí địa lý & Địa hình', body: p.geo_body},
-    {icon: '📜', title: 'Căn cứ lịch sử & Pháp lý', body: p.history_body},
-    {icon: '🛡️', title: 'Quốc phòng & An ninh biển', body: p.defense_body},
-    {icon: '🌊', title: 'Tiềm năng kinh tế biển & Phát triển', body: p.economy_body}
-  ];
-  cards.forEach(c => {
-    const el = document.createElement('div');
-    el.className = 'card';
-    el.innerHTML = `
-      <div class="card-header">
-        <div class="card-icon">${c.icon}</div>
-        <h3 class="card-title">${c.title}</h3>
-      </div>
-      <div class="card-body">${c.body}</div>
-    `;
-    sectionGrid.append(el);
-  });
+  if (p.sections && p.sections.length) {
+    p.sections.forEach(sec => {
+      const el = document.createElement('div');
+      el.className = 'card';
+      const icon = iconMap[sec.icon] || sec.icon || '📌';
+      const title = sec.title || 'Thông tin chi tiết';
+      
+      let bodyHtml = '';
+      if (Array.isArray(sec.content)) {
+        bodyHtml = '<ul>' + sec.content.map(li => `<li>${li}</li>`).join('') + '</ul>';
+      } else if (typeof sec.content === 'string') {
+        bodyHtml = `<p>${sec.content}</p>`;
+      } else if (sec.body) {
+        bodyHtml = typeof sec.body === 'string' ? `<p>${sec.body}</p>` : sec.body;
+      }
+
+      el.innerHTML = `
+        <div class="card-header">
+          <div class="card-icon">${icon}</div>
+          <h3 class="card-title">${title}</h3>
+        </div>
+        <div class="card-body">${bodyHtml}</div>
+      `;
+      sectionGrid.append(el);
+    });
+  }
 
   // Highlights & Real Photo Gallery
   const hlGrid = document.getElementById('highlights-grid');
